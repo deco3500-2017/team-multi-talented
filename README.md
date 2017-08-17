@@ -1,7 +1,7 @@
 # team-multi-talented
 Team Multi-talented #W03
 
-Team members:
+# Team members:
   Liam Simpson
   Haoxuan Yang
   Chung yu pan
