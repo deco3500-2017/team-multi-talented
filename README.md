@@ -128,11 +128,14 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 
 **Requirements**
 * Requirements gathering
+* Paper prototype
+* User testing
+* User feedback
 * Product backlog
 
 **Design** 
 * UI Designing 
-* Paper prototype designing
+* Digital mockup designing
 * User testing
 * User feedback (Critique)
 * Reiteration
@@ -140,7 +143,8 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 **Construction** 
 * Application development
 * Implement functionality
-* User Testing
+* User testing
+* User feedback
 * Reiteration
 * Final prototype
 
