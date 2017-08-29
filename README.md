@@ -27,9 +27,9 @@ This app would provide information on events, food/restraunts, while enabling th
 The idea behind this app is simple; there has yet to be a mobile app that enables individuals and/or communities (international or local) connect with each other in terms of cultural exchange. We hope this app would fill the gap in that sector while helping users to connect with their own or other cultures. 
 
 Platform Ideas:<br>
-* Food: Users are able to interact with each other by sharing community generated recipes and their favourite ethnic restaurants.
-* Language: Users can be a part of a local community forum focused on learning and practicing foreign languages.
-* Events: Users will be notified, attend and be a part of the conversation around upcoming cultural events happening in their area.
+* **Food**: Users are able to interact with each other by sharing community generated recipes and their favourite ethnic restaurants.
+* **Language**: Users can be a part of a local community forum focused on learning and practicing foreign languages.
+* **Events**: Users will be notified, attend and be a part of the conversation around upcoming cultural events happening in their area.
 
 **Project Aim**<br>
 To create a digital community that fosters communication between international students, migrants, travelers and locals through the platforms of food, language and events.
