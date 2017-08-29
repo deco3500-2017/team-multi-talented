@@ -40,11 +40,19 @@ To create a digital community that fosters communication between international s
 * Locals
 * Travelers
 
-**How Our Idea is Different From/Improves Other Current Offerings**<br>
+**How Our Idea is Different From/Improves Other Current Offerings** NEED TO DO RESEARCH<br>
 Currently, there is no mobile apps that are similar to InterX. Hence, by bringing this new idea and technology to people, we hope to help them by creating a safe space for them to socialize in.  
 
-**Areas of Social and Mobile Theory** 
-Identify areas of social & mobile theory that apply to, will inform your concept & approach
+**Areas of Social and Mobile Theory** <br>
+
+* Emotional Design
+* Synchronous Distributed Interaction (Same time, different place)
+* Asynchronous Interaction (Different Time, same place)
+* Collaboration
+* Awareness
+* CSCW
+* Shared Information Spaces
+* Persuasive Technology
 
 
 ### Team
@@ -174,9 +182,11 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 * Reiteration
 * Final prototype
 
-### Resources (ADD MORE IF NEEDED)
-Computers, Sourcetree, Github, Notepad++, Google Drive, inVision, proto.io 
+### Resources
+Computers, Sourcetree, Github, Notepad++, Google Drive, inVision, Proto.io, PhoneGap, Web Browsers
 
-### Tag (ADD TAGS HERE)
+### Tag 
  Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g. awareness,
 Collaboration, CSCW) and 2 keywords related to your domain.
+
+Emotional Design, Synchronous Distributed Interaction, Asynchronous Interaction, Collaboration, Awareness, CSCW, Shared Information Spaces, Persuasive Technology
