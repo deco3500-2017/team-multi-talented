@@ -12,7 +12,7 @@ Velta Azizah Destiana | 44484051 | DECO3500
   
 ## Proposal 
 ### Introduction
-**Project Title:** MultiExchange<br>
+**Project Title:** MultiExchange<br><br>
 A digital community that fosters and creates connections between migrants, international students, travelers and locals, through the platform of **food, language** and **events**. <br>
 
 Dilemma:
