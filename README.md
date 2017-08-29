@@ -43,14 +43,15 @@ To create a digital community that fosters communication between international s
 **How Our Idea is Different From/Improves Other Current Offerings** NEED TO DO RESEARCH<br>
 Currently, there is no mobile apps that are similar to InterX. Hence, by bringing this new idea and technology to people, we hope to help them by creating a safe space for them to socialize in.  
 
-**Areas of Social and Mobile Theory** <br>
+**Areas of Social and Mobile Theory** TO BE EXPLAINED<br>
 
 * Emotional Design
-* Synchronous Distributed Interaction (Same time, different place)
-* Asynchronous Interaction (Different Time, same place)
+* Computer Supported Cooperative Work (CSCW)
+* Groupware Time-Space Matrix
+  * Synchronous Distributed Interaction (Same time, different place)
+  * Asynchronous Interaction (Different Time, same place)
 * Collaboration
 * Awareness
-* CSCW
 * Shared Information Spaces
 * Persuasive Technology
 
