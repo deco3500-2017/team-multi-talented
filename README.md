@@ -141,6 +141,8 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 **Construction** 
 * Application development
 * Implement functionality
+* User Testing
+* Reiteration
 * Final prototype
 
 ### Resources
