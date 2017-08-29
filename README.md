@@ -17,16 +17,16 @@ A digital community that fosters and creates connections between international s
 
 When people move or travel to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new to the area. Not only that, there are also locals who would like to learn about international culture but do not have the luxury of time and/or money. 
 
-With **MultiExchange**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect into forums broken up into **local culture** and **international culture**. 
+With **InterX**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect into forums broken up into **local culture** and **international culture**. 
 From here, users will be able to choose which topic (platform) they want to engage with.
 For example, an international student from Latin America comes to Brisbane and wants to connect with other Latin Americans living in Brisbane, but also wants to practice their English with Brisbane locals. 
 This app would provide information on events, food/restraunts, while enabling the international student to communicate and interact with other users to assist them in exploring Brisbane and discovering their own real world community.
 
 ### Concept 
 **Idea and Rationale**<br>
-The idea behind this app is simple 
+The idea behind this app is simple; there has yet to be a mobile app that enables individuals and/or communities (international or local) connect with each other in terms of cultural exchange. We hope this app would fill the gap in that sector while helping users to connect with their own or other cultures. 
 
-Platforms:<br>
+Platform Ideas:<br>
 * Food: Users are able to interact with each other by sharing community generated recipes and their favourite ethnic restaurants.
 * Language: Users can be a part of a local community forum focused on learning and practicing foreign languages.
 * Events: Users will be notified, attend and be a part of the conversation around upcoming cultural events happening in their area.
