@@ -11,13 +11,25 @@ Nik Aisha Dalia Binti Shamsul Anuar| 44257778 | DECO3500
 Velta Azizah Destiana | 44484051 | DECO3500
   
 ## Proposal 
-### Introduction
+### Introduction * Aisha 
+**Project Title:** <br>
+
  What is your project and what dilemma does it aim to address
 
-### Concept
+### Concept * Aisha 
  Outline the idea and the rationale behind it. Define the project aims and audience and identify how
 your idea is diferent from / improves upon other current oferings. Identify areas of social & mobile theory
 that apply to, will inform your concept & approach
+
+**Idea and Rationale**<br>
+
+**Project Aim**<br>
+
+**Project Audience**<br>
+
+**How Our Idea is Different From/Improves Other Current Offerings**<br>
+
+**Areas of Social and Mobile Theory** 
 
 ### Team
 Name | Student ID | Roles and Responsibilities | Course Code 
@@ -148,9 +160,9 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 * Reiteration
 * Final prototype
 
-### Resources
+### Resources (ADD MORE IF NEEDED)
 Sourcetree, Github, Notepad++, inVision, proto.io 
 
-### Tag
+### Tag (ADD TAGS HERE)
  Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g. awareness,
 Collaboration, CSCW) and 2 keywords related to your domain.
