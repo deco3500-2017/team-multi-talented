@@ -139,10 +139,8 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 * Idea confirmation
 
 **Requirements**
-* Requirements gathering
-* Paper prototype
-* User testing
-* User feedback
+* Requirements gathering (Survey)
+* Collection and Analyzation of user feedback
 * Product backlog
 
 **Design** 
