@@ -28,7 +28,7 @@ Chung Yu Pan | 43210703 | Front-end development, back-end development | DECO3500
 Nik Aisha Dalia Binti Shamsul Anuar| 44257778 | DECO3500
 Velta Azizah Destiana | 44484051 | Velta Azizah Destiana | DECO3500
 Liam Simpson | 43939871 | Back-end development, Design | DECO3500
-<br>
+
 **Team Principles and Processes** <br>
 The team will be committed to principles that maximize potential to learn and grow, while also ensuring that a product will be delivered that will be of the highest quality that each member can output.
 
