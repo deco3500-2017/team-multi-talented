@@ -175,7 +175,7 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 * Final prototype
 
 ### Resources (ADD MORE IF NEEDED)
-Sourcetree, Github, Notepad++, inVision, proto.io 
+Computers, Sourcetree, Github, Notepad++, Google Drive, inVision, proto.io 
 
 ### Tag (ADD TAGS HERE)
  Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g. awareness,
