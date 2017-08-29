@@ -104,9 +104,9 @@ Any group member who takes issue with the actions of another group member should
 Project Phase | Date | Week | Info 
 -- | -- | -- | --
 **Research** | 08/09/17 | 7 | Sufficient amount of research has been done by team members. Mobile app idea confirmed. 
-**Requirements** | 15/09/17 | 8 | Survey performed. Requirements gathering completed. User testing via paper prototyping performed. Product backlog created successfully and published on Trello. _Standup (Wednesday, 13/09/2017)_
+**Requirements** | 15/09/17 | 8 | Survey performed. Requirements gathering completed. Product backlog created successfully and published on Trello. _Standup (Wednesday, 13/09/2017)_
 **Design** |  22/09/17 | 9 | Initial digital interactive mockup created.
-<br> | 23/09/17 - 01/10/17 | - | User testing performed, Digital interactive mockup for app finalized.
+<br> | 23/09/17 - 01/10/17 | - | User testing performed, digital interactive mockup for app finalized.
 **Construction** | 06/10/17 | 10 | Initial app prototype. _Standup (Wednesday, 04/10/2017)._
 <br>| 13/10/17 | 11 | Reiteration. Continue on app prototype.
 <br> | 20/10/17 | 12 | Reiteration. Continue on app prototype. _Standup (Wednesday, 18/10/2017)._
