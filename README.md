@@ -187,7 +187,4 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 Computers, Sourcetree, Github, Notepad++, Google Drive, inVision, Proto.io, PhoneGap, Web Browsers
 
 ### Tag 
- Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g. awareness,
-Collaboration, CSCW) and 2 keywords related to your domain.
-
 Emotional Design, Synchronous Distributed Interaction, Asynchronous Interaction, Collaboration, Awareness, CSCW, Shared Information Spaces, Persuasive Technology
