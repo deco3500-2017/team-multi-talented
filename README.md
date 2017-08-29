@@ -13,11 +13,12 @@ Velta Azizah Destiana | 44484051 | DECO3500
 ## Proposal 
 ### Introduction
 **Project Title:** MultiExchange<br>
-A digital community that fosters and creates connections between migrants, international students, travelers and locals, through the platform of food, language and events. <br>
+A digital community that fosters and creates connections between migrants, international students, travelers and locals, through the platform of **food, language** and **events**. <br>
 
-Dilemma:<br>
+Dilemma:
 
-With MultiExchange, users are able to connect into forums broken up into local culture and international culturre. From here, users will be able to choose which languages and cultures they want to engage with.
+With **MultiExchange**, users are able to connect into forums broken up into local culture and international culture. 
+From here, users will be able to choose which languages and cultures they want to engage with.
 For example, an international student from Latin America comes to Brisbane and wants to connect with other Latin Americans living in Brisbane, but also wants to practice their English with Brisbane locals. 
 This app would provide information on events, food/restraunts, while enabling the international student to communicate and interact with other users to assist them in exploring Brisbane and discovering their own real world community.
 
@@ -28,9 +29,20 @@ that apply to, will inform your concept & approach
 
 **Idea and Rationale**<br>
 
+
+Platforms:<br>
+* Food: Users are able to interact with each other by sharing community generated recipes and their favourite ethnic restaurants.
+* Language: Users can be a part of a local community forum focused on learning and practicing foreign languages.
+* Events: Users will be notified, attend and be a part of the conversation around upcoming cultural events happening in their area.
+
 **Project Aim**<br>
+To create a digital community that fosters communication between international students, migrants, travelers and locals through the platforms of food, language and events.
 
 **Project Audience**<br>
+* International Students in Brisbane
+* Migrants
+* Travelers
+* Locals
 
 **How Our Idea is Different From/Improves Other Current Offerings**<br>
 
