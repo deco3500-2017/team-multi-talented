@@ -11,10 +11,15 @@ Nik Aisha Dalia Binti Shamsul Anuar| 44257778 | DECO3500
 Velta Azizah Destiana | 44484051 | DECO3500
   
 ## Proposal 
-### Introduction * Aisha 
-**Project Title:** <br>
+### Introduction
+**Project Title:** MultiExchange<br>
+A digital community that fosters and creates connections between migrants, international students, travelers and locals, through the platform of food, language and events. <br>
 
- What is your project and what dilemma does it aim to address
+Dilemma:<br>
+
+With MultiExchange, users are able to connect into forums broken up into local culture and international culturre. From here, users will be able to choose which languages and cultures they want to engage with.<br>
+For example, an international student from Latin America comes to Brisbane and wants to connect with other Latin Americans living in Brisbane, but also wants to practice their English with Brisbane locals. <br>
+This app would provide information on events, food/restraunts, while enabling the international student to communicate and interact with other users to assist them in exploring Brisbane and discovering their own real world community.<br>
 
 ### Concept * Aisha 
  Outline the idea and the rationale behind it. Define the project aims and audience and identify how
