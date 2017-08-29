@@ -44,11 +44,11 @@ All feedback should be a taken as an attempt to foster team spirit and to delive
 The team will also be committed to an environment of innovation and developing the unique talents of each individual team member. This will be achieved by allowing team members to select the work that speaks most to them, and to allow themselves to take a genuine interest in the work they are participating in, and allow development based on the investment in their choice.  In adopting this principle, we believe that this will create an environment where every member is invested in delivering the best contribution they can to the project. 
 
 **Operational Processes** <br>
-To achieve the principles we have outlined above, it is expected that all team members will follow basic courtesy and etiquette rules. 
+To achieve the principles we have outlined above, it is expected that all team members will follow basic courtesy and etiquette rules. <br>
  
-* One of them will be to allow an attitude of open feedback, it will be the responsibility of the team members to make sure that feedback delivered fits into one of the categories of: positive specific, positive general or negative specific.  The danger lies within the ‘negative general’ feedback category, this piece of feedback will likely not be specific enough to be helpful, and will likely work against fostering team spirit.  If a team member is unsure of which category the feedback falls into, they should discuss it with an unrelated team member, who can assist them in confirming it falls into one of the three acceptable categories.
+One of them will be to allow an attitude of open feedback, it will be the responsibility of the team members to make sure that feedback delivered fits into one of the categories of: positive specific, positive general or negative specific.  The danger lies within the ‘negative general’ feedback category, this piece of feedback will likely not be specific enough to be helpful, and will likely work against fostering team spirit.  If a team member is unsure of which category the feedback falls into, they should discuss it with an unrelated team member, who can assist them in confirming it falls into one of the three acceptable categories.<br>
 
-* To foster an environment of innovation, work will be broken up into segments, dubbed as tasks. Tasks will be available for team members to choose from, with each team member required to select a specific number of tasks.  If two team members wish to select the same task, it will be solved by a coin toss.  
+To foster an environment of innovation, work will be broken up into segments, dubbed as tasks. Tasks will be available for team members to choose from, with each team member required to select a specific number of tasks.  If two team members wish to select the same task, it will be solved by a coin toss.  
 
 **Task Division** <br>
 Tasks will be allocated as fairly as possible, through discussion within the group. Work will be allocated first by volunteering then via group discussion. When allocating work, deadline and standard required will be clearly defined. All members will contribute equally to the project workload. Any group members who are unsatisfied with the allocation should raise it in a group meeting. Group members are expected to do their best to deliver tasks on time, and should contact the group in advance if they anticipate being unable to do so.
@@ -108,11 +108,12 @@ Before actually developing an app, we need have a deep understanding of our chos
 
 ### Requirements
 Below are methods in achieving requirements for our app: <br>
-**Internet Research** 
+
+**Internet Research** <br>
 The internet is the largest portal that enables us to research deeply about this app’s domain and idea, while allowing us to gather information about similar products. <br>
-** User Survey ** <br>
+**User Survey** <br>
 We will upload online surveys via Google Forms for our target audience; from where we can collect and analyze results in order to achieve a more specific set of requirements. <br>
-** User Testing ** <br>
+**User Testing** <br>
 User testing is vital. This is because it enables us to understand how to create an excellent user experience while also providing great usability for our users. By performing this test, we will be be able to improve our user interface (UI) and user experience (UX) based on the result of test upon analyzation. 
 
 ### Design
