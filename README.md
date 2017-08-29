@@ -28,7 +28,7 @@ Chung Yu Pan | 43210703 | Front-end development, back-end development | DECO3500
 Nik Aisha Dalia Binti Shamsul Anuar| 44257778 | DECO3500
 Velta Azizah Destiana | 44484051 | Velta Azizah Destiana | DECO3500
 Liam Simpson | 43939871 | Back-end development, Design | DECO3500
-
+<br>
 **Team Principles and Processes** <br>
 The team will be committed to principles that maximize potential to learn and grow, while also ensuring that a product will be delivered that will be of the highest quality that each member can output.
 
@@ -110,9 +110,9 @@ Before actually developing an app, we need have a deep understanding of our chos
 Below are methods in achieving requirements for our app: <br>
 
 **Internet Research** <br>
-The internet is the largest portal that enables us to research deeply about this app’s domain and idea, while allowing us to gather information about similar products. <br>
+The internet is the largest portal that enables us to research deeply about this app’s domain and idea, while allowing us to gather information about similar products. <br><br>
 **User Survey** <br>
-We will upload online surveys via Google Forms for our target audience; from where we can collect and analyze results in order to achieve a more specific set of requirements. <br>
+We will upload online surveys via Google Forms for our target audience; from where we can collect and analyze results in order to achieve a more specific set of requirements. <br><br>
 **User Testing** <br>
 User testing is vital. This is because it enables us to understand how to create an excellent user experience while also providing great usability for our users. By performing this test, we will be be able to improve our user interface (UI) and user experience (UX) based on the result of test upon analyzation. 
 
