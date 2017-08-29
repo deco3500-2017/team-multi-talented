@@ -83,7 +83,7 @@ Tasks will be allocated as fairly as possible, through discussion within the gro
 **Decision Making** <br>
 Decisions will be made collectively as a group ensuring every team member’s ideas are taken into account. In case of discrepancies, the decision will be based on a voting system; in the case of a any disputes in voting, we will consult with the tutors or the course coordinator to assist with any problematic decision.
 
-**Non-Compliance**
+**Non-Compliance**<br>
 **Minor non-compliance will be defined where:**
 * A team member does not abide to the document standards set out by the team. (style guide will be decided upon before tasks are designated).
 * A team member does not update team-coordinating software when an update on a task’s status has been changed (i.e. not moving a task on Trello).
