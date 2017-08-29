@@ -43,7 +43,7 @@ To create a digital community that fosters communication between international s
 **How Our Idea is Different From/Improves Other Current Offerings**<br>
 Currently, there is no existing mobile apps that are enables users to exchange  both local and international cultures. However, there the most similar app to InterX is [Withlocals](https://www.withlocals.com). This app enables travelers to connect with a travel host that acts as their tour guide. Withlocals is a peer-to-peer marketplace where locals offer experiences and skills to travelers. The app connects people and cultures through food and unique experiences. <br>
 
-Our app differs from [Withlocals](https://www.withlocals.com) since it is primarily focused on international students wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With InterX, amplified diversity will be created amongst users - regardless being an international or local individual. 
+Our app differs from [Withlocals](https://www.withlocals.com) since it is primarily focused on international students and migrants wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With InterX, amplified diversity will be created amongst users - regardless being an international or local individual. 
 
 **Areas of Social and Mobile Theory** TO BE EXPLAINED<br>
 
