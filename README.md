@@ -64,7 +64,7 @@ Name | Student ID | Roles and Responsibilities | Course Code
 Nik Aisha Dalila Binti Shamsul Anuar | 44257778 | Team Leader, Team Manager, Content Creation, Design | DECO3500
 Haoxuan Yang | 43967566 | Logistics (equipment, meetings, transport, etc), Front-end development | DECO3500
 Chung Yu Pan | 43210703 | Front-end development, back-end development | DECO3500
-Velta Azizah Destiana | 44484051 | Content Creation | DECO3500
+Velta Azizah Destiana | 44484051 | Front-end development, UI/UX, Content Creation | DECO3500
 Liam Simpson | 43939871 | Back-end development, Design | DECO3500
 
 **Team Principles and Processes** <br>
