@@ -40,7 +40,7 @@ To create a digital community that fosters communication between international s
 * Locals
 * Travelers
 
-**How Our Idea is Different From/Improves Other Current Offerings**<br>
+**How Our Idea is Different From/Improves Other Current Offerings** IN PROGRESS<br>
 * [Mates at UQ](http://www.uq.edu.au/student-services/matesuq) 
 
 
