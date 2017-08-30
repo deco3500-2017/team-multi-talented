@@ -41,31 +41,44 @@ To create a digital community that fosters communication between international s
 * Travelers
 
 **How Our Idea is Different From/Improves Other Current Offerings**<br>
-Currently, there is no existing mobile apps that are enables users to exchange  both local and international cultures. However, there the most similar app to CultureConnect is [Withlocals](https://www.withlocals.com). This app enables travelers to connect with a travel host that acts as their tour guide. Withlocals is a peer-to-peer marketplace where locals offer experiences and skills to travelers. The app connects people and cultures through food and unique experiences. <br>
+* [Mates at UQ](http://www.uq.edu.au/student-services/matesuq) 
 
-Our app differs from [Withlocals](https://www.withlocals.com) since it is primarily focused on international students and migrants wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With CultureConnect, amplified diversity will be created amongst users - regardless being an international or local individual. 
 
-**Areas of Social and Mobile Theory** TO BE EXPLAINED<br>
+* [Withlocals](https://www.withlocals.com)<br>
+This app enables travelers to connect with a travel host that acts as their tour guide. Withlocals is a peer-to-peer marketplace where locals offer experiences and skills to travelers. The app connects people and cultures through food and unique experiences. <br> Our app differs from [Withlocals](https://www.withlocals.com) since it is primarily focused on international students and migrants wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With CultureConnect, amplified diversity will be created amongst users - international or local. 
 
-* Emotional Design
-* Computer Supported Cooperative Work (CSCW)
-* Groupware Time-Space Matrix
-  * Synchronous Distributed Interaction (Same time, different place)
-  * Asynchronous Interaction (Different Time, same place)
-* Collaboration
-* Awareness
-* Shared Information Spaces
-* Persuasive Technology
+**Areas of Social and Mobile Theory**<br>
 
+* **Emotional Design**<br>
+We want our users to experience positivity (such as pleasure, trust, secure) when they use our app. This could be curated by creating and setting a user interface that looks and feels fun, enjoyable, safe and emotionally beneficial for users. Hence, a deep attachment or bond between users and CultureConnect could exist. 
+
+* **Computer Supported Cooperative Work (CSCW)**<br>
+Theories from CSCW will be applied in our app, such as synchronous distributed interaction (from groupware time-space matrix), awareness and collaboration. 
+
+* **Groupware Time-Space Matrix/Collaboration Framework**<br>
+  * Synchronous Distributed Interaction<br>
+  Users could use CultureConnect at the same time in a different place. For example, instant messaging/chatting with other users in the app. 
+
+* **Awareness**<br>
+Users will be able to gain knowledge about what other users are doing in the app through forums regarding different topics/platforms they are interested in, such as events. Not to forget, users will also be notified about live and upcoming events in their area.
+
+* **Collaboration**<br>
+The rich content from CultureConnect will be mostly user-generated. This is because users can create their own topic/forum in different platforms, for example, food, language or events.
+
+* **Shared Information Spaces**<br>
+CultureConnect provides a shared information space for users by enabling them to collaborate in a centralized channel where they can engage in and socialize with other users with the same interests by creating or joining different forums. 
+
+* **MoSo**<br>
+CultureConnect is both mobile and social. Mobile since it's portable (and will most likely be used with mobile phones) and not to forget, a part of our app will be location-based (events feature). It is also social since it's a platform for users to engage in and  with others users with similar interests. 
 
 ### Team
 Name | Student ID | Roles and Responsibilities | Course Code 
 -- | -- | -- | --
-Nik Aisha Dalila Binti Shamsul Anuar | 44257778 | Team Leader, Team Manager, Front-end Development, UI/UX Design | DECO3500
-Haoxuan Yang | 43967566 | Logistics (equipment, meetings, transport, etc), Front-end development | DECO3500
-Chung Yu Pan | 43210703 | Front-end development, back-end development | DECO3500
+Nik Aisha Dalila Binti Shamsul Anuar | 44257778 | Team Leader and Manager, Front-end Development, UI/UX Design | DECO3500
 Velta Azizah Destiana | 44484051 | Front-end development, UI/UX Design, Content Creation | DECO3500
-Liam Simpson | 43939871 | Back-end development, Design | DECO3500
+Haoxuan Yang | 43967566 | Logistics (equipment, meetings, transport, etc), Front-end Development | DECO3500
+Chung Yu Pan | 43210703 | Back-end Development | DECO3500
+Liam Simpson | 43939871 | Back-end Development | DECO3500
 
 **Team Principles and Processes** <br>
 The team will be committed to principles that maximize potential to learn and grow, while also ensuring that a product will be delivered that will be of the highest quality that each member can output.
@@ -158,7 +171,7 @@ User testing is vital. This is because it enables us to understand how to create
 During the design stage, we will develop digital mockups which will then be used for user testing. From the results of the test, we will finalize our app mockup that will be used as a guide for the actual construction of the app prototype. 
 
 ### Construction
-At this stage, we are planning to develop our app prototype using HTML, CSS and JavaScript. If any back-end development is needed, PHP and SQL will be integrated. Each feature of the app will be tested, reiterated and finalized based on feedback. 
+Our app prototype will be developed using HTML, CSS JavaScript, PHP and SQL. Each feature of the app will be tested, reiterated and finalized based on user feedback from user testing. 
 
 ### Project milestones
 **Research** 
@@ -189,4 +202,4 @@ At this stage, we are planning to develop our app prototype using HTML, CSS and 
 Computers, Sourcetree, Github, Notepad++, Google Drive, inVision, Proto.io, PhoneGap, Web Browsers
 
 ### Tag 
-Emotional Design, Synchronous Distributed Interaction, Asynchronous Interaction, Collaboration, Awareness, CSCW, Shared Information Spaces, Persuasive Technology
+Emotional Design, CSCW, Synchronous Distributed Interaction, Collaboration, Awareness, Shared Information Spaces, Active Communities
