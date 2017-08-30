@@ -46,7 +46,7 @@ To create a digital community that fosters communication between international s
 
 * [Withlocals](https://www.withlocals.com)<br>
   * This app enables travelers to connect with a travel host that acts as their tour guide. Withlocals is a peer-to-peer marketplace where locals offer experiences and skills to travelers. The app connects people and cultures through food and unique experiences. 
-  * Our app differs from [Withlocals](https://www.withlocals.com) since it is primarily focused on international students and migrants wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With CultureConnect, amplified diversity will be created amongst users - international or local. 
+  * Our app differs from Withlocals since it is primarily focused on international students and migrants wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With CultureConnect, amplified diversity will be created amongst users - international or local. 
 
 **Areas of Social and Mobile Theory**<br>
 
