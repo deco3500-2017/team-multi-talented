@@ -12,12 +12,12 @@ Velta Azizah Destiana | 44484051 | DECO3500
   
 ## Proposal 
 ### Introduction
-**Project Title:** MultiExchange / Culture Exchange / InterX<br><br>
+**Project Title:** CultureConnect<br><br>
 A digital community that fosters and creates connections between international students, migrants, locals and travelers through the platform of **food, language** and **events**. <br>
 
 When people move or travel to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new to the area. Not only that, there are also locals who would like to learn about international culture but do not have the luxury of time and/or money. 
 
-With **InterX**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect into forums broken up into **local culture** and **international culture**. 
+With **CultureConnect**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect into forums broken up into **local culture** and **international culture**. 
 From here, users will be able to choose which topic (platform) they want to engage with.
 For example, an international student from Latin America comes to Brisbane and wants to connect with other Latin Americans living in Brisbane, but also wants to practice their English with Brisbane locals. 
 This app would provide information on events, food/restraunts, while enabling the international student to communicate and interact with other users to assist them in exploring Brisbane and discovering their own real world community.
