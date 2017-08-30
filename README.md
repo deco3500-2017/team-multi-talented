@@ -56,7 +56,7 @@ We want our users to experience positivity (such as pleasure, trust, secure) whe
 Theories from CSCW will be applied in our app, such as synchronous distributed interaction (from groupware time-space matrix), awareness and collaboration. 
 
 * **Groupware Time-Space Matrix/Collaboration Framework**<br>
-  * Synchronous Distributed Interaction<br>
+  * **Synchronous Distributed Interaction**<br>
   Users could use CultureConnect at the same time in a different place. For example, instant messaging/chatting with other users in the app. 
 
 * **Awareness**<br>
