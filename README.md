@@ -41,9 +41,9 @@ To create a digital community that fosters communication between international s
 * Travelers
 
 **How Our Idea is Different From/Improves Other Current Offerings**<br>
-Currently, there is no existing mobile apps that are enables users to exchange  both local and international cultures. However, there the most similar app to InterX is [Withlocals](https://www.withlocals.com). This app enables travelers to connect with a travel host that acts as their tour guide. Withlocals is a peer-to-peer marketplace where locals offer experiences and skills to travelers. The app connects people and cultures through food and unique experiences. <br>
+Currently, there is no existing mobile apps that are enables users to exchange  both local and international cultures. However, there the most similar app to CultureConnect is [Withlocals](https://www.withlocals.com). This app enables travelers to connect with a travel host that acts as their tour guide. Withlocals is a peer-to-peer marketplace where locals offer experiences and skills to travelers. The app connects people and cultures through food and unique experiences. <br>
 
-Our app differs from [Withlocals](https://www.withlocals.com) since it is primarily focused on international students and migrants wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With InterX, amplified diversity will be created amongst users - regardless being an international or local individual. 
+Our app differs from [Withlocals](https://www.withlocals.com) since it is primarily focused on international students and migrants wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With CultureConnect, amplified diversity will be created amongst users - regardless being an international or local individual. 
 
 **Areas of Social and Mobile Theory** TO BE EXPLAINED<br>
 
@@ -132,8 +132,8 @@ Project Phase | Date | Week | Info
 -- | -- | -- | --
 **Research** | 08/09/17 | 7 | Sufficient amount of research has been done by team members. Mobile app idea confirmed. 
 **Requirements** | 15/09/17 | 8 | Survey performed. Requirements gathering completed. Product backlog created successfully and published on Trello. _Standup (Wednesday, 13/09/2017)_
-**Design** |  22/09/17 | 9 | Initial digital interactive mockup created.
-<br> | 23/09/17 - 01/10/17 | - | User testing performed, digital interactive mockup for app finalized.
+**Design** |  22/09/17 | 9 | Initial low-fidelity mockup created.
+<br> | 23/09/17 - 01/10/17 | - | User testing performed, low-fidelity mockup for app finalized.
 **Construction** | 06/10/17 | 10 | Initial app prototype. _Standup (Wednesday, 04/10/2017)._
 <br>| 13/10/17 | 11 | Reiteration. Continue on app prototype.
 <br> | 20/10/17 | 12 | Reiteration. Continue on app prototype. _Standup (Wednesday, 18/10/2017)._
