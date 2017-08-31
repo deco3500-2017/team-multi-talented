@@ -15,7 +15,7 @@ Velta Azizah Destiana | 44484051 | DECO3500
 **Project Title:** CultureConnect<br><br>
 A digital community that fosters and creates connections between international students, migrants, and locals through the platform of **food, language** and **events**. <br>
 
-When people move or travel to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new to the area. Not only that, there are also locals who would like to learn about international culture but do not have the luxury of time and/or money. 
+When international students/migrants move to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new. Not only that, some people could be locals who would like to learn about international culture but do not have the luxury of time and/or money. 
 
 With **CultureConnect**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect into forums broken up into **local culture** and **international culture**. 
 From here, users will be able to choose which topic (platform) they want to engage with.
@@ -32,7 +32,7 @@ Platform Ideas:<br>
 * **Events**: Users will be notified, attend and be a part of the conversation around upcoming cultural events happening in their area.
 
 **Project Aim**<br>
-To create a digital community that fosters communication between international students, migrants, travelers and locals through the platforms of food, language and events.
+To create a digital community that fosters communication between international students, migrants and locals through the platforms of food, language and events.
 
 **Project Audience**<br>
 * International Students
