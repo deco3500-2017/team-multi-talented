@@ -40,9 +40,22 @@ To create a digital community that fosters communication between international s
 * Locals
 
 **How Our Idea is Different From/Improves Other Current Offerings** IN PROGRESS<br>
-* [Mates at UQ](http://www.uq.edu.au/student-services/matesuq) 
+* [Mates at UQ](http://www.uq.edu.au/student-services/matesuq) <br>
+Mates at UQ is a web portal made by The University of Queensland. It is targeted at both local and international students, but mostly on international students. It's aim is to enable these students to connect and engage with each other by joining groups, events and activities. As of today, Mates at UQ provides email subscription service for students. Students can sign up for their mailing list and stay in touch and be kept up to date with happenings in the community, events, activities and group meet-ups. Updates are sent to students every two weeks via email subscription. Mates at UQ also has a (Facebook page)[https://www.facebook.com/matesatuq/] that enables students to stay in touch with events and actitivies happening. There are currently five different groups/categories that students could join which include:
 
-
+  * **Chat Mates**<br>
+  A group that encourages students to improve their fluency in english and confidence. Whenever group meet-ups are held (usually once a week for 1 to 2 hours) students would get to have interesting discussions about cultural differences, global issues and other topics surrounding the engaging backgrounds of their group. 
+  * **Language Mates**<br>
+  Language Exchange Mates has been designed to provide authentic speaking opportunities for UQ students who are interested in learning, developing or sustaining non-native languages. Participants can match in pairs or small groups to help one another to improve their target languages. 
+  * **Dinner Mates**<br>
+  A social experience group enabling students to meet on a regular fortnightly basis to participate in a food-related activities around Brisbane.
+  * **Market Mates**<br>
+  A group that enables students to meet on a regular fortnightly basis to participate in market activities and festivals around Brisbane.
+  * **Mature (Over 23) Mates**<br>
+  A channels for mature students (23 & over) to meet, connect and network with other like-minded peers. This group has their own email subscription service and Facebook group. 
+  
+* Our idea differs from Mates at UQ 
+  
 **Areas of Social and Mobile Theory**<br>
 
 * **Emotional Design**<br>
