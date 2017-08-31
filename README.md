@@ -70,7 +70,7 @@ The rich content from CultureConnect will be mostly user-generated. This is beca
 CultureConnect provides a shared information space for users by enabling them to collaborate in a centralized channel where they can engage in and socialize with other users with the same interests by creating or joining different forums. 
 
 * **MoSo**<br>
-CultureConnect is both mobile and social. Mobile since it's portable (and will most likely be used with mobile phones) and not to forget, a part of our app will be location-based (events feature). It is also social since it's a platform for users to engage in and  with others users with similar interests. 
+CultureConnect is both mobile and social. Mobile since it's portable (and will most likely be used with mobile phones) and not to forget, a part of our app will be location-based (events feature). It is also social since it's a platform for users to engage with others users with similar interests. 
 
 ### Team
 Name | Student ID | Roles and Responsibilities | Course Code 
