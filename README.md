@@ -13,7 +13,7 @@ Velta Azizah Destiana | 44484051 | DECO3500
 ## Proposal 
 ### Introduction
 **Project Title:** CultureConnect<br><br>
-A digital community that fosters and creates connections between international students, migrants, and locals through the platform of **food, language** and **events**. <br>
+A digital community that fosters and creates connections between international students, migrants, and locals through the platform of **food, language**, **events** and **meet-ups**. <br>
 
 When international students/migrants move to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new. Not only that, some people could be locals who would like to learn about international culture but do not have the luxury of time and/or money. 
 
@@ -24,15 +24,16 @@ This app would provide information on events, food/restraunts, while enabling th
 
 ### Concept 
 **Idea and Rationale**<br>
-The idea behind this app is simple; there has yet to be a mobile app that enables individuals and/or communities (international or local) connect with each other in terms of cultural exchange. We hope this app would fill the gap in that sector while helping users to connect with their own or other cultures. 
+The idea behind this app is simple; there has yet to be a mobile app that enables individuals and/or communities (international or local) connect with each other in terms of cultural exchange. With CultureConnect, users can choose channel categories they would like to explore such as food, language and/or events. From there, users could arrange meet-ups outside of the app. We hope this app would fill the gap in that sector while helping users to connect with their own or other cultures. 
 
-Platform Ideas:<br>
-* **Food**: Users are able to interact with each other by sharing community generated recipes and their favourite ethnic restaurants.
-* **Language**: Users can be a part of a local community forum focused on learning and practicing foreign languages.
+Channel Categories:<br>
+* **Food**: Users are able to interact with each other by sharing community generated recipes and the best ethnic restaurants.
+* **Language**: Users can be a part of a local community forum focused on learning and practicing foreign languages. 
 * **Events**: Users will be notified, attend and be a part of the conversation around upcoming cultural events happening in their area.
+* **Meet-Ups**: Users can add, arrange and join upcoming meet-ups based on the three channels mentioned above.
 
 **Project Aim**<br>
-To create a digital community that fosters communication between international students, migrants and locals through the platforms of food, language and events.
+To create a diverse community that fosters communication between international students, migrants and locals through the platforms of food, language and events.
 
 **Project Audience**<br>
 * International Students
@@ -41,7 +42,7 @@ To create a digital community that fosters communication between international s
 
 **How Our Idea is Different From/Improves Other Current Offerings** IN PROGRESS<br>
 * [Mates at UQ](http://www.uq.edu.au/student-services/matesuq) <br>
-Mates at UQ is a web portal made by The University of Queensland. It is targeted at both local and international students, but mostly on international students. It's aim is to enable these students to connect and engage with each other by joining groups, events and activities. As of today, Mates at UQ provides email subscription service for students. Students can sign up for their mailing list and stay in touch and be kept up to date with happenings in the community, events, activities and group meet-ups. Updates are sent to students every two weeks via email subscription. Mates at UQ also has a [Facebook page](https://www.facebook.com/matesatuq/) that enables students to stay in touch with events and actitivies happening. There are currently five different groups/categories that students could join which include:
+A web portal made by The University of Queensland. It is targeted at both local and international students, but mostly on international students. It's aim is to enable these students to connect and engage with each other by joining groups, events and activities. As of today, Mates at UQ provides email subscription service for students. Students can sign up for their mailing list and stay in touch and be kept up to date with happenings in the community, events, activities and group meet-ups. Updates are sent to students every two weeks via email subscription. Mates at UQ also has a [Facebook page](https://www.facebook.com/matesatuq/) that enables students to stay in touch with events and actitivies happening. There are currently five different groups/categories that students could join which include:
 
   * **Chat Mates**<br>
   A group that encourages students to improve their fluency in english and confidence. Whenever group meet-ups are held (usually once a week for 1 to 2 hours) students would get to have interesting discussions about cultural differences, global issues and other topics surrounding the engaging backgrounds of their group. 
@@ -54,7 +55,7 @@ Mates at UQ is a web portal made by The University of Queensland. It is targeted
   * **Mature (Over 23) Mates**<br>
   A channels for mature students (23 & over) to meet, connect and network with other like-minded peers. This group has their own email subscription service and [Facebook page](https://www.facebook.com/groups/1644603525795767/). 
   
-* Our idea differs from Mates at UQ 
+* Our idea differs from Mates at UQ since we are planning to develop a mobile app which acts as a channel for users to explore local and international cultures - categorized into further channels such as food, language or events. CultureConnect is an all-in app that offers users to socialize without needing to subscribe to a mailing list or a third-party platform like Facebook. Hence, it would be easier for users to communicate with each other. Not only that, our primary target audience is not only limited to international students, but migrants and locals. Through these ready made channel categories, user are able to generate their own content. They will be notified every time there is a newly uploaded post that matches their interests. 
   
 **Areas of Social and Mobile Theory**<br>
 
@@ -72,7 +73,7 @@ Theories from CSCW will be applied in our app, such as synchronous distributed i
 Users will be able to gain knowledge about what other users are doing in the app through forums regarding different topics/platforms they are interested in, such as events. Not to forget, users will also be notified about live and upcoming events in their area.
 
 * **Collaboration**<br>
-The rich content from CultureConnect will be mostly user-generated. This is because users can create their own topic/forum in different platforms, for example, food, language or events.
+The rich content from CultureConnect will be mostly user-generated. This is because users can create their own channels in different channel categories, for example, food, language or events.
 
 * **Shared Information Spaces**<br>
 CultureConnect provides a shared information space for users by enabling them to collaborate in a centralized channel where they can engage in and socialize with other users with the same interests by creating or joining different forums. 
