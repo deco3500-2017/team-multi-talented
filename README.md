@@ -40,7 +40,7 @@ To create a diverse community that fosters communication between international s
 * Migrants
 * Locals
 
-**How Our Idea is Different From/Improves Other Current Offerings** IN PROGRESS<br>
+**How Our Idea is Different From/Improves Other Current Offerings**<br>
 * [Mates at UQ](http://www.uq.edu.au/student-services/matesuq) <br>
 A web portal made by The University of Queensland. It is targeted at both local and international students, but mostly on international students. It's aim is to enable these students to connect and engage with each other by joining groups, events and activities. As of today, Mates at UQ provides email subscription service for students. Students can sign up for their mailing list to stay in touch and be kept up to date with happenings in the community, events, activities and group meet-ups. Updates are sent to students every two weeks via email subscription. Mates at UQ also has a [Facebook group](https://www.facebook.com/matesatuq/) that enables students to stay in touch with events and actitivies happening. There are currently five different groups/categories that students could join which include:
 
