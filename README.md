@@ -13,7 +13,7 @@ Velta Azizah Destiana | 44484051 | DECO3500
 ## Proposal 
 ### Introduction
 **Project Title:** CultureConnect<br><br>
-A digital community that fosters and creates connections between international students, migrants, locals and travelers through the platform of **food, language** and **events**. <br>
+A digital community that fosters and creates connections between international students, migrants, and locals through the platform of **food, language** and **events**. <br>
 
 When people move or travel to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new to the area. Not only that, there are also locals who would like to learn about international culture but do not have the luxury of time and/or money. 
 
@@ -38,15 +38,10 @@ To create a digital community that fosters communication between international s
 * International Students
 * Migrants
 * Locals
-* Travelers
 
 **How Our Idea is Different From/Improves Other Current Offerings** IN PROGRESS<br>
 * [Mates at UQ](http://www.uq.edu.au/student-services/matesuq) 
 
-
-* [Withlocals](https://www.withlocals.com)<br>
-  * This app enables travelers to connect with a travel host that acts as their tour guide. Withlocals is a peer-to-peer marketplace where locals offer experiences and skills to travelers. The app connects people and cultures through food and unique experiences. 
-  * Our app differs from Withlocals since it is primarily focused on international students and migrants wanting to connect to their local people/cultures, while learning international cultures simultaneously. Our app also focuses on three main platforms that users can choose from, such as food, language and events. With CultureConnect, amplified diversity will be created amongst users - international or local. 
 
 **Areas of Social and Mobile Theory**<br>
 
@@ -203,4 +198,4 @@ Our app prototype will be developed using HTML, CSS JavaScript, PHP and SQL. Eac
 Computers, Sourcetree, Github, Notepad++, phpMyAdmin, MySQL, Google Drive, inVision, Proto.io, PhoneGap, Web Browsers
 
 ### Tag 
-Emotional Design, CSCW, Synchronous Distributed Interaction, Collaboration, Awareness, Shared Information Spaces, Active Communities
+Emotional Design, CSCW, Synchronous Distributed Interaction, Collaboration, Awareness, Active Communities, Shared Information Spaces
