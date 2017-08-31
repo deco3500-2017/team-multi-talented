@@ -18,13 +18,13 @@ A digital community that fosters and creates connections between international s
 When international students/migrants move to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new. Not only that, some people could be locals who would like to learn about international culture but do not have the luxury of time and/or money. 
 
 With **CultureConnect**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect into forums broken up into **local culture** and **international culture**. 
-From here, users will be able to choose which topic (platform) they want to engage with.
+From here, users will be able to choose which channel category they want to explore.
 For example, an international student from Latin America comes to Brisbane and wants to connect with other Latin Americans living in Brisbane, but also wants to practice their English with Brisbane locals. 
 This app would provide information on events, food/restraunts, while enabling the international student to communicate and interact with other users to assist them in exploring Brisbane and discovering their own real world community.
 
 ### Concept 
 **Idea and Rationale**<br>
-The idea behind this app is simple; there has yet to be a mobile app that enables individuals and/or communities (international or local) connect with each other in terms of cultural exchange. With CultureConnect, users can choose channel categories they would like to explore such as food, language and/or events. From there, users could arrange meet-ups outside of the app. We hope this app would fill the gap in that sector while helping users to connect with their own or other cultures. 
+The idea behind this app is simple; there has yet to be a mobile app that enables individuals and/or communities (international or local) connect with each other in terms of cultural exchange. With CultureConnect, users can choose channel categories they would like to explore such as food, language and/or events. From there, users could create as many more channels are they want under the same channel category and arrange meet-ups outside of the app. We hope this app would fill the gap in that sector while helping users to connect with their own or other cultures. 
 
 Channel Categories:<br>
 * **Food**: Users are able to interact with each other by sharing community generated recipes and the best ethnic restaurants.
