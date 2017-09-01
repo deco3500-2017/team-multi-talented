@@ -59,9 +59,6 @@ A web portal made by The University of Queensland. It is targeted at both local 
   
 **Areas of Social and Mobile Theory**<br>
 
-* **Online Data Usage**<br>
-To get all the use of the user data that already exist on the internet user could sign in by facebook or google account instead of creating a fresh new account. Due to facebook already got all their basic/advance information and so user dont need to input all the information repeatedly. When user creating connection with other user via the app it can also provide a trustable online identification. However, if user feel like it they can still manage to create a fresh new account to prevent online bullying or stalking.
-
 * **Emotional Design**<br>
 We want our users to experience positivity (such as pleasure, trust, secure) when they use our app. This could be curated by creating and setting a user interface that looks and feels fun, enjoyable, safe and emotionally beneficial for users. Ultimately, a deep attachment or bond between users and CultureConnect would exist. 
 
@@ -83,6 +80,9 @@ CultureConnect provides a shared information space for users by enabling them to
 
 * **MoSo**<br>
 CultureConnect is both mobile and social. Mobile since it's portable (and will most likely be used with mobile phones) and will also have a location feature for the events channel (where users can input location for events), hence, coordinating social activities. It is also social since it's a platform for users to engage with others users with similar interests. 
+
+* **Potential Feature: Online Data Usage**<br>
+To retrieve user data that already exists on the internet, users could sign using their Facebook or Google account instead of creating a fresh new account. Since Facebook and Google already have their user information, users do not need to input all their information repeatedly. This could also enable users to trust other users in terms of online identification; since their profiles would be linked from Facebook or Google. However, if a user feels uncomfortable with signing up with Facebook or Google, they could create a new account on CultureConnect.
 
 ### Team
 Name | Student ID | Roles and Responsibilities | Course Code 
