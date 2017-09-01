@@ -177,10 +177,10 @@ We will upload online surveys via Google Forms for our target audience; from whe
 **User Testing** <br>
 User testing is vital. This is because it enables us to understand how to create an excellent user experience while also providing great usability for our users. By performing this test, we will be able to improve our user interface (UI) and user experience (UX) based on the result of test upon analyzation. 
   * **Design Stage**<br>
-  User testing via paper prototype.  
+  User testing via paper prototype. We will mainly focus on testing with UQ international students, especially those who join in Mates at UQ. For testing section, firstly we will ask tester to complete different tasks through the mock-up to test each aspect of changes. Then we will do a short survey to collect different feedback from tester. 
   * **Construction Stage**<br>
-  Scenario-based user testing. 
-
+  Scenario-based user testing. In this stage we will more prefer to collect user testing feedback from public, it could be done with creating survey online and doing physical interactive survey with people in public area. So, we will choose Brisbane Library or Southbank to pick passer-by to do a short survey by asking them interact with prototypes without any tasks to see if they can understand what the purpose of this application and how much degree that the application can help them in their life. 
+  
 ### Design
 During the design stage, we will develop a paper prototype (low-fidelity prototype) which will then be used for user testing. From the results of the test, we will finalize our wireframes/rough mock-up designs that will be used as a guide for the actual construction of the app prototype. 
 
