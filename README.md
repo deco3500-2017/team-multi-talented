@@ -176,9 +176,9 @@ The internet is the largest portal that enables us to research deeply about this
 We will upload online surveys via Google Forms for our target audience; from where we can collect and analyze results in order to achieve a more specific set of requirements. <br><br>
 **User Testing** <br>
 User testing is vital. This is because it enables us to understand how to create an excellent user experience while also providing great usability for our users. By performing this test, we will be able to improve our user interface (UI) and user experience (UX) based on the result of test upon analyzation. 
-  * Design Stage<br>
+  * **Design Stage**<br>
   User testing via paper prototype.  
-  * Construction Stage<br>
+  * **Construction Stage**<br>
   Scenario-based user testing. 
 
 ### Design
