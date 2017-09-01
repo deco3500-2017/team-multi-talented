@@ -212,4 +212,4 @@ Our app prototype will be developed using HTML, CSS JavaScript, PHP and SQL. Eac
 Computers, Sourcetree, Github, Notepad++, phpMyAdmin, MySQL, Google Drive, inVision, Proto.io, PhoneGap, Web Browsers
 
 ### Tag 
-Emotional Design, CSCW, Synchronous Distributed Interaction, Collaboration, Awareness, Active Communities, Shared Information Spaces
+`Emotional Design` `CSCW` `Synchronous Distributed Interaction` `Collaboration` `Awareness` `Active Communities` `Shared Information Spaces`
