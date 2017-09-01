@@ -158,7 +158,7 @@ Project Phase | Date | Week | Info
 **Design** |  22/09/17 | 9 | Paper prototype created. 
 <br> | 23/09/17 - 01/10/17 | - | User testing performed, UI style guide for app finalized. Start on initial app prototype.
 **Construction** | 06/10/17 | 10 | Initial app prototype. _Standup (Wednesday, 04/10/2017)._
-<br>| 13/10/17 | 11 | Reiteration. Continue on app prototype.
+<br>| 13/10/17 | 11 | Continue developing app prototype. 
 <br> | 20/10/17 | 12 | Scenario-based user testing performed. Reiteration. Continue on app prototype. _Standup (Wednesday, 18/10/2017)._
 <br> | 25/10/17 | 13 | Final reiteration. App prototype finalized. _Social & Mobile Showcase (Wednesday, 25/20/2017 - 4pm - 7 pm)._
 <br> | 27/10/17 | 13 | _Final Submission (Friday, 5 pm)._
