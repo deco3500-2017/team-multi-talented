@@ -17,10 +17,10 @@ A digital community that fosters and creates connections between international s
 
 When international students/migrants move to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new. Not only that, some people could be locals who would like to learn about international culture but do not have the luxury of time and/or money. 
 
-With **CultureConnect**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect into forums broken up into **local culture** and **international culture**. 
+With **CultureConnect**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect to forums broken up into **local culture** and **international culture**. 
 From here, users will be able to choose which channel category they want to explore.
 For example, an international student from Latin America comes to Brisbane and wants to connect with other Latin Americans living in Brisbane, but also wants to practice their English with Brisbane locals. 
-This app would provide information on events, food/restraunts, while enabling the international student to communicate and interact with other users to assist them in exploring Brisbane and discovering their own real world community.
+This app would provide information on events, food/restaurants while enabling the international student to communicate and interact with other users to assist them in exploring Brisbane and discovering their own real world community.
 
 ### Concept 
 **Idea and Rationale**<br>
@@ -28,7 +28,7 @@ The idea behind this app is simple; there has yet to be a mobile app that enable
 
 Channel Categories:<br>
 * **Food**: Users are able to interact with each other by sharing community generated recipes and the best ethnic restaurants.
-* **Language**: Users can be a part of a local community forum focused on learning and practicing foreign languages. 
+* **Language**: Users can be a part of a local community forum focused on learning and practising foreign languages. 
 * **Events**: Users will be notified, attend and be a part of the conversation around upcoming cultural events happening in their area.
 * **Meet-Ups**: Users can add, arrange and join upcoming meet-ups based on the three channels mentioned above.
 
@@ -42,7 +42,7 @@ To create a diverse community that fosters communication between international s
 
 **How Our Idea is Different From/Improves Other Current Offerings**<br>
 * [Mates at UQ](http://www.uq.edu.au/student-services/matesuq) <br>
-A web portal made by The University of Queensland. It is targeted at both local and international students, but mostly on international students. It's aim is to enable these students to connect and engage with each other by joining groups, events and activities. As of today, Mates at UQ provides email subscription service for students. Students can sign up for their mailing list to stay in touch and be kept up to date with happenings in the community, events, activities and group meet-ups. Updates are sent to students every two weeks via email subscription. Mates at UQ also has a [Facebook group](https://www.facebook.com/matesatuq/) that enables students to stay in touch with events and actitivies happening. There are currently five different groups/categories that students could join which include:
+A web portal made by The University of Queensland. It is targeted at both local and international students, but mostly on international students. Its aim is to enable these students to connect and engage with each other by joining groups, events and activities. As of today, Mates at UQ provides email subscription service for students. Students can sign up for their mailing list to stay in touch and be kept up to date with happenings in the community, events, activities and group meet-ups. Updates are sent to students every two weeks via email subscription. Mates at UQ also has a [Facebook group](https://www.facebook.com/matesatuq/) that enables students to stay in touch with events and activities happening. There are currently five different groups/categories that students could join which include:
 
   * **Chat Mates**<br>
   A group that encourages students to improve their fluency in english and confidence. Whenever group meet-ups are held (usually once a week for 1 to 2 hours) students would get to have interesting discussions about cultural differences, global issues and other topics surrounding the engaging backgrounds of their group. 
@@ -55,7 +55,7 @@ A web portal made by The University of Queensland. It is targeted at both local 
   * **Mature (Over 23) Mates**<br>
   A channels for mature students (23 & over) to meet, connect and network with other like-minded peers. This group has their own email subscription service and [Facebook group](https://www.facebook.com/groups/1644603525795767/). 
   
-* Our idea differs from Mates at UQ since we are planning to develop a mobile app which acts as a channel for users to explore local and international cultures - categorized into further channels such as food, language or events. CultureConnect is an all-in app consisting of separate areas for different channels that enable users to socialize without needing to subscribe to a mailing list or a third-party platform like Facebook. Hence, it would be easier for users to communicate with each other in one platform. Not only that, our primary target audience is not only limited to international students, but migrants and locals. Through these ready made channel categories, user are able to generate their own content in different categories. They will also get notified every time there is a newly uploaded post that matches their interests and when there are upcmoming events of activities happening in their area. 
+* Our idea differs from Mates at UQ since we are planning to develop a mobile app which acts as a channel for users to explore local and international cultures - categorized into further channels such as food, language or events. CultureConnect is an all-in app consisting of separate areas for different channels that enable users to socialize without needing to subscribe to a mailing list or a third-party platform like Facebook. Hence, it would be easier for users to communicate with each other on one platform. Not only that, our primary target audience is not only limited to international students but migrants and locals. Through these ready made channel categories, users are able to generate their own content in different categories. They will also get notified every time there is a newly uploaded post that matches their interests and when there are upcoming events of activities happening in their area. 
   
 **Areas of Social and Mobile Theory**<br>
 
@@ -165,7 +165,7 @@ Project Phase | Date | Week | Info
 
 ## Project Phases 
 ### Research 
-Before actually developing an app, we need have a deep understanding of our chosen domain and idea. Our research will include the current existing similar product in order to perform a UX comparison evaluation. 	This will enable us get an idea as to how to improve our app not only in terms of design, but functionality for users. This research is not only limited to requirements gathering from the internet, but from users via survey and paper prototyping. 
+Before actually developing an app, we need have a deep understanding of our chosen domain and idea. Our research will include the current existing similar product in order to perform a UX comparison evaluation. 	This will enable us to get an idea as to how to improve our app not only in terms of design, but the functionality for users. This research is not only limited to requirements gathering from the internet but from users via survey and paper prototyping. 
 
 ### Requirements
 Below are methods in achieving requirements for our app: <br>
@@ -175,10 +175,10 @@ The internet is the largest portal that enables us to research deeply about this
 **User Survey** <br>
 We will upload online surveys via Google Forms for our target audience; from where we can collect and analyze results in order to achieve a more specific set of requirements. <br><br>
 **User Testing** <br>
-User testing is vital. This is because it enables us to understand how to create an excellent user experience while also providing great usability for our users. By performing this test, we will be be able to improve our user interface (UI) and user experience (UX) based on the result of test upon analyzation. 
+User testing is vital. This is because it enables us to understand how to create an excellent user experience while also providing great usability for our users. By performing this test, we will be able to improve our user interface (UI) and user experience (UX) based on the result of test upon analyzation. 
 
 ### Design
-During the design stage, we will develop digital mockups which will then be used for user testing. From the results of the test, we will finalize our app mockup that will be used as a guide for the actual construction of the app prototype. 
+During the design stage, we will develop digital mock-ups which will then be used for user testing. From the results of the test, we will finalize our app mock-up that will be used as a guide for the actual construction of the app prototype. 
 
 ### Construction
 Our app prototype will be developed using HTML, CSS JavaScript, PHP and SQL. Each feature of the app will be tested, reiterated and finalized based on user feedback from user testing. 
