@@ -176,9 +176,13 @@ The internet is the largest portal that enables us to research deeply about this
 We will upload online surveys via Google Forms for our target audience; from where we can collect and analyze results in order to achieve a more specific set of requirements. <br><br>
 **User Testing** <br>
 User testing is vital. This is because it enables us to understand how to create an excellent user experience while also providing great usability for our users. By performing this test, we will be able to improve our user interface (UI) and user experience (UX) based on the result of test upon analyzation. 
+  * Design Stage<br>
+  User testing via paper prototype.  
+  * Construction Stage<br>
+  User testing via digital prototype. 
 
 ### Design
-During the design stage, we will develop digital mock-ups which will then be used for user testing. From the results of the test, we will finalize our app mock-up that will be used as a guide for the actual construction of the app prototype. 
+During the design stage, we will develop a paper prototype (low-fidelity prototype) which will then be used for user testing. From the results of the test, we will finalize our wireframes/rough mock-up designs that will be used as a guide for the actual construction of the app prototype. 
 
 ### Construction
 Our app prototype will be developed using HTML, CSS JavaScript, PHP and SQL. Each feature of the app will be tested, reiterated and finalized based on user feedback from user testing. 
@@ -195,15 +199,15 @@ Our app prototype will be developed using HTML, CSS JavaScript, PHP and SQL. Eac
 
 **Design** 
 * UI Designing 
-* Digital mockup designing
-* User testing
+* Paper prototype (low-fidelity) design
+* User testing 
 * User feedback (Critique)
 * Reiteration
 
 **Construction** 
-* Application development
+* Application prototype development
 * Implement functionality
-* User testing
+* User testing using prototype
 * User feedback
 * Reiteration
 * Final prototype
