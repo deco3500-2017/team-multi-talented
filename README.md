@@ -13,11 +13,11 @@ Velta Azizah Destiana | 44484051 | DECO3500
 ## Proposal 
 ### Introduction
 **Project Title:** CultureConnect<br><br>
-A digital community that fosters and creates connections between international students, migrants, and locals through the platform of **food, language**, **events** and **meet-ups**. <br>
+Made for a community that fosters connections between international students, migrants, and locals through the platform of **food, language**, **events** and **meet-ups**. <br>
 
-When international students/migrants move to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new. Not only that, some people could be locals who would like to learn about international culture but do not have the luxury of time and/or money. 
+When international students/migrants move to a new area, finding new friends and socializing could be tricky. For some people, creating connections online is often easier than in real life; especially if they're new. Not only that, some people could also be locals who would like to learn about international culture but do not have the luxury of time and/or money. 
 
-With **CultureConnect**, we aim to make socializing and learning about international cultures easier for international individuals and locals. Users are able to connect to forums broken up into **local culture** and **international culture**. 
+With **CultureConnect**, we aim to make socializing and learning about different cultures easier for international individuals and locals. Users are able to connect to forums broken up into **local culture** and **international culture**. 
 From here, users will be able to choose which channel category they want to explore.
 For example, an international student from Latin America comes to Brisbane and wants to connect with other Latin Americans living in Brisbane, but also wants to practice their English with Brisbane locals. 
 This app would provide information on events, food/restaurants while enabling the international student to communicate and interact with other users to assist them in exploring Brisbane and discovering their own real world community.
@@ -55,12 +55,12 @@ A web portal made by The University of Queensland. It is targeted at both local 
   * **Mature (Over 23) Mates**<br>
   A channels for mature students (23 & over) to meet, connect and network with other like-minded peers. This group has their own email subscription service and [Facebook group](https://www.facebook.com/groups/1644603525795767/). 
   
-* Our idea differs from Mates at UQ since we are planning to develop a mobile app which acts as a channel for users to explore local and international cultures - categorized into further channels such as food, language or events. CultureConnect is an all-in app consisting of separate areas for different channels that enable users to socialize without needing to subscribe to a mailing list or a third-party platform like Facebook. Hence, it would be easier for users to communicate with each other on one platform. Not only that, our primary target audience is not only limited to international students but migrants and locals. Through these ready made channel categories, users are able to generate their own content in different categories. They will also get notified every time there is a newly uploaded post that matches their interests and when there are upcoming events of activities happening in their area. 
+* Our idea differs from Mates at UQ since we are planning to develop a mobile app which acts as a channel for users to explore local and international cultures - categorized into further channels such as food, language or events. CultureConnect is an all-in app consisting of separate areas for different channels that enable users to socialize without needing to subscribe to a mailing list or a third-party platform like Facebook. Hence, it would be easier for users to communicate with each other on one platform. Not only that, our primary target audience is not only limited to international students but migrants and locals. Through these ready made channel categories, users are able to generate their own content in different categories. They will also get notified every time there is a newly uploaded post that matches their interests and when there are upcoming and live events or activities happening in their area. 
   
 **Areas of Social and Mobile Theory**<br>
 
 * **Emotional Design**<br>
-We want our users to experience positivity (such as pleasure, trust, secure) when they use our app. This could be curated by creating and setting a user interface that looks and feels fun, enjoyable, safe and emotionally beneficial for users. Hence, a deep attachment or bond between users and CultureConnect could exist. 
+We want our users to experience positivity (such as pleasure, trust, secure) when they use our app. This could be curated by creating and setting a user interface that looks and feels fun, enjoyable, safe and emotionally beneficial for users. Ultimately, a deep attachment or bond between users and CultureConnect would exist. 
 
 * **Computer Supported Cooperative Work (CSCW)**<br>
 Theories from CSCW will be applied in our app, such as synchronous distributed interaction (from groupware time-space matrix), awareness and collaboration. 
@@ -76,10 +76,10 @@ Users will be able to gain knowledge about what other users are doing in the app
 The rich content from CultureConnect will be mostly user-generated. This is because users can create their own channels in different channel categories, for example, food, language or events.
 
 * **Shared Information Spaces**<br>
-CultureConnect provides a shared information space for users by enabling them to collaborate in a centralized channel where they can engage in and socialize with other users with the same interests by creating or joining different forums. 
+CultureConnect provides a shared information space for users by enabling them to collaborate in a centralized channel where they can engage in and socialize with other users with the same interests by creating or joining different channels. 
 
 * **MoSo**<br>
-CultureConnect is both mobile and social. Mobile since it's portable (and will most likely be used with mobile phones) and not to forget, a part of our app will be location-based (events feature). It is also social since it's a platform for users to engage with others users with similar interests. 
+CultureConnect is both mobile and social. Mobile since it's portable (and will most likely be used with mobile phones) and will also have a location feature for the events channel (where users can input location for events), hence, coordinating social activities. It is also social since it's a platform for users to engage with others users with similar interests. 
 
 ### Team
 Name | Student ID | Roles and Responsibilities | Course Code 
@@ -156,7 +156,7 @@ Project Phase | Date | Week | Info
 **Research** | 08/09/17 | 7 | Sufficient amount of research has been done by team members. Mobile app idea confirmed. 
 **Requirements** | 15/09/17 | 8 | Survey performed. Requirements gathering completed. Product backlog created successfully and published on Trello. _Standup (Wednesday, 13/09/2017)_
 **Design** |  22/09/17 | 9 | Initial low-fidelity mockup created.
-<br> | 23/09/17 - 01/10/17 | - | User testing performed, low-fidelity mockup for app finalized.
+<br> | 23/09/17 - 01/10/17 | - | User testing performed, low-fidelity mockup for app finalized. Start on initial app prototype.
 **Construction** | 06/10/17 | 10 | Initial app prototype. _Standup (Wednesday, 04/10/2017)._
 <br>| 13/10/17 | 11 | Reiteration. Continue on app prototype.
 <br> | 20/10/17 | 12 | Reiteration. Continue on app prototype. _Standup (Wednesday, 18/10/2017)._
@@ -165,7 +165,7 @@ Project Phase | Date | Week | Info
 
 ## Project Phases 
 ### Research 
-Before actually developing an app, we need have a deep understanding of our chosen domain and idea. Our research will include the current existing similar product in order to perform a UX comparison evaluation. 	This will enable us to get an idea as to how to improve our app not only in terms of design, but the functionality for users. This research is not only limited to requirements gathering from the internet but from users via survey and paper prototyping. 
+Before actually developing an app, we need have a deep understanding of our chosen domain and idea. Our research will include the current existing similar product in order to perform a UX comparison evaluation. 	This will enable us to get an idea as to how to improve our app not only in terms of design, but the functionality for users. This research is not only limited to requirements gathering from the internet but from users via survey and low-fidelity prototyping. 
 
 ### Requirements
 Below are methods in achieving requirements for our app: <br>
@@ -190,7 +190,7 @@ Our app prototype will be developed using HTML, CSS JavaScript, PHP and SQL. Eac
 
 **Requirements**
 * Requirements gathering (Survey)
-* Collection and Analyzation of user feedback
+* Collection and analyzation of user feedback
 * Product backlog
 
 **Design** 
