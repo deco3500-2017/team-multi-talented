@@ -179,7 +179,7 @@ User testing is vital. This is because it enables us to understand how to create
   * Design Stage<br>
   User testing via paper prototype.  
   * Construction Stage<br>
-  User testing via digital prototype. 
+  Scenario-based user testing. 
 
 ### Design
 During the design stage, we will develop a paper prototype (low-fidelity prototype) which will then be used for user testing. From the results of the test, we will finalize our wireframes/rough mock-up designs that will be used as a guide for the actual construction of the app prototype. 
@@ -207,7 +207,7 @@ Our app prototype will be developed using HTML, CSS JavaScript, PHP and SQL. Eac
 **Construction** 
 * Application prototype development
 * Implement functionality
-* User testing using prototype
+* Scenario-based user testing using prototype
 * User feedback
 * Reiteration
 * Final prototype
