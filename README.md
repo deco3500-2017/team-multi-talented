@@ -59,6 +59,9 @@ A web portal made by The University of Queensland. It is targeted at both local 
   
 **Areas of Social and Mobile Theory**<br>
 
+* **Online Data Usage**<br>
+To get all the use of the user data that already exist on the internet user could sign in by facebook or google account instead of creating a fresh new account. Due to facebook already got all their basic/advance information and so user dont need to input all the information repeatedly. When user creating connection with other user via the app it can also provide a trustable online identification. However, if user feel like it they can still manage to create a fresh new account to prevent online bullying or stalking.
+
 * **Emotional Design**<br>
 We want our users to experience positivity (such as pleasure, trust, secure) when they use our app. This could be curated by creating and setting a user interface that looks and feels fun, enjoyable, safe and emotionally beneficial for users. Ultimately, a deep attachment or bond between users and CultureConnect would exist. 
 
