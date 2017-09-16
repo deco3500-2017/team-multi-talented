@@ -1,0 +1,33 @@
+body {
+    background-image: url(../img/backdrop.png);
+}
+
+#titleMain img {
+    width: 400px;
+}
+
+#formMain {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8%;
+    width: 400px;
+    background-color: ghostwhite;
+    border-radius: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#formMain hr {
+    margin: 5%;
+}
+
+#formBody {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+#formFooter a {
+    padding: 5%;
+}
