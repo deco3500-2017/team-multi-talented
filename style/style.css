@@ -1,6 +1,8 @@
 body {
     background-image: url(../img/backdrop.png);
+    font-family: 'Asap Condensed', sans-serif;
 }
+
 
 #titleMain img {
     width: 400px;
@@ -9,16 +11,20 @@ body {
 #formMain {
     margin: 0 auto;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 150px;
     width: 400px;
     background-color: ghostwhite;
     border-radius: 25px;
     padding-bottom: 30px;
     padding-top: 30px;
+    box-shadow: 0px 0px 50px black;
 }
 
 #formMain hr {
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #formBody {
@@ -28,6 +34,36 @@ body {
     width: 400px;
 }
 
+::-webkit-input-placeholder {
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.inptMain {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+}
+
+.btntxt {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    width: 240px;
+    font-family: 'Asap Condensed', sans-serif;
+    background-color: ;
+}
+
 #formFooter a {
     padding: 5%;
+    text-decoration: none;
+}
+
+#formFooter a:visited {
+    color: black;
+    
+}
+
+#formFooter a:hover {
+    color: darkseagreen;
 }
