@@ -9,7 +9,7 @@
     
     <body>
         <div id="formMain">
-            <form name="validAccount" onsubmit="validateForm()" method="post">
+            <form name="validAccount" onsubmit="return validateForm()" action="signIn.html" method="get">
                 <div id="formHead">
                     <div id= "titleMain">
                         <img src="img/cultureConnect.png">
@@ -34,19 +34,19 @@
     </body>
 	<script>
 	function validateForm() {
-    var userEmail = document.forms["validAccount"]["email"].value;
-	var userPassword = document.forms["validAccount"]["password"].value;
-	if (userEmail == "cultureconnect@gmail" && userPassword == "0000"){
-		window.location = "signIn.html";
-	}
-    if (userEmail != "cultureconnect@gmail.com") {
-        alert("Account doesnt exist!");
-        return false;
-    }
-	if (userEmail == "cultureconnect@gmail" && userPassword!="0000"){
-		 alert("Password incorrect!");
-        return false;
-	}
+		var userEmail = document.forms["validAccount"]["email"].value;
+		var userPassword = document.forms["validAccount"]["password"].value;
+		if (userEmail != "cultureconnect@gmail.com") {
+			alert("Account doesnt exist!");
+			return false;
+		}
+		else if (userPassword != "0000"){
+			alert("Password incorrect!");
+			return false;
+		}
+		else{	
+			return true;
+		}
 	}
 	</script>
 </html>
