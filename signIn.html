@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Password Recovery</title>
+        <title>Home</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
@@ -14,19 +14,153 @@
                     
                 </div>
                 <div id="formBody">
-					<h1>To reset your password:</h1>
-					<hr />
-					<p style="float:left;margin-left:66px">1. Open up the email your submitted</p>
+					<h1 style="">CultureExchange</h1>
+					<hr/>
+					<p style="float:left;margin-left:35px">UNIVERSITY OF QUEENSLAND</p>
+					<div class="slideshow-container">
+						<div class="mySlides fade">
+							<div class="numbertext"></div>
+							<img src="img\uq-img1.JPG" style="width:100%">
+							<div class="text">UQ - Great Court</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="numbertext"></div>
+							<img src="img\uq-img2.JPG" style="width:100%">
+							<div class="text">UQ - Student Center</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="numbertext"></div>
+							<img src="img\uq-img3.JPG" style="width:100%">
+							<div class="text">UQ - Advance Engineering</div>
+						</div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+					<a class="discover" href="">discover >></a>
 					<br/>
-					<p style="float:left;margin-left:66px;margin-bottom:40px;">2. Follow the instruction we provided in the email</p>
-                    <br/><br/>
-                    <a class="btnSubmit" href="index.html">Ready to sign in!</a>
+					<div class="graybox">
+						<p style="float:left;margin-left:35px">INSIGHTS</p>
+						<div class="slideshow-container2">
+							<div class="mySlides2 fade2">
+								<div class="numbertext2"></div>
+								<img src="img\INSIGHTS-img1.JPG" style="width:100%">
+								<div class="text2">Brisbane - South Bank</div>
+							</div>
+							<div class="mySlides2 fade2">
+								<div class="numbertext2"></div>
+								<img src="img\INSIGHTS-img2.JPG" style="width:100%">
+								<div class="text2">Brisbane - CBD</div>
+							</div>
+							<div class="mySlides2 fade2">
+								<div class="numbertext2"></div>
+								<img src="img\INSIGHTS-img3.JPG" style="width:100%">
+								<div class="text2">Brisbane - Story Bridge</div>
+							</div>
+							<a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+							<a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+						</div>
+						<a class="discover" href="">discover >></a>
+					</div>
+					<br/>
+					<p style="float:left;margin-left:35px">EVENTS</p>
+					<div class="slideshow-container3">
+						<div class="mySlides3 fade3">
+							<div class="numbertext3"></div>
+							<img src="img\EVENTS-img1.JPG" style="width:100%">
+							<div class="text3">Brisbane - ARCADIA</div>
+						</div>
+						<div class="mySlides3 fade3">
+							<div class="numbertext3"></div>
+							<img src="img\EVENTS-img2.JPG" style="width:100%">
+							<div class="text3">Brisbane - Riverfire</div>
+						</div>
+						<div class="mySlides3 fade3">
+							<div class="numbertext3"></div>
+							<img src="img\EVENTS-img3.JPG" style="width:100%">
+							<div class="text3">Brisbane - OUTDOOR CINEMA</div>
+						</div>
+						<a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides3(1)">&#10095;</a>
+					</div>
+					<a class="discover" href="">discover >></a>
+					<br/>
 				 </div>
                 <div id="formFooter">
-                    <hr />
-
+					<hr/>
                 </div>
             </form>
         </div>
     </body>
+	<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1} 
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none"; 
+	  }
+
+	  slides[slideIndex-1].style.display = "block"; 
+	  
+	}
+	
+	var slideIndex2 = 1;
+	showSlides2(slideIndex2);
+
+	function plusSlides2(n) {
+	  showSlides2(slideIndex2 += n);
+	}
+
+	function currentSlide2(n) {
+	  showSlides2(slideIndex2 = n);
+	}
+
+	function showSlides2(n) {
+	  var i2;
+	  var slides2 = document.getElementsByClassName("mySlides2");
+	  var dots2 = document.getElementsByClassName("dot2");
+	  if (n > slides2.length) {slideIndex2 = 1} 
+	  if (n < 1) {slideIndex2 = slides2.length}
+	  for (i2 = 0; i2 < slides2.length; i2++) {
+		  slides2[i2].style.display = "none"; 
+	  }
+	  slides2[slideIndex2-1].style.display = "block"; 
+	}
+	
+	var slideIndex3 = 1;
+	showSlides3(slideIndex3);
+
+	function plusSlides3(n) {
+	  showSlides3(slideIndex3 += n);
+	}
+
+	function currentSlide3(n) {
+	  showSlides3(slideIndex3 = n);
+	}
+
+	function showSlides3(n) {
+	  var i3;
+	  var slides3 = document.getElementsByClassName("mySlides3");
+	  var dots3 = document.getElementsByClassName("dot3");
+	  if (n > slides3.length) {slideIndex3 = 1} 
+	  if (n < 1) {slideIndex3 = slides3.length}
+	  for (i3 = 0; i3 < slides3.length; i3++) {
+		  slides3[i3].style.display = "none"; 
+	  }
+	  slides3[slideIndex3-1].style.display = "block"; 
+	}
+	</script>
 </html>
