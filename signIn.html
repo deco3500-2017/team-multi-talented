@@ -12,11 +12,11 @@
     <body>
         <div id="formMain">
             <form>
-                <div id="formHead">    
-                </div>
-                <div id="formBody">
-					<h1 style="">CultureExchange</h1>
+                <div id="formHead" class="fixedHead">    
+					<h1 style="margin-top:5px;">CultureExchange</h1>
 					<hr/>
+                </div>
+                <div id="formBody" style="margin-top:32px">
 					<p style="float:left;margin-left:35px">UNIVERSITY OF QUEENSLAND</p>
 					<div class="slideshow-container">
 						<div class="mySlides fade">
@@ -36,8 +36,9 @@
 						</div>
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						<a class="discover" href="">discover >></a>
 					</div>
-					<a class="discover" href="">discover >></a>
+					
 					<br/>
 					<div class="graybox">
 						<p style="float:left;margin-left:35px">INSIGHTS</p>
@@ -59,12 +60,13 @@
 							</div>
 							<a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
 							<a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+							<a class="discover" href="">discover >></a>
 						</div>
-						<a class="discover" href="">discover >></a>
+						
 					</div>
 					<br/>
 					<p style="float:left;margin-left:35px">EVENTS</p>
-					<div class="slideshow-container3">
+					<div style="margin-bottom:80px"class="slideshow-container3">
 						<div class="mySlides3 fade3">
 							<div class="numbertext3"></div>
 							<img src="img\EVENTS-img1.JPG" style="width:100%">
@@ -73,24 +75,28 @@
 						<div class="mySlides3 fade3">
 							<div class="numbertext3"></div>
 							<img src="img\EVENTS-img2.JPG" style="width:100%">
-							<div class="text3">Brisbane - Riverfire</div>
+							<div class="text3">Gold Coast - SURFING</div>
 						</div>
 						<div class="mySlides3 fade3">
 							<div class="numbertext3"></div>
 							<img src="img\EVENTS-img3.JPG" style="width:100%">
-							<div class="text3">Brisbane - OUTDOOR CINEMA</div>
+							<div class="text3">SOUTHBANK - Buddha Birth Day</div>
 						</div>
 						<a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides3(1)">&#10095;</a>
+						<a class="discover" href="">discover >></a>
 					</div>
-					<a class="discover" href="">discover >></a>
+					
 					<br/>
 				</div>
-				<hr/>
-                <div id="formFooter">
-					<i class="fa fa-home fa-3x" style="margin:0px 10px 0px 10px" aria-hidden="true"></i>
-					<i class="fa fa-users fa-3x" style="margin:0px 70px 0px 70px" aria-hidden="true"></i>
-					<i class="fa fa-user fa-3x" style="margin:0px 10px 0px 10px" aria-hidden="true"></i>
+				
+                <div id="formFooter " class="fixedFooter">
+					<hr/>
+				
+						<i class="pressed fa fa-home fa-3x" style="margin:0px 10px 0px 10px" aria-hidden="true"></i>
+						<a class="menuButton" href="myCommunity.html"><i class="fa fa-comments fa-3x" style="margin:0px 70px 0px 70px" aria-hidden="true" ></i></a>
+						<a class="menuButton" href=""><i class="fa fa-user fa-3x" style="margin:0px 10px 0px 10px" aria-hidden="true"></i></a>
+					
                 </div>
             </form>
         </div>
@@ -166,5 +172,7 @@
 	  }
 	  slides3[slideIndex3-1].style.display = "block"; 
 	}
+
+	
 	</script>
 </html>

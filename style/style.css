@@ -7,6 +7,7 @@ body {
 	background-color:rgba(128,128,128,0.2);
 	height:320px
 }
+
 /* Slideshow container1 */
 .slideshow-container {
   max-width: 100%;
@@ -260,10 +261,12 @@ body {
 }
 
 #formMain {
+	overflow-y: scroll;
     margin: 0 auto;
     text-align: center;
     margin-top: 150px;
     width: 400px;
+	height:670px;
     background-color: ghostwhite;
     border-radius: 25px;
     padding-bottom: 30px;
@@ -288,7 +291,22 @@ body {
 ::-webkit-input-placeholder {
     font-family: 'Asap Condensed', sans-serif;
 }
+.borders{
+	width:80%;
+	padding:10px 10px;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
 
+	border: 1px solid;
+}
+
+.pressed{
+	color:#a2d2b1;
+	width:50px;
+	height:50px;
+	border-radius: 25px;
+}
 .inptMain {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -311,21 +329,47 @@ body {
   -webkit-box-shadow: 0px 1px 3px #666666;
   -moz-box-shadow: 0px 1px 3px #666666;
   box-shadow: 0px 1px 3px #666666;
-  color: #a2d3b1;
+  color: dimgrey;
   background: #ffffff;
   padding: 10px 15px 10px 15px;
   text-decoration: none;
 }
+.fixedHead{
+	background-color:ghostwhite;
+	width: 400px;
+	border-radius: 25px 25px 0px 0px;
+	
+	z-index: 9999;
+	padding-top:5px;
+	position:fixed;
+    top: 150px;
+}
+.fixedFooter{
+	background-color:ghostwhite;
+	width: 400px;
+	border-radius: 0px 0px 25px 25px;
+    padding-bottom: 15px;
+	z-index: 9999;
+	position:fixed;
+    top: 713px;
 
+	
+}
 .btnSubmit:hover {
   background: #a2d2b1;
   color:white;
   text-decoration: none;
 }
-
+.menuButton{
+	color:black
+}
+.menuButton:hover{
+	color:#a2d2b1;
+}
 #signInNow:hover {
 	color:#a2d2b1;
 }
+
 #formFooter a {
     padding: 5%;
     text-decoration: none;
@@ -339,6 +383,7 @@ body {
 #formFooter a:hover {
     color: darkseagreen;
 }
+
 .discover{
 	color:black;
 	float:right;
@@ -349,4 +394,10 @@ body {
 }
 .discover:hover{
 	color:#a2d2b1;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.imgs{
+	width:90px;float:left;margin-right:5px
 }
