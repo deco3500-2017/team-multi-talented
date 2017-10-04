@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CultureConnect</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="formMain">
+            <form name="validAccount" onsubmit="return validateForm()" action="signIn.html" method="get">
+                <div id="formHead">
+                    <div id= "titleMain">
+                        <img src="img/cultureConnect.png">
+                    </div>
+                    <hr />
+                </div>
+                <div id="formBody">
+                    <input class="inptMain" type="text" placeholder="Email" name="email" required>
+                    <br /><br />
+                    <input class="inptMain" type="password" placeholder="Password" name="password" required>
+                    <br/><br/>
+                    <button class="btnSubmit" type="submit" placeholder="Sign In" name="Sign In">Sign In</button>
+                </div>
+			</form>
+            <div id="formFooter">
+                <hr />
+                <a href="forgotPasswordPage.html">Forgot Password</a>
+                <a href="register.html">New Here? Sign Up</a>
+            </div>
+            
+        </div>
+    </body>
+	<script>
+	function validateForm() {
+		var userEmail = document.forms["validAccount"]["email"].value;
+		var userPassword = document.forms["validAccount"]["password"].value;
+		if (userEmail != "cultureconnect@gmail.com") {
+			alert("Account doesnt exist!");
+			return false;
+		}
+		else if (userPassword != "0000"){
+			alert("Password incorrect!");
+			return false;
+		}
+		else{	
+			return true;
+		}
+	}
+	</script>
+</html>
