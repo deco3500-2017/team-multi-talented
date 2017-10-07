@@ -471,6 +471,15 @@ body .secondary-nav ul.navigation li.has-child > .wrapper > .nav-wrapper > ul > 
 #page-header .btn.icon i {
   margin-left: 0;
 }
+#signInForm{
+	margin:0px auto;
+	width:40%;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.submitButton{
+	float:right;
+}
 
 body.nav-btn-only #page-header .nav-btn {
   display: block;
