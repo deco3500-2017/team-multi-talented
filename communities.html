@@ -1,375 +1,831 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en-US">
 
 <head>
-
-    <title>Communities</title>
-
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
-    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
-
-    <!-- Theme Styles CSS -->
-    <link rel="stylesheet" type="text/css" href="css/theme-styles.css">
-    <link rel="stylesheet" type="text/css" href="css/blocks.css">
-
-    <!-- Main Font -->
-    <script src="js/webfontloader.min.js"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Roboto:300,400,500,700:latin']
-            }
-        });
-
-    </script>
-
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
-
-    <!-- Styles for plugins -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
-    <!-- Styles from index page -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
 
-    <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css"> -->
+    <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-    <!-- <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/navstyle.css" type="text/css">
 
+    <title>CultureConnect</title>
 
 </head>
 
-<body>
-
-    <header id="page-header">
-        <nav>
-            <div class="left">
-                <a href="index.html" class="brand">CultureConnect</a>
-            </div>
-            <!--end left-->
-            <div class="right">
-                <div class="primary-nav has-mega-menu">
-                    <ul class="navigation">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a class="promoted">Communities</a></li>
-                        <li><a href="signIn.html">Sign In</a></li>
-                        <li><a href="register.html">Register</a></li>
-                    </ul>
-                    <!--end navigation-->
+<body class="nav-btn-only homepage">
+    <div class="page-wrapper">
+        <header id="page-header">
+            <nav>
+                <div class="left">
+                    <a href="index.html" class="brand">CultureConnect</a>
                 </div>
-                <!--end primary-nav-->
-
-                <!--end secondary-nav-->
-                <a href="addchannel.html" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Add Your Own</span></a>
-                <div class="nav-btn">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </div>
-                <!--end nav-btn-->
-            </div>
-            <!--end right-->
-        </nav>
-        <!--end nav-->
-    </header>
-    <!--end page-header-->
-
-    <div class="header-spacer header-spacer-small"></div>
-
-
-    <div class="main-header">
-        <div class="content-bg-wrap">
-            <div class="content-bg bg-group"></div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 m-auto col-md-8 col-sm-12 col-xs-12">
-                    <div class="main-header-content">
-                        <h1><br>Communities</h1>
-                        <p><br>Welcome to the communities page! Communities will let you easily join, create and manage communities with channels. Just choose a community or add your own by clicking on the plus button below and start now!
-                        </p>
+                <!--end left-->
+                <div class="right">
+                    <div class="primary-nav has-mega-menu">
+                        <ul class="navigation">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="communities.html">Communities</a></li>
+                            <li><a href="signIn.html">Sign In</a></li>
+                            <li><a href="register.html">Register</a></li>
+                        </ul>
+                        <!--end navigation-->
                     </div>
+                    <!--end primary-nav-->
+
+                    <!--end secondary-nav-->
+                    <a href="index-hero-version-1.html#" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Add Your Own</span></a>
+                    <div class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <!--end nav-btn-->
                 </div>
+                <!--end right-->
+            </nav>
+            <!--end nav-->
+        </header>
+        <!--end page-header-->
+
+        <div id="page-content">
+            <div class="hero-section has-background" style="height:32.2%">
+                <div class="wrapper">
+                    <div class="inner">
+                        <div class="container">
+                            <div class="page-title center">
+                                <h1><br><br><br>Communities</h1>
+                                <h2>Find and join a community that interests you<br>or create one and connect with other people and cultures now.</h2>
+                            </div>
+                            <!--end page-title-->
+                            <div class="row">
+                                <!-- <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
+                                    <div class="form search-form horizontal">
+                                        <form>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" name="email" placeholder="What are you looking for?">
+                                                <span class="input-group-btn">
+                                                <button class="btn btn-default" type="submit"><i class="arrow_right"></i></button>
+                                            </span>
+                                            </div>
+                                            <!-- /input-group -->
+                                        </form>
+                                        <!--end form-->
+                                    </div> 
+                                    <!--end search-form-->
+                                </div>
+                                <!--end col-md-10-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                        <!--end container-->
+                    </div>
+                    <!--end inner-->
+                </div>
+                <!--end wrapper-->
+                <div class="background-wrapper">
+                    <div class="bg-transfer opacity-50"><img src="assets/img/background-07.jpg" alt=""></div>
+                    <div class="background-color background-color-black"></div>
+                </div>
+                <!--end background-wrapper-->
             </div>
-        </div>
-    </div>
+            <!--end hero-section-->
 
-    <!-- Main Content Groups -->
-
-    <div class="container">
-        <div class="row">
-
-
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="ui-block" data-mh="friend-groups-item">
-                    <div class="friend-item friend-groups">
-
-                        <div class="friend-item-content">
-
-                            <div class="friend-avatar">
-                                <div class="author-thumb">
-                                    <img src="img/grad.png" alt="photo">
-                                </div>
-                                <div class="author-content">
-                                    <a href="#" class="h5 author-name">The University of Queensland</a>
-                                    <div class="country">24 Channels in the Community</div>
-                                </div>
-                            </div>
-
-                            <ul class="friends-harmonic">
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic1.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic2.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic3.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic4.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic5.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic6.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic7.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic8.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic9.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="all-users bg-blue">+23</a>
-                                </li>
-                            </ul>
-
-                            <div class="control-block-button">
-                                <a href="uq.html"><img src="img/viewbutton.png" width="120" height="35"></a>
-                            </div>
-
+            <section class="block background-is-dark">
+                <div class="container">
+                    <div class="section-title vertical-aligned-elements">
+                        <div class="element">
+                            <h2>Institution</h2>
+                        </div>
+                        <div class="element text-align-right">
+                            <a href="index-hero-version-1.html#" class="btn btn-framed btn-rounded btn-default invisible-on-mobile">Add Your Channel</a>
+                            <div id="gallery-nav"></div>
                         </div>
                     </div>
+                    <!--end section-title-->
                 </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="ui-block" data-mh="friend-groups-item">
-                    <div class="friend-item friend-groups">
-
-                        <div class="friend-item-content">
-
-
-                            <div class="friend-avatar">
-                                <div class="author-thumb">
-                                    <img src="img/insights.png" alt="photo">
+                <div class="gallery featured">
+                    <div class="owl-carousel" data-owl-items="6" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="1" data-owl-nav-container="#gallery-nav">
+                        <div class="item featured" data-id="1">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">Programs</div>
+                                    <h3>Channels specific to your enrolled program.</h3>
                                 </div>
-                                <div class="author-content">
-                                    <a href="#" class="h5 author-name">Insights</a>
-                                    <div class="country">15 Channels in the Community</div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/34.jpg" alt="">
                                 </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="5">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
                             </div>
-
-                            <ul class="friends-harmonic">
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic1.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic2.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic3.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic4.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic5.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic6.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic7.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic8.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic9.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="all-users bg-blue">+14</a>
-                                </li>
-                            </ul>
-
-                            <div class="control-block-button"><br>
-                                <a href="insights.html"><img src="img/viewbutton.png" width="120" height="35"></a>
-
-                            </div>
+                            <!--end additional-info-->
                         </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="23">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">COURSES</div>
+                                    <h3>Channels specific to your enrolled courses.</h3>
+                                    <!--<h4>For..</h4>-->
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/37.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="3">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <figure>
+                                        <!--<span><i class="fa fa-calendar"></i>12.08.2016</span>
+                                        <span><i class="fa fa-clock-o"></i>08:00</span>-->
+                                    </figure>
+                                    <div class="label label-default">STUDY GROUPS</div>
+                                    <h3>Looking for a study group?</h3>
+                                    <h4>Click here to find out more!</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/38.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="4">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">EXAM HELP</div>
+                                    <h3>Looking for some exam guidance?</h3>
+                                    <h4>Click here to join channels that can help!</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/36.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="6">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">STUDY BUDDY</div>
+                                    <h3>One-on-one study sessions.</h3>
+                                    <h4>Exchange knowledge in one-on-one study sessions with other students.</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/35.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+
+
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="ui-block" data-mh="friend-groups-item">
-                    <div class="friend-item friend-groups">
-
-                        <div class="friend-item-content">
-
-                            <div class="friend-avatar">
-                                <div class="author-thumb">
-                                    <img src="img/ticket.png" alt="photo">
-                                </div>
-                                <div class="author-content">
-                                    <a href="#" class="h5 author-name">Events</a>
-                                    <div class="country">7 Channels in the Community</div>
-                                </div>
-                            </div>
-
-                            <ul class="friends-harmonic">
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic5.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic10.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic7.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic8.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic2.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/avatar30-sm.jpg" alt="author">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-									<img src="img/friend-harmonic7.jpg" alt="friend">
-								</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="all-users bg-blue">+6</a>
-                                </li>
-                            </ul>
-
-                            <div class="control-block-button"><br>
-                                <a href="events.html"><img src="img/viewbutton.png" width="120" height="35"></a>
-
+                <!--end gallery-->
+                <div class="background-wrapper">
+                    <div class="background-color background-color-default"></div>
+                </div>
+                <!--end background-wrapper-->
+            </section>
+            <!--end block-->
+            <section class="block">
+                <div class="container">
+                    <div class="section-title vertical-aligned-elements">
+                        <div class="element">
+                            <h2>Insights</h2>
+                        </div>
+                        <div class="element">
+                            <a href="index-hero-version-1.html#" class="btn btn-framed btn-rounded btn-default invisible-on-mobile">Add Your Channel</a>
+                            <div id="gallery-nav"></div>
+                        </div>
+                    </div>
+                    <!--end section-title-->
+                    <div class="gallery featured">
+                        <div class="owl-carousel" data-owl-items="6" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="1" data-owl-nav-container="#gallery-nav">
+                            <div class="item featured" data-id="1">
+                                <a href="detail.html">
+                                    <div class="description">
+                                        <div class="label label-default">MUSIC CLASSES</div>
+                                        <h3>Channels specifically for music classes</h3>
+                                        <h4>Create and join music classes to share music around the world!</h4>
+                                    </div>
+                                    <!--end description-->
+                                    <div class="image bg-transfer">
+                                        <img src="assets/img/items/39.jpg" alt="">
+                                    </div>
+                                    <!--end image-->
                                 </a>
+                                <div class="additional-info">
+                                    <div class="rating-passive" data-rating="5">
+                                        <span class="stars"></span>
+                                        <span class="reviews">6</span>
+                                    </div>
+                                    <div class="controls-more">
+                                        <ul>
+                                            <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                            <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                            <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--end controls-more-->
+                                </div>
+                                <!--end additional-info-->
+                            </div>
+                            <!--end item-->
+                            <div class="item featured" data-id="23">
+                                <a href="detail.html">
+                                    <div class="description">
+                                        <div class="label label-default">COOKING CLASSES</div>
+                                        <h3>Join cooking classes and groups.</h3>
+                                        <h4>Interested in cooking your favourite ethnic food? Click here.
+                                            <h4>
+                                                <!--<h4>For..</h4>-->
+                                    </div>
+                                    <!--end description-->
+                                    <div class="image bg-transfer">
+                                        <img src="assets/img/items/40.jpg" alt="">
+                                    </div>
+                                    <!--end image-->
+                                </a>
+                                <div class="additional-info">
+                                    <div class="rating-passive" data-rating="4">
+                                        <span class="stars"></span>
+                                        <span class="reviews">6</span>
+                                    </div>
+                                    <div class="controls-more">
+                                        <ul>
+                                            <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                            <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                            <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--end controls-more-->
+                                </div>
+                                <!--end additional-info-->
+                            </div>
+                            <!--end item-->
+                            <div class="item featured" data-id="3">
+                                <a href="detail.html">
+                                    <div class="description">
+                                        <figure>
+                                            <!--<span><i class="fa fa-calendar"></i>12.08.2016</span>
+                                        <span><i class="fa fa-clock-o"></i>08:00</span>-->
+                                        </figure>
+                                        <div class="label label-default">ART CLASSES</div>
+                                        <h3>Make or join art classes.</h3>
+                                        <h4>Channels directed specifically for cultural art classes and more.</h4>
+                                    </div>
+                                    <!--end description-->
+                                    <div class="image bg-transfer">
+                                        <img src="assets/img/items/41.jpg" alt="">
+                                    </div>
+                                    <!--end image-->
+                                </a>
+                                <div class="additional-info">
+                                    <div class="rating-passive" data-rating="4">
+                                        <span class="stars"></span>
+                                        <span class="reviews">6</span>
+                                    </div>
+                                    <div class="controls-more">
+                                        <ul>
+                                            <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                            <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                            <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--end controls-more-->
+                                </div>
+                                <!--end additional-info-->
+                            </div>
+                            <!--end item-->
+                            <div class="item featured" data-id="4">
+                                <a href="detail.html">
+                                    <div class="description">
+                                        <div class="label label-default">RESTAURANTS</div>
+                                        <h3>Looking for insights about ethnic restaurants?</h3>
+                                        <h4>Look no further, click here!</h4>
+                                    </div>
+                                    <!--end description-->
+                                    <div class="image bg-transfer">
+                                        <img src="assets/img/items/42.jpg" alt="">
+                                    </div>
+                                    <!--end image-->
+                                </a>
+                                <div class="additional-info">
+                                    <div class="rating-passive" data-rating="4">
+                                        <span class="stars"></span>
+                                        <span class="reviews">6</span>
+                                    </div>
+                                    <div class="controls-more">
+                                        <ul>
+                                            <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                            <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                            <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--end controls-more-->
+                                </div>
+                                <!--end additional-info-->
+                            </div>
+                            <!--end item-->
+                            <div class="item featured" data-id="6">
+                                <a href="detail.html">
+                                    <div class="description">
+                                        <div class="label label-default">DANCE CLASSES</div>
+                                        <h3>Channels specifically for dance classes</h3>
+                                        <h4>Create, join and experience dancing traditions around the world!</h4>
+                                    </div>
+                                    <!--end description-->
+                                    <div class="image bg-transfer">
+                                        <img src="assets/img/items/43.jpg" alt="">
+                                    </div>
+                                    <!--end image-->
+                                </a>
+                                <div class="additional-info">
+                                    <div class="rating-passive" data-rating="4">
+                                        <span class="stars"></span>
+                                        <span class="reviews">6</span>
+                                    </div>
+                                    <div class="controls-more">
+                                        <ul>
+                                            <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                            <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                            <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--end controls-more-->
+                                </div>
+                                <!--end additional-info-->
+                            </div>
+                            <!--end item-->
 
 
+                        </div>
+                    </div>
+                </div>
+                <!--end container-->
+            </section>
+            <!--end block-->
+
+            <!--end block-->
+            <section class="block background-is-dark">
+                <div class="container">
+                    <div class="section-title vertical-aligned-elements">
+                        <div class="element">
+                            <h2>Events</h2>
+                        </div>
+                        <div class="element text-align-right">
+                            <a href="index-hero-version-1.html#" class="btn btn-framed btn-rounded btn-default invisible-on-mobile">Add Your Channel</a>
+                            <div id="gallery-nav"></div>
+                        </div>
+                    </div>
+                    <!--end section-title-->
+                </div>
+                <div class="gallery featured">
+                    <div class="owl-carousel" data-owl-items="6" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="1" data-owl-nav-container="#gallery-nav">
+                        <div class="item featured" data-id="1">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <figure>
+                                        <span><i class="fa fa-calendar"></i>13.10.2017</span>
+                                        <span><i class="fa fa-clock-o"></i>09:00</span>
+                                    </figure>
+                                    <div class="label label-default">MARKET VISIT</div>
+                                    <h3>Get the insider tour of the inner market with local restaurants</h3>
+                                    <h4>63 Birch Street</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/48.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="23">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <figure>
+                                        <span><i class="fa fa-calendar"></i>12.11.2017</span>
+                                        <span><i class="fa fa-clock-o"></i>20:00</span>
+                                    </figure>
+                                    <div class="label label-default">LIVE MUSIC</div>
+                                    <h3>Indie Acoustic</h3>
+                                    <h4>11 Ebor St</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/47.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="3">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <figure>
+                                        <span><i class="fa fa-calendar"></i>15.10.2017</span>
+                                        <span><i class="fa fa-clock-o"></i>14:00</span>
+                                    </figure>
+                                    <div class="label label-default">FOOD FESTIVAL</div>
+                                    <h3>Food Festival</h3>
+                                    <h4>63 Birch Street</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/46.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="4">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <figure>From: $8.99</figure>
+                                    <figure>
+                                        <span><i class="fa fa-calendar"></i>16.11.2017</span>
+                                        <span><i class="fa fa-clock-o"></i>14:00</span>
+                                    </figure>
+                                    <div class="label label-default">ART TOUR</div>
+                                    <h3>Brisbane City</h3>
+                                    <h4>4696 Jim Rosa Lane</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/45.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="6">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <figure>
+                                        <span><i class="fa fa-calendar"></i>21.11.2017</span>
+                                        <span><i class="fa fa-clock-o"></i>14:00</span>
+                                    </figure>
+                                    <div class="label label-default">MUSEUM TOUR</div>
+                                    <h3>100% Brisbane</h3>
+                                    <h4>63 Birch Street</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/44.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                        <div class="item featured" data-id="8">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <figure>Get to know your city!</figure>
+                                    <figure>
+                                        <span><i class="fa fa-calendar"></i>14.12.2017</span>
+                                        <span><i class="fa fa-clock-o"></i>10:00</span>
+                                    </figure>
+                                    <div class="label label-default">City Tour</div>
+                                    <h3>City Tour</h3>
+                                    <h4>68 Adelaide Street</h4>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/10.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="index-hero-version-1.html#">Add to favorites</a></li>
+                                        <li><a href="index-hero-version-1.html#">Add to watchlist</a></li>
+                                        <li><a href="index-hero-version-1.html#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                    </div>
+                </div>
+                <!--end gallery-->
+                <div class="background-wrapper">
+                    <div class="background-color background-color-default"></div>
+                </div>
+                <!--end background-wrapper-->
+            </section>
+            <!--end block-->
+
+            <section class="block">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Events Near You</h2>
+                    </div>
+                    <!--end section-title-->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="text-element event">
+                                <div class="date-icon">
+                                    <figure class="day">13</figure>
+                                    <figure class="month">Oct</figure>
+                                </div>
+                                <h4><a href="detail.html">Market Visit</a></h4>
+                                <figure class="date"><i class="icon_clock_alt"></i>09:00</figure>
+                                <p>Get the insider tour of the inner market with local restaurants</p>
+                                <a href="detail.html" class="link arrow">More</a>
+                            </div>
+                            <!--end text-element-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="text-element event">
+                                <div class="date-icon">
+                                    <figure class="day">15</figure>
+                                    <figure class="month">Oct</figure>
+                                </div>
+                                <h4><a href="detail.html">Food Festival</a></h4>
+                                <figure class="date"><i class="icon_clock_alt"></i>12:00</figure>
+                                <p>Eat Street at 63 Birch Street</p>
+                                <a href="detail.html" class="link arrow">More</a>
+                            </div>
+                            <!--end text-element-->
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="text-element event">
+                                <div class="date-icon">
+                                    <figure class="day">16</figure>
+                                    <figure class="month">Nov</figure>
+                                </div>
+                                <h4><a href="detail.html">Art Tour</a></h4>
+                                <figure class="date"><i class="icon_clock_alt"></i>14:00</figure>
+                                <p>Art Tour around Brisbane City</p>
+                                <a href="detail.html" class="link arrow">More</a>
+                            </div>
+                            <!--end text-element-->
+                        </div>
+                        <!--end col-md-4-->
+                    </div>
+                    <!--end row-->
+                    <div class="background-wrapper">
+                        <div class="background-color background-color-black opacity-5"></div>
+                    </div>
+                    <!--end background-wrapper-->
+                </div>
+
+                <!--end container-->
+            </section>
+            <!--end block-->
+
+            <!--end block-->
+
+            <!--end container-->
+
+
+            <!--end block-->
+        </div>
+        <!--end page-content-->
+
+        <footer id="page-footer">
+            <div class="footer-wrapper">
+                <div class="block">
+                    <div class="container">
+                        <div class="vertical-aligned-elements">
+                            <div class="element width-50">
+                                <p data-toggle="modal" data-target="#myModal"><a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
+                            </div>
+                            <div class="element width-50 text-align-right">
+                                <a href="index-hero-version-1.html#" class="circle-icon"><i class="social_twitter"></i></a>
+                                <a href="index-hero-version-1.html#" class="circle-icon"><i class="social_facebook"></i></a>
+                                <a href="index-hero-version-1.html#" class="circle-icon"><i class="social_youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="background-wrapper">
+                            <div class="bg-transfer opacity-50">
+                                <img src="assets/img/footer-bg.png" alt="">
+                            </div>
+                        </div>
+                        <!--end background-wrapper-->
+                    </div>
+                </div>
+                <div class="footer-navigation">
+                    <div class="container">
+                        <div class="vertical-aligned-elements">
+                            <div class="element width-50">(C) CultureConnect, All right reserved.</div>
+                            <div class="element width-50 text-align-right">
+                                <a href="index.html">Home</a>
+                                <a href="communities.html">Communities</a>
+                                <a href="signIn.html">Sign In</a>
+                                <a href="register.html">Register</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="friend-item friend-groups create-group" data-mh="friend-groups-item">
+        </footer>
+        <!--end page-footer-->
+    </div>
+    <!--end page-wrapper-->
+    <a href="#page-header" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
 
-                    <a href="#" class="  full-block" data-toggle="modal" data-target="#create-friend-group-1"></a>
-                    <div class="content">
+    <script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58&libraries=places"></script>
+    <script type="text/javascript" src="assets/js/richmarker-compiled.js"></script>
+    <script type="text/javascript" src="assets/js/markerclusterer_packed.js"></script>
+    <script type="text/javascript" src="assets/js/infobox.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.trackpad-scroll-emulator.min.js"></script>
 
-                        <a href="addcommunity.html"><img src="img/add.png" alt="Add Community" width="50" height="50"></a>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/maps.js"></script>
 
-                        <br>
+    <script>
+        var _latitude = 40.7344458;
+        var _longitude = -73.86704922;
+        var element = "map-homepage";
+        var markerTarget = "sidebar"; // use "sidebar", "infobox" or "modal" - defines the action after click on marker
+        var sidebarResultTarget = "sidebar"; // use "sidebar", "modal" or "new_page" - defines the action after click on marker
+        heroMap(_latitude, _longitude, element, markerTarget, sidebarResultTarget);
 
-                        <a href="addcommunity.html" class="h5 author-name"><br>Add Your Own<br>Community</a>
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </div><br><br><br>
-
-
-    <!-- jQuery first, then Other JS. -->
-    <script src="js/jquery-3.2.0.min.js"></script>
-    <!-- Js effects for material design. + Tooltips -->
-    <script src="js/material.min.js"></script>
-    <!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
-    <script src="js/theme-plugins.js"></script>
-    <!-- Init functions -->
-    <script src="js/main.js"></script>
-
-    <!-- Select / Sorting script -->
-    <script src="js/selectize.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
-
-
-    <script src="js/mediaelement-and-player.min.js"></script>
-    <script src="js/mediaelement-playlist-plugin.min.js"></script>
+    </script>
 
 </body>
-
-</html>
