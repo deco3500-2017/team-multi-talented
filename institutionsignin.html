@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>CultureConnect - Sign In</title>
+
+</head>
+
+<body class="nav-btn-only homepage">
+    <div class="page-wrapper">
+        <header id="page-header">
+            <nav>
+                <div class="left">
+                    <a class="brand">CultureConnect</a>
+                </div>
+                <!--end left-->
+                <div class="right">
+
+
+                    <!--end primary-nav-->
+                    <div class="secondary-nav" style="border-right:0px solid rgba(0, 0, 0, 0.1)">
+                        <a class="promoted">Sign In</a>
+                        <a href="index-hero-version-1.html#" data-modal-external-file="modal_register.php" data-target="modal-register">Register</a>
+                    </div>
+                    <!--end secondary-nav-->
+
+                </div>
+                <!--end right-->
+            </nav>
+            <!--end nav-->
+        </header>
+        <!--end page-header-->
+
+        <div id="page-content">
+            <div class="hero-section has-background" style="height:100%">
+                <div class="wrapper">
+                    <div class="inner">
+                        <div class="container">
+                            <div class="page-title center">
+                                <h1><br><b>Sign in</b></h1>
+                                <h2>for a more personalized experience tailored to your institution.</h2>
+                            </div>
+                            <!--end page-title-->
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
+                                    <div id="signInForm">
+                                        <form name="validAccount" onsubmit="return validateForm()" action="johnHome.html" method="get" style="-webkit-box-shadow:0px 0px 0px rgba(0, 0, 0, 0.2);box-shadow:0px 0px 0px rgba(0, 0, 0, 0.2)">
+                                            <input class="inptMain" type="text" placeholder="Email" name="email" required>
+                                            <br/>
+                                            <br/>
+                                            <input class="inptMain" type="password" placeholder="Password" name="password" required>
+                                            <br/>
+                                            <br/>
+                                            <button class="btn btn-framed btn-rounded btn-default" type="submit" name="Sign In" style="float:right;">Sign In</button>
+                                            <br/><br/>
+                                            <div id="formFooter">
+                                                <a href="forgotPassword.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif" ;>Forgot Password</a>
+                                                <hr style="margin: 5% 0px;">
+                                                <a href="signUp.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif">Sign Up</a>
+
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                    <!--end sign-in form-->
+                                </div>
+                                <!--end col-md-10-->
+                            </div>
+                            <!--end row-->
+                        </div>
+                        <!--end container-->
+                    </div>
+                    <!--end inner-->
+                </div>
+                <!--end wrapper-->
+                <div class="background-wrapper">
+                    <div class="bg-transfer opacity-50"><img src="assets/img/background-03.jpg" alt=""></div>
+                    <div class="background-color background-color-black"></div>
+                </div>
+                <!--end background-wrapper-->
+            </div>
+
+        </div>
+        <!--end page-content-->
+
+        <footer id="page-footer">
+            <div class="footer-wrapper" style="margin-top:0px;border-top:0px solid rgba(0, 0, 0, 0.05)">
+
+                <div class="footer-navigation">
+                    <div class="container">
+                        <div class="vertical-aligned-elements">
+                            <div class="element width-50">(C) 2016 Your Company, All right reserved</div>
+                            <div class="element width-50 text-align-right">
+                                <a href="index.html">Home</a>
+                                <a href="listing-grid-right-sidebar.html">Listings</a>
+                                <a href="submit.html">Submit Item</a>
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--end page-footer-->
+    </div>
+    <!--end page-wrapper-->
+    <a href="#page-header" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
+
+    <script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58&libraries=places"></script>
+    <script type="text/javascript" src="assets/js/richmarker-compiled.js"></script>
+    <script type="text/javascript" src="assets/js/markerclusterer_packed.js"></script>
+    <script type="text/javascript" src="assets/js/infobox.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="assets/js/icheck.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.trackpad-scroll-emulator.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/maps.js"></script>
+
+    <script>
+        var _latitude = 40.7344458;
+        var _longitude = -73.86704922;
+        var element = "map-homepage";
+        var markerTarget = "sidebar"; // use "sidebar", "infobox" or "modal" - defines the action after click on marker
+        var sidebarResultTarget = "sidebar"; // use "sidebar", "modal" or "new_page" - defines the action after click on marker
+        heroMap(_latitude, _longitude, element, markerTarget, sidebarResultTarget);
+
+        function validateForm() {
+            var userEmail = document.forms["validAccount"]["email"].value;
+            var userPassword = document.forms["validAccount"]["password"].value;
+            if (userEmail != "john@gmail.com") {
+                alert("Account doesnt exist!");
+                return false;
+            } else if (userPassword != "0000") {
+                alert("Password incorrect!");
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+    </script>
+
+
+</body>
