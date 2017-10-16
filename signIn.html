@@ -103,12 +103,7 @@
                     <div class="container">
                         <div class="vertical-aligned-elements">
                             <div class="element width-50">(C) 2016 Your Company, All right reserved</div>
-                            <div class="element width-50 text-align-right">
-                                <a href="index.html">Home</a>
-                                <a href="listing-grid-right-sidebar.html">Listings</a>
-                                <a href="submit.html">Submit Item</a>
-                                <a href="contact.html">Contact</a>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -147,7 +142,7 @@
         function validateForm() {
             var userEmail = document.forms["validAccount"]["email"].value;
             var userPassword = document.forms["validAccount"]["password"].value;
-            if (userEmail != "john@gmail.com") {
+            if (userEmail != "admin") {
                 alert("Account doesnt exist!");
                 return false;
             } else if (userPassword != "0000") {
