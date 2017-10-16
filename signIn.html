@@ -58,7 +58,7 @@
                                 <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
                                     <div id="signInForm">
                                         <form name="validAccount" onsubmit="return validateForm()" action="johnHome.html" method="get" style="-webkit-box-shadow:0px 0px 0px rgba(0, 0, 0, 0.2);box-shadow:0px 0px 0px rgba(0, 0, 0, 0.2)">
-                                            <input class="inptMain" type="text" placeholder="Email" name="email" required>
+                                            <input class="inptMain" type="text" placeholder="Username" name="username" required>
                                             <br/>
                                             <br/>
                                             <input class="inptMain" type="password" placeholder="Password" name="password" required>
@@ -140,7 +140,7 @@
         heroMap(_latitude, _longitude, element, markerTarget, sidebarResultTarget);
 
         function validateForm() {
-            var userEmail = document.forms["validAccount"]["email"].value;
+            var userEmail = document.forms["validAccount"]["username"].value;
             var userPassword = document.forms["validAccount"]["password"].value;
             if (userEmail != "admin") {
                 alert("Account doesnt exist!");
