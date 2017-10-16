@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>My Account - Changing password</title>
+    <title>My Account - Account Settings</title>
 
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
@@ -57,32 +57,33 @@
     <header id="page-header">
         <nav>
             <div class="left">
-                <a href="johnHome.html" class="brand">CultureConnect</a>
+                <a href="PeterHome.html" class="brand">CultureConnect</a>
             </div>
             <!--end left-->
             <div class="right">
                 <div class="primary-nav has-mega-menu">
                     <ul class="navigation">
-                        <li><a href="johnHome.html">Home</a></li>
+                        <li><a href="PeterHome.html">Home</a></li>
                         <li><a href="communitiesLoggedIn.html">Communities</a></li>
                         <li class="has-child"><a class="promoted">My Profile</a>
                             <div class="wrapper">
                                 <div id="nav-homepages" class="nav-wrapper">
                                     <ul>
                                         <li><a href="profile.html">Personal Info</a></li>
-                                        <li><a href="accountsettings.html">Account setting</a></li>
-                                        <li><a class="promoted">Change Password</a></li>
+                                        <li><a class="promoted">Account setting</a></li>
+                                        <li><a href="changepassword.html">Change Password</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
 
-                        <li class="has-child"><a href="johnCommunities.html">My Communities</a>
+                        <li class="has-child"><a href="PeterCommunities.html">My Communities</a>
                             <div class="wrapper">
                                 <div id="nav-homepages" class="nav-wrapper">
                                     <ul>
                                         <li>
-                                            <a href="photography.html">Photography</a></li>
+                                             <a href="livemusic_preview.html">Live Music</a>
+                                        </li>
                                         <li>
                                             <a>
                                                 <i class="fa fa-plus"></i><span>Add Your Own</span>
@@ -111,34 +112,81 @@
 
 
     <!-- My Account -->
+
     <div class="container">
         <div class="row">
             <div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
                 <div class="ui-block">
                     <div class="ui-block-title">
-                        <h6 class="title">Change password</h6>
+                        <h6 class="title">Account Settings</h6>
                     </div>
                     <div class="ui-block-content">
-                        <form name="validPassword" onsubmit="return validatePForm()">
+                        <form>
                             <div class="row">
+                                <!--
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="form-group label-floating is-select">
+									<label class="control-label">Who Can Friend You?</label>
+									<select class="selectpicker form-control" size="auto">
+										<option value="EO">Everyone</option>
+										<option value="NO">No One</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="form-group label-floating is-select">
+									<label class="control-label">Who Can View Your Posts</label>
+									<select class="selectpicker form-control" size="auto">
+										<option value="US">Friends Only</option>
+										<option value="EO">Everyone</option>
+									</select>
+								</div>
+							</div> -->
+
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="description-toggle">
                                         <div class="description-toggle-content">
-                                            <div class="h6">Old password</div>
-                                            <input type="password" class="form-control" name="opassword" placeholder="Old password" required>
+                                            <div class="h6">Notifications Sound</div>
+                                            <p>A sound will be played each time you receive a new activity notification.</p>
+                                        </div>
+
+                                        <div class="togglebutton">
+                                            <label>
+											<input type="checkbox" checked="">
+										</label>
                                         </div>
                                     </div>
-
                                     <div class="description-toggle">
                                         <div class="description-toggle-content">
-                                            <div class="h6">New password</div>
-                                            <input type="password" class="form-control" name="npassword" placeholder="New password" required>
+                                            <div class="h6">Notifications Email</div>
+                                            <p>We’ll send you an email to your account each time you receive a new activity notification.</p>
+                                        </div>
+
+                                        <div class="togglebutton">
+                                            <label>
+											<input type="checkbox" checked="">
+										</label>
+                                        </div>
+                                    </div>
+                                    <div class="description-toggle">
+                                        <div class="description-toggle-content">
+                                            <div class="h6">Channel Message Sound</div>
+                                            <p>A sound will be played each time you receive a new message on an inactive message window.</p>
+                                        </div>
+
+                                        <div class="togglebutton">
+                                            <label>
+											<input type="checkbox" checked="">
+										</label>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div style="margin: 5px auto; width:30%;">
-                                    <button type="submit" class="btn btn-primary btn-lg full-width">Confirm new password</button>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <button class="btn btn-secondary btn-lg full-width">Restore all Attributes</button>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <button class="btn btn-primary btn-lg full-width">Save all Changes</button>
                                 </div>
                             </div>
                         </form>
@@ -170,10 +218,10 @@
                                             <a href="profile.html">Personal Information</a>
                                         </li>
                                         <li>
-                                            <a href="changepassword.html" >Account Settings</a>
+                                            <a class="promoted">Account Settings</a>
                                         </li>
                                         <li>
-                                            <a class="promoted">Change Password</a>
+                                            <a href="changepassword.html">Change Password</a>
                                         </li>
 
                                     </ul>
@@ -185,8 +233,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
     </div>
 
     <!-- ... end Your Account Personal Information -->
@@ -210,24 +256,7 @@
 
     <script src="js/mediaelement-and-player.min.js"></script>
     <script src="js/mediaelement-playlist-plugin.min.js"></script>
-    <style>
 
-
-    </style>
-    <script>
-        function validatePForm() {
-            var oldPassword = document.forms["validPassword"]["opassword"].value;
-            var newPassword = document.forms["validPassword"]["npassword"].value;
-            if (oldPassword != newPassword) {
-                alert("Password successfully changed")
-                return true;
-            } else {
-                alert("New password can't be the same as the old password!")
-                return false;
-            }
-        }
-
-    </script>
 
 </body>
 
