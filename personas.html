@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
-
+    <link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/blocks.css">
     <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>CultureConnect - Sign In</title>
@@ -51,33 +52,65 @@
                         <div class="container">
                             <div class="page-title center">
                                 <h1>Welcome to <b>CultureConnect</b></h1>
-                                <h2>Share and exchange your culture experiences with other people</h2>
+                                <h2>Please pick a persona to login</h2>
                             </div>
                             <!--end page-title-->
-                            <div class="row">
-                                <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
-                                    <div id="signInForm">
-                                        <form name="validAccount" onsubmit="return validateForm()" action="personas.html" method="get" style="-webkit-box-shadow:0px 0px 0px rgba(0, 0, 0, 0.2);box-shadow:0px 0px 0px rgba(0, 0, 0, 0.2)">
-                                            <input class="inptMain" type="text" placeholder="Username" name="username" required>
-                                            <br/>
-                                            <br/>
-                                            <input class="inptMain" type="password" placeholder="Password" name="password" required>
-                                            <br/>
-                                            <br/>
-                                            <button class="btn btn-framed btn-rounded btn-default" type="submit" name="Sign In" style="float:right;">Sign In</button>
-                                            <br/><br/>
-                                            <div id="formFooter">
-                                                <a href="forgotPassword.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif" ;>Forgot Password</a>
-                                                <hr style="margin: 5% 0px;">
-                                                <a href="signUp.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif">Sign Up</a>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                <div class="ui-block" data-mh="friend-groups-item">
+                                    <div class="friend-item friend-groups">
 
+                                        <div class="friend-item-content">
+
+                                            <div class="friend-avatar">
+                                                <div class="author-thumb">
+                                                    <img src="img/JohnSmith.png" alt="photo">
+                                                </div>
+                                                <div class="author-content">
+                                                    <a href="johnHome.html" class="h5 author-name">John Smith</a>
+                                                    <div class="country" style="margin-top: 10px">Bachelor Of Science</div>
+                                                </div>
                                             </div>
-
-                                        </form>
+                                        </div>
                                     </div>
-                                    <!--end sign-in form-->
                                 </div>
-                                <!--end col-md-10-->
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                <div class="ui-block" data-mh="friend-groups-item">
+                                    <div class="friend-item friend-groups">
+
+                                        <div class="friend-item-content">
+
+                                            <div class="friend-avatar">
+                                                <div class="author-thumb">
+                                                    <img src="img/ArialUnderwood.jpeg" alt="photo">
+                                                </div>
+                                                <div class="author-content">
+                                                    <a href="ArialUnderwood.html" class="h5 author-name">Arial Underwood</a>
+                                                    <div class="country" style="margin-top: 10px">Bachelor Of Art</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                <div class="ui-block" data-mh="friend-groups-item">
+                                    <div class="friend-item friend-groups">
+
+                                        <div class="friend-item-content">
+
+                                            <div class="friend-avatar">
+                                                <div class="author-thumb">
+                                                    <img src="img/CommanderShepard.jpeg" alt="photo">
+                                                </div>
+                                                <div class="author-content">
+                                                    <a href="peterHome.html" class="h5 author-name">John Smith</a>
+                                                    <div class="country" style="margin-top: 10px">Bachelor of IT</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <!--end row-->
                         </div>
