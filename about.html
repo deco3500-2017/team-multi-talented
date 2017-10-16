@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>CultureConnect</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Local copies of Plugins' CSS Files -->
+    <!-- <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="css/plugins/photoswipe.min.css">
+    <link rel="stylesheet" href="css/plugins/photoswipe-skin/default-skin.min.css">
+    <link rel="stylesheet" href="css/plugins/vegas.min.css"> -->
+
+    <!-- CDN provided links of Plugins' CSS files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.2.0/vegas.min.css">
+
+    <link rel="stylesheet" href="about/css/plugins/elegant-icon.min.css">
+    <link rel="stylesheet" href="about/css/main.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/icon">
+    <link rel="icon" href="img/favicon.png" type="image/icon">
+    <style media="screen">
+        #map {
+            margin: 0;
+            height: 350px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="">
+    <div class="wrapper">
+        <div class="hamburger-menu">
+            <div class="menu-item"></div>
+        </div>
+        <header class="main-header clearfix" role="banner">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="img/cclogo.png" height="60" width="60">
+                    CultureConnect
+                </a>
+            </h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a class="nav-link active" href="#home">Subscribe</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#works">Features</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <div id="home" class="layout1">
+            <div class="content clearfix">
+                <!-- <div class="promo-img animated">
+                    <img src="img/promo1.png" alt="">
+                </div> -->
+                <div class="inner-content">
+                    <h2 class="tagline animated">CULTURECONNECT</h2>
+                    <p class="description animated">Share and exchange your culture experiences with other people.
+					<br><br>Interested in our product? Please register to be the first to know.</p>
+                    <div class="subscribe clearfix animated">
+                        <form id="newsletter-form" class="cmxform clearfix" method="post" action="" >
+                            <label for="id_email" class="input-label">Your email</label>
+                            <input type="email" class="subscribe-input st form-control" name="subscribe_email" id="id_email" placeholder="Your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email'" required>
+                            <button type="submit" class="subscribe-button btn btn-primary st">
+                                <div class="text-and-loader">
+                                    <span class="text">Subscribe</span>
+                                    <span class="loader"></span>
+                                </div>
+                            </button>
+                            <label id="id_email-error" class="error" for="id_email"></label>
+                            <span class="status-msg"></span>
+                        </form>
+                    </div><!-- /.subscribe -->
+                    <!--<div class="countdown clearfix animated">
+                        <div class="days-hours clearfix">
+                            <div class="date">
+                                <div class="date-date">12</div>
+                                <div class="date-text">days</div>
+                            </div>
+                            <div class="date">
+                                <div class="date-date">23</div>
+                                <div class="date-text">hours</div>
+                            </div>
+                        </div>
+                        <div class="minutes-seconds clearfix">
+                            <div class="date">
+                                <div class="date-date">45</div>
+                                <div class="date-text">minutes</div>
+                            </div>
+                            <div class="date">
+                                <div class="date-date">56</div>
+                                <div class="date-text">seconds</div>
+                            </div>
+                        </div>
+                    </div>--><!-- /.countdown -->
+                </div><!-- /.inner-content -->
+            </div><!-- /.content -->
+        </div><!-- /#home -->
+        <div id="sections">
+            <section class="section container" id="about">
+                <div class="row">
+                    <div class="col-md-6 animated about-text">
+                        <h3 class="section-title">WHAT IS<br>CULTURECONNECT?</h3>
+                        <p class="animated"><strong>
+						CultureConnect is a platform for you to exchange and share cultures with other people. 
+						</strong></p>
+                        <p class="animated">
+						If you are looking to share your culture and experience others, then CultureConnect is perfect for you.
+						</p>
+						<p class="animated">
+						Have a look at our prototype <a href="www.cultureconnect.uqcloud.net" style="text-decoration: none; color: #FFC300";><b>here</b></a>.
+						</p>
+                    </div>
+                    <div class="col-md-6 img-col animated">
+                        <img src="about/img/promo1.png" alt="cultureconnect">
+                    </div>
+                </div>
+                <br>
+                <div class="row features">
+                    <div class="col-md-4 animated">
+                        <div class="icon col-xs-2">
+                            <span class="icon_cogs"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h5 class="sub-title">Personalized Experience</h5>
+                            <p>Sign up for an account with us and get signed into a personalized space made just for you based on your details and preferences.
+							</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animated">
+                        <div class="icon col-xs-2">
+                            <span class="icon_zoom-in_alt"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h5 class="sub-title">Get Insights</h5>
+                            <p>Explore and get insights on ethnic/multicultural activities such as cooking, dancing, music and art classes that are all happening in Brisbane!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animated">
+                        <div class="icon col-xs-2">
+                            <span class="icon_calendar"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h5 class="sub-title">Join Upcoming Events</h5>
+                            <p>Be a part of a community and join upcoming events near you today!
+							</p>
+                        </div>
+                    </div>
+                </div>
+				<!-- Second Row -->
+				<div class="row features">
+                    <div class="col-md-4 animated">
+                        <div class="icon col-xs-2">
+                            
+							<span class="icon_chat_alt"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h5 class="sub-title">Join Channels</h5>
+                            <p>Have a look at our user-generated channels! Join any channel that suits your liking and come back to these channels anytime you want - as long as you're signed in.  
+							</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animated">
+                        <div class="icon col-xs-2">
+                            <span class="icon_pencil-edit"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h5 class="sub-title">Create Your Own Channel</h5>
+                            <p>Joining channels is not enough and want to create your own? With CultureConnect, you can easily create as many channels as you want and add members into them! This is a great way to 
+							stimulate a conversation and meet new people.
+							</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animated">
+                        <div class="icon col-xs-2">
+                            <span class="icon_group"></span>
+                        </div>
+                        <div class="col-xs-10">
+                            <h5 class="sub-title">Meet New People and create your own community</h5>
+                            <p>Join and create channels to meet new people and create your own community.
+							</p>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- /#about -->
+            <section class="section container" id="works">
+                <h3 class="section-title center">FEATURES</h3>
+                <div class="row works-row works-2">
+                    <figure class="work col-md-4 col-sm-6 animated">
+                        <a href="img/works/1.jpg" class="thumbnail" itemprop="contentUrl" data-size="1050x590">
+                            <img class="img" src="about/img/works/small/1.jpg" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption class="caption" itemprop="caption description">
+                            <span class="text">Work title</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work col-md-4 col-sm-6 animated">
+                        <a href="img/works/2.jpg" class="thumbnail" itemprop="contentUrl" data-size="1050x590">
+                            <img class="img" src="about/img/works/small/2.jpg" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption class="caption" itemprop="caption description">
+                            <span class="text"></span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work col-md-4 col-sm-6 animated">
+                        <a href="img/works/3.jpg" class="thumbnail" itemprop="contentUrl" data-size="1050x590">
+                            <img class="img" src="about/img/works/small/3.jpg" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption class="caption" itemprop="caption description">
+                            <span class="text">Work title</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work col-md-4 col-sm-6 animated">
+                        <a href="img/works/4.jpg" class="thumbnail" itemprop="contentUrl" data-size="1050x590">
+                            <img class="img" src="about/img/works/small/4.jpg" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption class="caption" itemprop="caption description">
+                            <span class="text">Work title</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work col-md-4 col-sm-6 animated">
+                        <a href="img/works/5.jpg" class="thumbnail" itemprop="contentUrl" data-size="1050x590">
+                            <img class="img" src="about/img/works/small/5.jpg" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption class="caption" itemprop="caption description">
+                            <span class="text">Work title</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="work col-md-4 col-sm-6 animated">
+                        <a href="img/works/6.jpg" class="thumbnail" itemprop="contentUrl" data-size="1050x590">
+                            <img class="img" src="about/img/works/small/6.jpg" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption class="caption" itemprop="caption description">
+                            <span class="text">Work title</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section><!-- /#works -->
+			<!--
+            <section class="section container" id="contact">
+                <h3 class="section-title center">Contact us</h3>
+                <div class="row forms clearfix">
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="contact-details animated">
+                            <div class="clearfix">
+                                <span class="icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </span>
+                                <ul>
+                                    <li>1355 Market Street</li>
+                                    <li>Suite 900</li>
+                                    <li>San Francisco, CA 94103</li>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <span class="icon">
+                                    <i class="fa fa-phone"></i>
+                                </span>
+                                <ul>
+                                    <li><a href="tel:+123123123">+123 123 123</a></li>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <span class="icon">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                                <a href="mailto:info@starterstudio.com">info@starterstudio.com</a>
+                            </div>
+                            <div class="clearfix">
+                                <button type="button" class="btn btn-primary st open-map" data-toggle="modal" data-target="#mapModal"><i class="fa fa-map-marker"></i>&nbsp;Our location</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <form id="contact-form" action="" class="contact-no-label cmxform transparent animated" method="post">
+                            <div class="row">
+                                <div class="col-md-6 input-parent animated">
+                                    <label for="id_name" class="input-label">Your name</label>
+                                    <input type="text" class="name form-control st" name="name" id="id_name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" required>
+                                </div>
+                                <div class="col-md-6 input-parent animated">
+                                    <label for="id_email" class="input-label">Email</label>
+                                    <input type="email" class="email form-control st" name="email" id="id_email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" required>
+                                </div>
+                                <div class="col-md-12 input-parent animated">
+                                    <label for="id_subject" class="input-label">Subject</label>
+                                    <input type="text" class="subject form-control st" name="subject" id="id_subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" required>
+                                </div>
+                                <div class="col-md-12 textarea-parent animated">
+                                    <label for="id_message" class="input-label">Message</label>
+                                    <textarea name="message" class="form-control" cols="30" rows="5" id="id_message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required></textarea>
+                                </div>
+                                <div class="col-md-12 button-parent animated">
+                                    <button type="submit" class="send-message-button btn btn-primary st">
+                                        <div class="text-and-loader">
+                                            <span class="text">Send</span>
+                                            <span class="loader"></span>
+                                        </div>
+                                    </button>
+                                    <p class="status-msg email-status"></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div><!-- /.forms -->
+            </section><!-- /#contact -->
+        </div><!-- /#sections -->
+		<!-- 
+        <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="icon_close" aria-hidden="true"></span></button>
+                        <h4 class="modal-title" id="mapModalLabel">Our location</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="map"></div>
+                        <a href="https://www.google.com/maps/@37.7755863,-122.4174228,14z?hl=en-US" class="btn btn-primary open-on-maps" target="_blank">Open on Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- .modal #mapModal -->
+		
+        <nav class="responsive-nav">
+            <ul>
+                <li><a class="nav-link active" href="#">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#works">Works</a></li>
+            </ul>
+
+        </nav><!-- /.responsive-nav -->
+        <div class="page-loader">
+            <div class="circle"></div>
+        </div><!-- /.page-loader -->
+    </div><!-- /.wrapper -->
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Background of PhotoSwipe.
+             It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides.
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- .pswp -->
+
+    <script type="text/javascript">
+        var map;
+        function initMap() {
+            var mapLatLng = {lat: 37.777011, lng: -122.416307};
+            var styles = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}];
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: mapLatLng,
+                zoom: 14,
+                mapTypeControl: false,
+                streetViewControl: false,
+                streetViewControl: false,
+                scrollwheel: false,
+            });
+
+            map.setOptions({styles: styles});
+
+            var marker = new google.maps.Marker({
+                position: mapLatLng,
+                map: map,
+                title: 'Starter',
+                icon: 'img/logo.svg'
+             });
+        }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRL9bu-FX5tEuwQg0pbmk3bXSUoEidptY&callback=initMap">
+    </script>
+
+    <!-- Local copies of Plugins' JS Files -->
+    <!-- <script src="js/plugins/jquery-2.2.0.min.js"></script>
+    <script src="js/plugins/jquery.waypoints.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="js/plugins/jquery.countdown.min.js"></script>
+    <script src="js/plugins/photoswipe.min.js"></script>
+    <script src="js/plugins/photoswipe-ui-default.min.js"></script>
+    <script src="js/plugins/photoswipe-ui.min.js"></script>
+    <script src="js/plugins/vegas.min.js"></script>
+    <script src="js/plugins/jquery.validate.min.js"></script>
+    <script src="js/plugins/velocity.min.js"></script>
+    <script src="js/plugins/velocity.ui.min.js"></script> -->
+
+    <!-- CDN provided links of Plugins' JS files -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.1.0/jquery.countdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
+    <script src="js/plugins/photoswipe-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.2.0/vegas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+
+    <script src="about/js/script.js"></script>
+</body>
+</html>

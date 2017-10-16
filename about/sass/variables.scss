@@ -1,0 +1,64 @@
+/* * * * * *
+    Variables
+* * * * * */
+$title-font: 'Montserrat', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+$body-font: 'PT Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+
+// Black color variations
+$black: rgba(30, 30, 30, 1);
+$black-90: lighten($black, 10%);
+$black-80: lighten($black, 20%);
+$black-70: lighten($black, 30%);
+$black-60: lighten($black, 40%);
+$black-50: lighten($black, 50%);
+$black-40: lighten($black, 60%);
+$black-30: lighten($black, 70%);
+$black-20: lighten($black, 80%);
+$black-10: lighten($black, 90%);
+
+// White color variations
+$white: rgba(255, 255, 255, 1);
+$white-90: darken($white, 3%);
+$white-80: darken($white, 5%);
+$white-70: darken($white, 7%);
+$white-60: darken($white, 9%);
+$white-50: darken($white, 11%);
+$white-40: darken($white, 13%);
+$white-30: darken($white, 15%);
+$white-20: darken($white, 17%);
+$white-10: darken($white, 19%);
+
+// Premade color schemes
+$st-yellow: #FFD511;
+$st-green: #31C530;
+$st-blue: #4BA0EC;
+$st-red: #F15858;
+$st-turquoise: #1EE8C5;
+$st-wheat: #DACA79;
+$st-indigo: #8B62EA;
+$st-orange: #FF8A22;
+
+// Button colors
+$success-color: #5cb85c;
+$info-color: #3AB7E8;
+$warning-color: #f0ad4e;
+$danger-color: #d9534f;
+
+// The main color of the theme
+// you can set color variable defined above or any custom color value
+$main-color: $st-yellow;
+
+// On homepage layout2 class
+// absolute positioned element margin
+$edge-margin: 60px;
+
+@font-face {
+	font-family: 'ElegantIcons';
+	src:url('fonts/ElegantIcons.eot');
+	src:url('fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ElegantIcons.woff') format('woff'),
+		url('fonts/ElegantIcons.ttf') format('truetype'),
+		url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

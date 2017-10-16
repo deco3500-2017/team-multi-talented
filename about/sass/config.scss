@@ -1,0 +1,657 @@
+@import 'variables';
+
+// Colors
+
+// Green
+.color-green {
+    .btn {
+        &:focus,
+        &:active {
+            background-color: $st-green !important;
+        }
+    }
+
+    .btn-primary {
+        background-color: $st-green;
+
+        &:hover {
+            background-color: $st-green !important;
+            color: $black;
+        }
+
+        &:before {
+            background-color: darken($st-green, 10%);
+        }
+    }
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: $st-green;
+    }
+
+    .svg-icon circle {
+      stroke: $st-green;
+      stroke-width: 1;
+    }
+    section.section .section-title {
+        color: $st-green;
+        &:after {
+            background-color: $st-green;
+        }
+    }
+
+    svg.logo-symbol {
+        polygon#logo-fill {
+            fill: $st-green !important;
+        }
+    }
+    .icon span[class^="icon_"] {
+        color: $st-green;
+    }
+
+    nav.main-nav {
+        ul li {
+            a:before {
+                background-color: lighten($st-green, 10%);
+            }
+            a.active:before {
+                background-color: lighten($st-green, 10%);
+            }
+        }
+
+    }
+
+    .works-3 {
+        .owl-prev,
+        .owl-next {
+            &:hover {
+                &:after {
+                    color: lighten($st-green, 10%);
+                }
+            }
+        }
+        .owl-dot.active span,
+        .owl-dot:hover span {
+            background: $st-green;
+        }
+    }
+
+    .contact-details {
+        .icon {
+            color: darken($st-green, 5%);
+        }
+    }
+    .responsive-nav {
+        a {
+            &:hover {
+                color: $st-green;
+            }
+        }
+    }
+} // color green
+.dark.color-green {
+    section.section .section-title {
+        color: $white;
+    }
+}
+
+// Blue
+.color-blue {
+    .btn {
+        &:focus,
+        &:active {
+            background-color: $st-blue !important;
+        }
+    }
+
+    .btn-primary {
+        background-color: $st-blue;
+        color: #fff;
+
+        &:hover {
+            background-color: $st-blue !important;
+            color: $white-90;
+        }
+
+        &:before {
+            background-color: darken($st-blue, 10%);
+        }
+    }
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: $st-blue;
+    }
+
+    .svg-icon circle {
+      stroke: $st-blue;
+      stroke-width: 1;
+    }
+    section.section .section-title {
+        color: $st-blue;
+        &:after {
+            background-color: $st-blue;
+        }
+    }
+    svg.logo-symbol {
+        polygon#logo-fill {
+            fill: $st-blue !important;
+        }
+    }
+    .icon span[class^="icon_"] {
+        color: $st-blue;
+    }
+    nav.main-nav {
+        ul li {
+            a:before {
+                background-color: lighten($st-blue, 10%);
+            }
+            a.active:before {
+                background-color: lighten($st-blue, 10%);
+            }
+        }
+
+    }
+
+    .works-3 {
+        .owl-prev,
+        .owl-next {
+            &:hover {
+                &:after {
+                    color: lighten($st-blue, 10%);
+                }
+            }
+        }
+        .owl-dot.active span,
+        .owl-dot:hover span {
+            background: $st-blue;
+        }
+    }
+
+    .contact-details {
+        .icon {
+            color: darken($st-blue, 5%);
+        }
+    }
+    .responsive-nav {
+        a {
+            &:hover {
+                color: $st-blue;
+            }
+        }
+    }
+} // color blue
+.dark.color-blue {
+    section.section .section-title {
+        color: $white;
+    }
+}
+
+// Red
+.color-red {
+    .btn {
+        &:focus,
+        &:active {
+            background-color: $st-red !important;
+        }
+    }
+
+    .btn-primary {
+        background-color: $st-red;
+        color: #fff;
+
+        &:hover {
+            background-color: $st-red !important;
+            color: $white-90;
+        }
+
+        &:before {
+            background-color: darken($st-red, 10%);
+        }
+    }
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: $st-red;
+    }
+
+    .svg-icon circle {
+      stroke: $st-red;
+      stroke-width: 1;
+    }
+    section.section .section-title {
+        color: $st-red;
+        &:after {
+            background-color: $st-red;
+        }
+    }
+    svg.logo-symbol {
+        polygon#logo-fill {
+            fill: $st-red !important;
+        }
+    }
+    .icon span[class^="icon_"] {
+        color: $st-red;
+    }
+    nav.main-nav {
+        ul li {
+            a:before {
+                background-color: lighten($st-red, 10%);
+            }
+            a.active:before {
+                background-color: lighten($st-red, 10%);
+            }
+        }
+
+    }
+
+    .works-3 {
+        .owl-prev,
+        .owl-next {
+            &:hover {
+                &:after {
+                    color: lighten($st-red, 10%);
+                }
+            }
+        }
+        .owl-dot.active span,
+        .owl-dot:hover span {
+            background: $st-red;
+        }
+    }
+
+    .contact-details {
+        .icon {
+            color: darken($st-red, 5%);
+        }
+    }
+    .responsive-nav {
+        a {
+            &:hover {
+                color: $st-red;
+            }
+        }
+    }
+} // color red
+.dark.color-red {
+    section.section .section-title {
+        color: $white;
+    }
+}
+
+
+// Turquoise
+.color-turquoise {
+    .btn {
+        &:focus,
+        &:active {
+            background-color: $st-turquoise !important;
+        }
+    }
+
+    .btn-primary {
+        background-color: $st-turquoise;
+
+        &:hover {
+            background-color: $st-turquoise !important;
+            color: $black;
+        }
+
+        &:before {
+            background-color: darken($st-turquoise, 10%);
+        }
+    }
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: $st-turquoise;
+    }
+
+    .svg-icon circle {
+      stroke: $st-turquoise;
+      stroke-width: 1;
+    }
+    section.section .section-title {
+        color: $st-turquoise;
+        &:after {
+            background-color: $st-turquoise;
+        }
+    }
+    svg.logo-symbol {
+        polygon#logo-fill {
+            fill: $st-turquoise !important;
+        }
+    }
+    .icon span[class^="icon_"] {
+        color: $st-turquoise;
+    }
+    nav.main-nav {
+        ul li {
+            a:before {
+                background-color: lighten($st-turquoise, 10%);
+            }
+            a.active:before {
+                background-color: lighten($st-turquoise, 10%);
+            }
+        }
+
+    }
+
+    .works-3 {
+        .owl-prev,
+        .owl-next {
+            &:hover {
+                &:after {
+                    color: lighten($st-turquoise, 10%);
+                }
+            }
+        }
+        .owl-dot.active span,
+        .owl-dot:hover span {
+            background: $st-turquoise;
+        }
+    }
+
+    .contact-details {
+        .icon {
+            color: darken($st-turquoise, 5%);
+        }
+    }
+    .responsive-nav {
+        a {
+            &:hover {
+                color: $st-turquoise;
+            }
+        }
+    }
+} // color turquoise
+.dark.color-turquoise {
+    section.section .section-title {
+        color: $white;
+    }
+}
+
+
+// Wheat
+.color-wheat {
+    .btn {
+        &:focus,
+        &:active {
+            background-color: $st-wheat !important;
+        }
+    }
+
+    .btn-primary {
+        background-color: $st-wheat;
+
+        &:hover {
+            background-color: $st-wheat !important;
+            color: $black;
+        }
+
+        &:before {
+            background-color: darken($st-wheat, 10%);
+        }
+    }
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: $st-wheat;
+    }
+
+    .svg-icon circle {
+      stroke: $st-wheat;
+      stroke-width: 1;
+    }
+    section.section .section-title {
+        color: $st-wheat;
+        &:after {
+            background-color: $st-wheat;
+        }
+    }
+    svg.logo-symbol {
+        polygon#logo-fill {
+            fill: $st-wheat !important;
+        }
+    }
+    .icon span[class^="icon_"] {
+        color: $st-wheat;
+    }
+    nav.main-nav {
+        ul li {
+            a:before {
+                background-color: lighten($st-wheat, 10%);
+            }
+            a.active:before {
+                background-color: lighten($st-wheat, 10%);
+            }
+        }
+
+    }
+
+    .works-3 {
+        .owl-prev,
+        .owl-next {
+            &:hover {
+                &:after {
+                    color: lighten($st-wheat, 10%);
+                }
+            }
+        }
+        .owl-dot.active span,
+        .owl-dot:hover span {
+            background: $st-wheat;
+        }
+    }
+
+    .contact-details {
+        .icon {
+            color: darken($st-wheat, 5%);
+        }
+    }
+    .responsive-nav {
+        a {
+            &:hover {
+                color: $st-wheat;
+            }
+        }
+    }
+} // color wheat
+.dark.color-wheat {
+    section.section .section-title {
+        color: $white;
+    }
+}
+
+
+// Indigo
+.color-indigo {
+    .btn {
+        &:focus,
+        &:active {
+            background-color: $st-indigo !important;
+        }
+    }
+
+    .btn-primary {
+        background-color: $st-indigo;
+        color: #fff;
+
+        &:hover {
+            background-color: $st-indigo !important;
+            color: $white-90;
+        }
+
+        &:before {
+            background-color: darken($st-indigo, 10%);
+        }
+    }
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: $st-indigo;
+    }
+
+    .svg-icon circle {
+      stroke: $st-indigo;
+      stroke-width: 1;
+    }
+    section.section .section-title {
+        color: $st-indigo;
+        &:after {
+            background-color: $st-indigo;
+        }
+    }
+    svg.logo-symbol {
+        polygon#logo-fill {
+            fill: $st-indigo !important;
+        }
+    }
+    .icon span[class^="icon_"] {
+        color: $st-indigo;
+    }
+    nav.main-nav {
+        ul li {
+            a:before {
+                background-color: lighten($st-indigo, 10%);
+            }
+            a.active:before {
+                background-color: lighten($st-indigo, 10%);
+            }
+        }
+
+    }
+
+    .works-3 {
+        .owl-prev,
+        .owl-next {
+            &:hover {
+                &:after {
+                    color: lighten($st-indigo, 10%);
+                }
+            }
+        }
+        .owl-dot.active span,
+        .owl-dot:hover span {
+            background: $st-indigo;
+        }
+    }
+
+    .contact-details {
+        .icon {
+            color: darken($st-indigo, 5%);
+        }
+    }
+    .responsive-nav {
+        a {
+            &:hover {
+                color: $st-indigo;
+            }
+        }
+    }
+} // color indigo
+.dark.color-indigo {
+    section.section .section-title {
+        color: $white;
+    }
+}
+
+
+// Orange
+.color-orange {
+    .btn {
+        &:focus,
+        &:active {
+            background-color: $st-orange !important;
+        }
+    }
+
+    .btn-primary {
+        background-color: $st-orange;
+        color: #fff;
+
+        &:hover {
+            background-color: $st-orange !important;
+            color: $white-90;
+        }
+
+        &:before {
+            background-color: darken($st-orange, 10%);
+        }
+    }
+
+    .svg-icon path,
+    .svg-icon polygon,
+    .svg-icon rect {
+      fill: $st-orange;
+    }
+
+    .svg-icon circle {
+      stroke: $st-orange;
+      stroke-width: 1;
+    }
+    section.section .section-title {
+        color: $st-orange;
+        &:after {
+            background-color: $st-orange;
+        }
+    }
+    svg.logo-symbol {
+        polygon#logo-fill {
+            fill: $st-orange !important;
+        }
+    }
+    .icon span[class^="icon_"] {
+        color: $st-orange;
+    }
+    nav.main-nav {
+        ul li {
+            a:before {
+                background-color: lighten($st-orange, 10%);
+            }
+            a.active:before {
+                background-color: lighten($st-orange, 10%);
+            }
+        }
+
+    }
+
+    .works-3 {
+        .owl-prev,
+        .owl-next {
+            &:hover {
+                &:after {
+                    color: lighten($st-orange, 10%);
+                }
+            }
+        }
+        .owl-dot.active span,
+        .owl-dot:hover span {
+            background: $st-orange;
+        }
+    }
+
+    .contact-details {
+        .icon {
+            color: darken($st-orange, 5%);
+        }
+    }
+    .responsive-nav {
+        a {
+            &:hover {
+                color: $st-orange;
+            }
+        }
+    }
+} // color orange
+.dark.color-orange {
+    section.section .section-title {
+        color: $white;
+    }
+}
