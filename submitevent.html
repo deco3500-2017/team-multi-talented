@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Submit new Event</title>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
+
+    <!-- Theme Styles CSS -->
+    <link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/blocks.css">
+
+    <!-- Main Font -->
+    <script src="js/webfontloader.min.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Roboto:300,400,500,700:latin']
+            }
+        });
+
+    </script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/fonts.css"> -->
+
+    <!-- Styles for plugins -->
+    <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+
+    <!-- Styles from index page -->
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
+
+    <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css"> -->
+
+    <!-- <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/navstyle.css" type="text/css">
+	
+
+</head>
+
+<body>
+		<header id="page-header">
+            <nav>
+                <div class="left">
+                    <a href="index.html" class="brand">CultureConnect</a>
+                </div>
+                <!--end left-->
+                <div class="right">
+                    <div class="primary-nav has-mega-menu">
+                        <ul class="navigation">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="communities.html">Communities</a></li>
+						<li><a href="signIn.html">Sign In</a></li>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="profile.html">My Account</a></li>
+                        <li><a href="yourcommunities.html">My Communities</a></li>
+						<li><a href="about.html">About</a></li>
+
+                        </ul>
+                        <!--end navigation-->
+                    </div>
+                    <!--end primary-nav-->
+                </div>
+                <!--end right-->
+            </nav>
+            <!--end nav-->
+        </header>
+        <!--end page-header-->
+
+
+    <div class="header-spacer header-spacer-small"></div>
+
+
+    <!-- Submit form -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h4 class="title"><b>Submit New Event</b></h6>
+                    </div>
+                    <div class="ui-block-content">
+                        <form>
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Event Name</label>
+                                        <input class="form-control" placeholder="" type="text" value="">
+                                    </div>
+
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Date</label>
+                                        <input name="datetimepicker" value="21/09/2017" />
+                                        <span class="input-group-addon">
+										<svg class="olymp-month-calendar-icon icon"><use xlink:href="icons/icons.svg#olymp-month-calendar-icon"></use></svg>
+										</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Location</label>
+                                        <input class="form-control" placeholder="" type="text" value="">
+                                    </div>
+
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Time</label>
+                                        <input class="form-control" placeholder="" type="text" value="00:00 - 00:00">
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Introduce the event</label>
+                                        <textarea class="form-control" placeholder=""></textarea>
+                                    </div>
+                                </div>
+								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <label class="control-label">View meeting point</label>
+									<div class="form-group label-floating">
+                                        
+										
+									 <iframe id="map" width="755" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=14&center=-27.4698%2C153.0251&key=AIzaSyB64bJUduTCBf4iws8UVTdlv94U3LNyDN0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group with-icon label-floating">
+                                        <label class="control-label">Share event on Facebook</label>
+                                        <p class="form-control" type="text" href="www.facebook.com">www.facebook.com</p>
+                                        <i class="fa fa-facebook c-facebook" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="form-group with-icon label-floating">
+                                        <label class="control-label">Share event on Twitter</label>
+                                        <p class="form-control" type="text" src="www.twitter.com">www.twitter.com</p>
+                                        <i class="fa fa-twitter c-twitter" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="form-group with-icon label-floating">
+                                        <label class="control-label">Share event on Instagram</label>
+                                        <p class="form-control" type="text" href="www.instagram.com">www.instagram.com</p>
+                                        <i class="fa fa-instagram c-instagram" aria-hidden="true" ></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <button class="btn btn-secondary btn-lg full-width">Restore all Attributes</button>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <button class="btn btn-primary btn-lg full-width" onclick="myFunction()">Submit the Event</button>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- ... end Your Account Personal Information -->
+
+
+    <!-- jQuery first, then Other JS. -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <!-- Js effects for material design. + Tooltips -->
+    <script src="js/material.min.js"></script>
+    <!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+    <script src="js/theme-plugins.js"></script>
+    <!-- Init functions -->
+    <script src="js/main.js"></script>
+
+    <!-- Select / Sorting script -->
+    <script src="js/selectize.min.js"></script>
+
+    <!-- Datepicker input field script-->
+    <script src="js/moment.min.js"></script>
+    <script src="js/daterangepicker.min.js"></script>
+
+    <script src="js/mediaelement-and-player.min.js"></script>
+    <script src="js/mediaelement-playlist-plugin.min.js"></script>
+	<script>
+	<!-- function initMap() { -->
+		<!-- map = new google.maps.Map(document.getElementById('map'),{ -->
+			<!-- center: {lat: -27.4698, lng: 2C153.0251}, -->
+			<!-- zoom: 14 -->
+		<!-- }); -->
+		
+		<!-- var marker = new google.maps.Marker({ -->
+		<!-- position: {lat: -27.4698, lng: 2C153.0251}, -->
+		<!-- map: map, -->
+		<!-- draggable: true, -->
+		<!-- animation: google.maps.Animation.DROP -->
+		<!-- }); -->
+	<!-- } -->
+	
+	function myFunction() {
+		alert("Submit Successful!");
+	}
+	</script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64bJUduTCBf4iws8UVTdlv94U3LNyDN0&callback=initMap" async defer></script> -->
+
+
+
+</body>
+
+</html>
