@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
 
+
     <title>CultureConnect</title>
 
 </head>
@@ -26,7 +27,7 @@
         <header id="page-header">
             <nav>
                 <div class="left">
-                    <a href="index.html" class="brand">CultureConnect</a>
+                    <a class="brand">CultureConnect</a>
                 </div>
                 <!--end left-->
                 <div class="right">
@@ -34,9 +35,9 @@
                         <ul class="navigation">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="communities.html">Communities</a></li>
-                            <li><a href="signIn.html">Sign In</a></li>
+                            <li><a class="promoted">Sign In</a></li>
                             <li><a href="register.html">Register</a></li>
-							<li><a href="about.html">About</a></li>
+                            <li><a href="about.html">About</a></li>
                         </ul>
                         <!--end navigation-->
                     </div>
@@ -58,7 +59,7 @@
         <!--end page-header-->
 
         <div id="page-content">
-            <div class="hero-section has-background" style="height:32.2%">
+            <div class="hero-section has-background">
                 <div class="wrapper">
                     <div class="inner">
                         <div class="container">
@@ -69,19 +70,38 @@
                             <!--end page-title-->
                             <div class="row">
                                 <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
-                                    <div class="form search-form horizontal">
-                                        <form>
-                                            <div class="input-group">
-                                                <input type="text" class="form-control" name="email" placeholder="What are you looking for?">
-                                                <span class="input-group-btn">
-                                                <button class="btn btn-default" type="submit"><i class="arrow_right"></i></button>
-                                            </span>
-                                            </div>
-                                            <!-- /input-group -->
-                                        </form>
-                                        <!--end form-->
-                                    </div> 
-                                    <!--end search-form-->
+                                    <div id="signInForm">
+
+                                        <h3 style="color:white">Username:</h3>
+                                        <div style="padding: 10px; background-color: #4611a7">
+                                            <select name="username" style="background-color: white;color:black" onchange="javascript:location.href = this.value;" required>
+                                                    <option></option>
+                                                    <option value="arialHome.html">Arial Underwood</option>
+                                                    <option value="johnHome.html">John Smith</option>
+                                                    <option value="PeterHome.html">Peter Sung</option>
+                                                </select>
+                                        </div>
+
+                                        <br/>
+                                        <br/>
+                                        <h3 style="color:white">Password:</h3>
+                                        <div style="padding: 10px; background-color: #4611a7;">
+                                            <input style="background-color: white; color: black;" class="inptMain" type="password" placeholder="Password e.g., 0000" name="password" value="00000" readonly>
+                                        </div>
+
+                                        <br/>
+                                        <br/>
+                                        <button class="btn btn-framed btn-rounded btn-default " name="Sign In" style="float:right;">Sign In</button>
+                                        <br/><br/>
+                                        <div id="formFooter">
+                                            <a href="forgotPassword.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif" ;>Forgot Password</a>
+                                            <hr style="margin: 5% 0px;">
+                                            <a href="signUp.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif">Sign Up</a>
+
+                                        </div>
+
+                                    </div>
+                                    <!--end sign-in form-->
                                 </div>
                                 <!--end col-md-10-->
                             </div>
@@ -131,22 +151,22 @@
                             <div class="additional-info">
                                 Saturday 28th October 2017, 5.30 PM, St Lucia
                                 <div class="">
-                                    
+
                                 </div>
                                 <!--end controls-more-->
                             </div>
                             <!--end additional-info-->
                         </div>
                         <!--end item-->
-						
-						
-						
-						<div class="item featured" data-id="1">
+
+
+
+                        <div class="item featured" data-id="1">
                             <a href="institutionsignin.html">
                                 <div class="description">
                                     <div class="label label-default">Campus Event</div>
                                     <h3>Market Day</h3>
-									<h4>Join a Club or Society, meet new people, and grab lots of freebies!</h4>
+                                    <h4>Join a Club or Society, meet new people, and grab lots of freebies!</h4>
                                 </div>
                                 <!--end description-->
                                 <div class="image bg-transfer">
@@ -155,10 +175,10 @@
                                 <!--end image-->
                             </a>
                             <div class="additional-info">
-								Wednesday 26th November 2017, St Lucia Campus
+                                Wednesday 26th November 2017, St Lucia Campus
 
 
-                                
+
                                 <!--end controls-more-->
                             </div>
                             <!--end additional-info-->
@@ -169,7 +189,7 @@
                                 <div class="description">
                                     <div class="label label-default">Multicultural Event</div>
                                     <h3>Cultural Fiesta</h3>
-									<h4>Cultural Fiesta is a free festival showcasing UQ’s cultural diversity through captivating performances...</h4>
+                                    <h4>Cultural Fiesta is a free festival showcasing UQ’s cultural diversity through captivating performances...</h4>
                                     <!--<h4>For..</h4>-->
                                 </div>
                                 <!--end description-->
@@ -181,7 +201,7 @@
                             <div class="additional-info">
                                 Friday 28th November 2017, St Lucia Campus
                                 <div class="">
-                                    
+
                                 </div>
                                 <!--end controls-more-->
                             </div>
@@ -206,9 +226,9 @@
                                 <!--end image-->
                             </a>
                             <div class="additional-info">
-                                Wednesday 18th December 2017, 4.15 PM - 7.00 PM, St Lucia 
+                                Wednesday 18th December 2017, 4.15 PM - 7.00 PM, St Lucia
                                 <div class="">
-                                    
+
                                 </div>
                                 <!--end controls-more-->
                             </div>
@@ -231,7 +251,7 @@
                             <div class="additional-info">
                                 Wednesday 26th December 2017, 7.00 PM, St Lucia
                                 <div class="">
-                                    
+
                                 </div>
                                 <!--end controls-more-->
                             </div>
@@ -254,11 +274,8 @@
                 <div class="container">
                     <div class="section-title vertical-aligned-elements">
                         <div class="element">
-                            <h2>Brisbane Events&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                            <h2>Brisbane Events&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </h2>
                         </div>
                         <div class="element">
                             <a href="addchannel.html" class="btn btn-rounded invisible-on-mobile">Add an Event</a>
@@ -274,7 +291,7 @@
                                         <div class="label label-default">Cultural Event</div>
                                         <h3>Brisbane German Week</h3>
                                         <h4>Enjoy German food, entertainment, culture and beer!
-										</h4>
+                                        </h4>
                                     </div>
                                     <!--end description-->
                                     <div class="image bg-transfer">
@@ -283,9 +300,9 @@
                                     <!--end image-->
                                 </a>
                                 <div class="additional-info">
-                                    20th - 31st October 2017, South Bank 
+                                    20th - 31st October 2017, South Bank
                                     <div class="">
-                                        
+
                                     </div>
                                     <!--end controls-more-->
                                 </div>
@@ -310,7 +327,7 @@
                                 <div class="additional-info">
                                     Sunday 31st October 2017, Brisbane Botanic Gardens
                                     <div class="">
-                                        
+
                                     </div>
                                     <!--end controls-more-->
                                 </div>
@@ -327,7 +344,7 @@
                                         <div class="label label-default">Street Food</div>
                                         <h3>Asian Street Food Tour</h3>
                                         <h4>This tour takes you on a cultural exploration of different cuisines found in Asia. You'll visit...
-										</h4>
+                                        </h4>
                                     </div>
                                     <!--end description-->
                                     <div class="image bg-transfer">
@@ -338,7 +355,7 @@
                                 <div class="additional-info">
                                     Saturday 1st November 2017, Fortitude Valley, Brisbane
                                     <div class="">
-                                        
+
                                     </div>
                                     <!--end controls-more-->
                                 </div>
@@ -361,7 +378,7 @@
                                 <div class="additional-info">
                                     Saturday 1st November 2017, South Bank
                                     <div class="">
-                                        
+
                                     </div>
                                     <!--end controls-more-->
                                 </div>
@@ -384,7 +401,7 @@
                                 <div class="additional-info">
                                     Saturday, 17th March 2018, Fortitude Valley
                                     <div class="">
-                                        
+
                                     </div>
                                     <!--end controls-more-->
                                 </div>
@@ -405,40 +422,40 @@
                 <div class="container">
                     <div class="section-title vertical-aligned-elements">
                         <div class="element">
-                            <h2>Most Popular</h2> 
+                            <h2>Most Popular</h2>
                         </div>
                     </div>
                     <!--end section-title-->
                 </div>
                 <div class="gallery featured">
                     <div class="owl-carousel" data-owl-items="6" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="1" data-owl-nav-container="#gallery-nav">
-                            <div class="item featured" data-id="3">
-                                <a href="artclasses.html">
-                                    <div class="description">
-                                        <figure>
-                                            <!--<span><i class="fa fa-calendar"></i>12.08.2016</span>
+                        <div class="item featured" data-id="3">
+                            <a href="artclasses.html">
+                                <div class="description">
+                                    <figure>
+                                        <!--<span><i class="fa fa-calendar"></i>12.08.2016</span>
                                         <span><i class="fa fa-clock-o"></i>08:00</span>-->
-                                        </figure>
-                                        <div class="label label-default">Street Food</div>
-                                        <h3>Asian Street Food Tour</h3>
-                                        <h4>This tour takes you on a cultural exploration of different cuisines found in Asia. You'll visit...
-										</h4>
-                                    </div>
-                                    <!--end description-->
-                                    <div class="image bg-transfer">
-                                        <img src="assets/img/items/57.jpg" alt="">
-                                    </div>
-                                    <!--end image-->
-                                </a>
-                                <div class="additional-info">
-                                    Saturday 1st November 2017, Fortitude Valley, Brisbane
-                                    <div class="">
-                                        
-                                    </div>
-                                    <!--end controls-more-->
+                                    </figure>
+                                    <div class="label label-default">Street Food</div>
+                                    <h3>Asian Street Food Tour</h3>
+                                    <h4>This tour takes you on a cultural exploration of different cuisines found in Asia. You'll visit...
+                                    </h4>
                                 </div>
-                                <!--end additional-info-->
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/57.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                Saturday 1st November 2017, Fortitude Valley, Brisbane
+                                <div class="">
+
+                                </div>
+                                <!--end controls-more-->
                             </div>
+                            <!--end additional-info-->
+                        </div>
                         <!--end item-->
                         <div class="item featured" data-id="23">
                             <a href="livemusic_preview.html">
@@ -456,36 +473,36 @@
                             <div class="additional-info">
                                 Wednesday 25th October 2017, 8.00 PM, Sonny's House, Brisbane
                                 <div class="">
-                                    
+
                                 </div>
                                 <!--end controls-more-->
                             </div>
                             <!--end additional-info-->
                         </div>
                         <!--end item-->
-                            <div class="item featured" data-id="1">
-                                <a href="musicclasses.html">
-                                    <div class="description">
-                                        <div class="label label-default">Cultural Event</div>
-                                        <h3>Brisbane German Week</h3>
-                                        <h4>Enjoy German food, entertainment, culture and beer!
-										</h4>
-                                    </div>
-                                    <!--end description-->
-                                    <div class="image bg-transfer">
-                                        <img src="assets/img/items/55.jpg" alt="">
-                                    </div>
-                                    <!--end image-->
-                                </a>
-                                <div class="additional-info">
-                                    20th - 31st October 2017, South Bank 
-                                    <div class="">
-                                        
-                                    </div>
-                                    <!--end controls-more-->
+                        <div class="item featured" data-id="1">
+                            <a href="musicclasses.html">
+                                <div class="description">
+                                    <div class="label label-default">Cultural Event</div>
+                                    <h3>Brisbane German Week</h3>
+                                    <h4>Enjoy German food, entertainment, culture and beer!
+                                    </h4>
                                 </div>
-                                <!--end additional-info-->
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/55.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                20th - 31st October 2017, South Bank
+                                <div class="">
+
+                                </div>
+                                <!--end controls-more-->
                             </div>
+                            <!--end additional-info-->
+                        </div>
                         <!--end item-->
                         <div class="item featured" data-id="4">
                             <a href="arttour_preview.html">
@@ -501,41 +518,41 @@
                                 <!--end image-->
                             </a>
                             <div class="additional-info">
-                                Saturday 28th October 2017, Chinatown Mall, Fortitude Valley 
+                                Saturday 28th October 2017, Chinatown Mall, Fortitude Valley
                                 <div class="">
-                                    
+
                                 </div>
                                 <!--end controls-more-->
                             </div>
                             <!--end additional-info-->
                         </div>
                         <!--end item-->
-                            <div class="item featured" data-id="23">
-                                <a href="cookingclasses.html">
-                                    <div class="description">
-                                        <div class="label label-default">Cultural Experience</div>
-                                        <h3>Brisbane's Japanese Experience</h3>
-                                        <h4>One need only take a look around Brisbane to see how much Australia (and the rest of world) has embraced Japanese culture.
-                                            <h4>
-                                                <!--<h4>For..</h4>-->
-                                    </div>
-                                    <!--end description-->
-                                    <div class="image bg-transfer">
-                                        <img src="assets/img/items/56.jpg" alt="">
-                                    </div>
-                                    <!--end image-->
-                                </a>
-                                <div class="additional-info">
-                                    Sunday 31st October 2017, Brisbane Botanic Gardens
-                                    <div class="">
-                                        
-                                    </div>
-                                    <!--end controls-more-->
+                        <div class="item featured" data-id="23">
+                            <a href="cookingclasses.html">
+                                <div class="description">
+                                    <div class="label label-default">Cultural Experience</div>
+                                    <h3>Brisbane's Japanese Experience</h3>
+                                    <h4>One need only take a look around Brisbane to see how much Australia (and the rest of world) has embraced Japanese culture.
+                                        <h4>
+                                            <!--<h4>For..</h4>-->
                                 </div>
-                                <!--end additional-info-->
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/56.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                Sunday 31st October 2017, Brisbane Botanic Gardens
+                                <div class="">
+
+                                </div>
+                                <!--end controls-more-->
                             </div>
+                            <!--end additional-info-->
+                        </div>
                         <!--end item-->
-                        
+
                     </div>
                 </div>
                 <!--end gallery-->
@@ -553,7 +570,7 @@
                     </div>
                     <!--end section-title-->
                     <div class="row">
-					<div class="col-md-4 col-sm-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="text-element event">
                                 <div class="date-icon">
                                     <figure class="day">25</figure>
@@ -597,14 +614,14 @@
                         </div>
                         <!--end col-md-4-->
                     </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-					<br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
                     <!--end row-->
                     <div class="background-wrapper">
                         <div class="background-color background-color-black opacity-5"></div>
                     </div>
                     <!--end background-wrapper-->
-                
-			</div>
+
+                </div>
                 <!--end container-->
             </section>
             <!--end block-->
@@ -616,7 +633,7 @@
 
             <!--end block-->
         </div>
-		
+
         <!--end page-content-->
 
         <footer id="page-footer">
