@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <title>AllYouCanStudy Event Channel</title>
+    <title>Dancing Night Event Channel</title>
 
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
@@ -26,6 +27,7 @@
                 families: ['Roboto:300,400,500,700:latin']
             }
         });
+
     </script>
 
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -52,34 +54,58 @@
 <body>
 
     <header id="page-header">
-        <nav>
+        <nav style="position: fixed">
             <div class="left">
-                <a href="index.html" class="brand">CultureConnect</a>
+                <a class="brand"><img src="img/cclogo.png" width="35" height="35">  CultureConnect</a>
             </div>
             <!--end left-->
             <div class="right">
                 <div class="primary-nav has-mega-menu">
                     <ul class="navigation">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="communities.html">Communities</a></li>
-                        <li><a href="signIn.html">Sign In</a></li>
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="profile.html">My Account</a></li>
-                        <li><a class="promoted" href="yourcommunities.html">My Communities</a></li>
+                        <li><a href="arialHomeDN.html">Home</a></li>
+                        <li><a href="arialCommunitiesLoggedIn.html">Communities</a></li>
                         <li><a href="about.html">About</a></li>
+                        <li class="has-child"><a>My Profile</a>
+                            <div class="wrapper">
+                                <div id="nav-homepages" class="nav-wrapper">
+                                    <ul>
+                                        <li><a href="arialProfile.html">Personal Info</a></li>
+                                        <li><a href="arialAccountsettings.html">Account setting</a></li>
+                                        <li><a href="arialChangepassword.html">Change Password</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
 
+                        <li class="has-child"><a class="promoted">My Communities</a>
+                            <div class="wrapper">
+                                <div id="nav-homepages" class="nav-wrapper">
+                                    <ul>
+                                        <li>
+                                            <a href="photographyarialDN_joined.html">Photography</a>
+                                        </li>
+                                        <li>
+                                            <a href="csse3002arialDN_joined.html">CSSE3002</a>
+                                        </li>
+                                        <li>
+                                            <a href="kabukiarialDN_joined.html">Kabuki</a>
+                                        </li>
+                                        <li>
+                                            <a class="promoted">Dancing Night</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="signIn.html ">Log out</a></li>
                     </ul>
                     <!--end navigation-->
                 </div>
                 <!--end primary-nav-->
 
                 <!--end secondary-nav-->
-                <a href="addchannel.html" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Add Your Own</span></a>
-                <div class="nav-btn">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </div>
+
+
                 <!--end nav-btn-->
             </div>
             <!--end right-->
@@ -443,4 +469,5 @@
                         <script src="js/mediaelement-playlist-plugin.min.js"></script>
 
 </body>
+
 </html>
