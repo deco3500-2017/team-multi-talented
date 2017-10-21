@@ -61,7 +61,7 @@
         <div id="page-content">
             <div class="hero-section has-background">
                 <div class="wrapper">
-                    <div class="inner">
+                    <div class="inner" style="padding-top: 30px;">
                         <div class="container">
                             <div class="page-title center">
                                 <h1>Welcome to <b>CultureConnect</b></h1>
@@ -71,32 +71,25 @@
                             <div class="row">
                                 <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
                                     <div id="signInForm">
-
-                                        <h3 style="color:white">Username:</h3>
-                                        <div style="padding: 10px; background-color: #4611a7">
-                                            <select name="username" style="background-color: white;color:black" onchange="javascript:location.href = this.value;" required>
-                                                    <option></option>
+                                        <div style="padding: 10px; background-color: #4611a7;">
+                                            <select id="uname" name="username"  style="background-color: white; color:black;" onchange="javascript:location.href = this.value;" required>
+                                                    <option value="index.html">Please select a User...</option>
                                                     <option value="arialHome.html">Arial Underwood</option>
                                                     <option value="johnHome.html">John Smith</option>
                                                     <option value="PeterHome.html">Peter Sung</option>
                                                 </select>
                                         </div>
+                                        <br/>
+                                        <br/>
+                                        
 
                                         <br/>
                                         <br/>
-                                        <h3 style="color:white">Password:</h3>
-                                        <div style="padding: 10px; background-color: #4611a7;">
-                                            <input style="background-color: white; color: black;" class="inptMain" type="password" placeholder="Password e.g., 0000" name="password" value="00000" readonly>
-                                        </div>
-
-                                        <br/>
-                                        <br/>
-                                        <button class="btn btn-framed btn-rounded btn-default " name="Sign In" style="float:right;">Sign In</button>
                                         <br/><br/>
                                         <div id="formFooter">
                                             <a href="forgotPassword.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif" ;>Forgot Password</a>
                                             <hr style="margin: 5% 0px;">
-                                            <a href="signUp.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif">Sign Up</a>
+                                            <a href="signIn.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif">Sign Up</a>
 
                                         </div>
 
