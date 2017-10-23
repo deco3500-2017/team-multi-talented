@@ -35,9 +35,9 @@
                         <ul class="navigation">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="communities.html">Communities</a></li>
-                            
-                            <li><a href="about.html">About</a></li>
                             <li><a class="promoted">Sign In</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="about.html">About</a></li>
                         </ul>
                         <!--end navigation-->
                     </div>
@@ -61,7 +61,7 @@
         <div id="page-content">
             <div class="hero-section has-background">
                 <div class="wrapper">
-                    <div class="inner" style="padding-top: 30px;">
+                    <div class="inner">
                         <div class="container">
                             <div class="page-title center">
                                 <h1>Welcome to <b>CultureConnect</b></h1>
@@ -71,25 +71,32 @@
                             <div class="row">
                                 <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
                                     <div id="signInForm">
-                                        <div style="padding: 10px; background-color: #4611a7;">
-                                            <select id="uname" name="username"  style="background-color: white; color:black;" onchange="javascript:location.href = this.value;" required>
-                                                    <option value="index.html">Please select a User...</option>
+
+                                        <h3 style="color:white">Username:</h3>
+                                        <div style="padding: 10px; background-color: #4611a7">
+                                            <select name="username" style="background-color: white;color:black" onchange="javascript:location.href = this.value;" required>
+                                                    <option></option>
                                                     <option value="arialHome.html">Arial Underwood</option>
                                                     <option value="johnHome.html">John Smith</option>
                                                     <option value="PeterHome.html">Peter Sung</option>
                                                 </select>
                                         </div>
-                                        <br/>
-                                        <br/>
-                                        
 
                                         <br/>
                                         <br/>
+                                        <h3 style="color:white">Password:</h3>
+                                        <div style="padding: 10px; background-color: #4611a7;">
+                                            <input style="background-color: white; color: black;" class="inptMain" type="password" placeholder="Password e.g., 0000" name="password" value="00000" readonly>
+                                        </div>
+
+                                        <br/>
+                                        <br/>
+                                        <button class="btn btn-framed btn-rounded btn-default " name="Sign In" style="float:right;">Sign In</button>
                                         <br/><br/>
                                         <div id="formFooter">
                                             <a href="forgotPassword.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif" ;>Forgot Password</a>
                                             <hr style="margin: 5% 0px;">
-                                            <a href="signIn.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif">Sign Up</a>
+                                            <a href="signUp.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif">Sign Up</a>
 
                                         </div>
 
@@ -155,7 +162,7 @@
 
 
                         <div class="item featured" data-id="1">
-                            <a href="marketday.html">
+                            <a href="institutionsignin.html">
                                 <div class="description">
                                     <div class="label label-default">Campus Event</div>
                                     <h3>Market Day</h3>
@@ -178,7 +185,7 @@
                         </div>
                         <!--end item-->
                         <div class="item featured" data-id="23">
-                            <a href="culturalfiesta.html">
+                            <a href="institutionsignin.html">
                                 <div class="description">
                                     <div class="label label-default">Multicultural Event</div>
                                     <h3>Cultural Fiesta</h3>
@@ -202,7 +209,7 @@
                         </div>
                         <!--end item-->
                         <div class="item featured" data-id="3">
-                            <a href="spanishtalk.html">
+                            <a href="institutionsignin.html">
                                 <div class="description">
                                     <figure>
                                         <!--<span><i class="fa fa-calendar"></i>12.08.2016</span>
@@ -229,7 +236,7 @@
                         </div>
                         <!--end item-->
                         <div class="item featured" data-id="4">
-                            <a href="latinfilm.html">
+                            <a href="institutionsignin.html">
                                 <div class="description">
                                     <div class="label label-default">Film Festival</div>
                                     <h3>Latin American Film Festival</h3>
@@ -271,7 +278,7 @@
                             </h2>
                         </div>
                         <div class="element">
-                            <a href="submitevent.html" class="btn btn-rounded invisible-on-mobile">Add an Event</a>
+                            <a href="addchannel.html" class="btn btn-rounded invisible-on-mobile">Add an Event</a>
                             <div id="gallery-nav"></div>
                         </div>
                     </div>
@@ -279,7 +286,7 @@
                     <div class="gallery featured">
                         <div class="owl-carousel" data-owl-items="6" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="1" data-owl-nav-container="#gallery-nav">
                             <div class="item featured" data-id="1">
-                                <a href="germanweek.html">
+                                <a href="musicclasses.html">
                                     <div class="description">
                                         <div class="label label-default">Cultural Event</div>
                                         <h3>Brisbane German Week</h3>
@@ -303,7 +310,7 @@
                             </div>
                             <!--end item-->
                             <div class="item featured" data-id="23">
-                                <a href="japaneseexperience.html">
+                                <a href="cookingclasses.html">
                                     <div class="description">
                                         <div class="label label-default">Cultural Experience</div>
                                         <h3>Brisbane's Japanese Experience</h3>
@@ -328,7 +335,7 @@
                             </div>
                             <!--end item-->
                             <div class="item featured" data-id="3">
-                                <a href="asianstreetfood.html">
+                                <a href="artclasses.html">
                                     <div class="description">
                                         <figure>
                                             <!--<span><i class="fa fa-calendar"></i>12.08.2016</span>
@@ -356,7 +363,7 @@
                             </div>
                             <!--end item-->
                             <div class="item featured" data-id="4">
-                                <a href="frenchexperience.html">
+                                <a href="restaurants.html">
                                     <div class="description">
                                         <div class="label label-default">Cultural Experience</div>
                                         <h3>Brisbane's French Experience</h3>
@@ -379,7 +386,7 @@
                             </div>
                             <!--end item-->
                             <div class="item featured" data-id="6">
-                                <a href="stpatrick.html">
+                                <a href="danceclasses.html">
                                     <div class="description">
                                         <div class="label label-default">Cultural Celebrations</div>
                                         <h3>St Patrick's Day</h3>
@@ -423,7 +430,7 @@
                 <div class="gallery featured">
                     <div class="owl-carousel" data-owl-items="6" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="1" data-owl-nav-container="#gallery-nav">
                         <div class="item featured" data-id="3">
-                            <a href="asianstreetfood.html">
+                            <a href="artclasses.html">
                                 <div class="description">
                                     <figure>
                                         <!--<span><i class="fa fa-calendar"></i>12.08.2016</span>
@@ -451,7 +458,7 @@
                         </div>
                         <!--end item-->
                         <div class="item featured" data-id="23">
-                            <a href="livemusic.html">
+                            <a href="livemusic_preview.html">
                                 <div class="description">
                                     <div class="label label-default">Cultural Music</div>
                                     <h3>Indonesian Live Acoustic Music Night</h3>
@@ -474,7 +481,7 @@
                         </div>
                         <!--end item-->
                         <div class="item featured" data-id="1">
-                            <a href="germanweek.html">
+                            <a href="musicclasses.html">
                                 <div class="description">
                                     <div class="label label-default">Cultural Event</div>
                                     <h3>Brisbane German Week</h3>
@@ -498,7 +505,7 @@
                         </div>
                         <!--end item-->
                         <div class="item featured" data-id="4">
-                            <a href="multiculturalshowcase.html">
+                            <a href="arttour_preview.html">
                                 <div class="description">
                                     <div class="label label-default">Multicultural Showcase</div>
                                     <h3>Multicultural Showcase Stage at Valley Fiesta</h3>
@@ -521,7 +528,7 @@
                         </div>
                         <!--end item-->
                         <div class="item featured" data-id="23">
-                            <a href="japaneseexperience.html">
+                            <a href="cookingclasses.html">
                                 <div class="description">
                                     <div class="label label-default">Cultural Experience</div>
                                     <h3>Brisbane's Japanese Experience</h3>
@@ -569,10 +576,10 @@
                                     <figure class="day">25</figure>
                                     <figure class="month">Oct</figure>
                                 </div>
-                                <h4><a href="livemusic.html">Indonesian Live Acoustic Music Night</a></h4>
+                                <h4><a href="foodfestival.html">Indonesian Live Acoustic Music Night</a></h4>
                                 <figure class="date"><i class="icon_clock_alt"></i>20:00</figure>
                                 <p>Indulge yourself with one of the best Indonesian live music event in Brisbane.</p>
-                                <a href="livemusic.html" class="link arrow">More</a>
+                                <a href="foodfestival_preview.html" class="link arrow">More</a>
                             </div>
                             <!--end text-element-->
                         </div>
@@ -582,10 +589,10 @@
                                     <figure class="day">28</figure>
                                     <figure class="month">Oct</figure>
                                 </div>
-                                <h4><a href="diwali.html">Diwali: Festival of Lights</a></h4>
+                                <h4><a href="marketvisit.html">Diwali: Festival of Lights</a></h4>
                                 <figure class="date"><i class="icon_clock_alt"></i>17:30</figure>
                                 <p>Celebrate this festive occasion including live performances, interactive stalls, henna tattoos, Rangoli art and a free delicious Indian feast!</p>
-                                <a href="diwali.html" class="link arrow">More</a>
+                                <a href="marketvisit_preview.html" class="link arrow">More</a>
                             </div>
                             <!--end text-element-->
                         </div>
@@ -598,10 +605,10 @@
                                     <figure class="day">28</figure>
                                     <figure class="month">Oct</figure>
                                 </div>
-                                <h4><a href="multiculturalshowcase.html">Multicultural Showcase</a></h4>
+                                <h4><a href="arttour.html">Multicultural Showcase</a></h4>
                                 <figure class="date"><i class="icon_clock_alt"></i>14:00</figure>
                                 <p>This year Chinatown Mall is giving us more than just a bite of Asian culture, it's giving us a mouthful of cultures from around the world.</p>
-                                <a href="multiculturalshowcase.html" class="link arrow">More</a>
+                                <a href="arttour_preview.html" class="link arrow">More</a>
                             </div>
                             <!--end text-element-->
                         </div>
