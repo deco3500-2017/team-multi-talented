@@ -31,16 +31,15 @@
                     <div class="primary-nav has-mega-menu">
                         <ul class="navigation">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="communities.html">Communities</a></li>
-                            <li><a href="signIn.html">Sign In</a></li>
-                            <li><a href="register.html">Register</a></li>
+                            <li><a href="communities.html">Events</a></li>
+                            <li><a class="promoted">Sign In</a></li>
                             <li><a href="about.html">About</a></li>
                         </ul>
                         <!--end navigation-->
                     </div>
 
                     <!--end primary-nav-->
-                    <a href="index-hero-version-1.html#" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Add Your Own</span></a>
+
                     <!--end secondary-nav-->
 
                 </div>
@@ -51,41 +50,46 @@
         <!--end page-header-->
 
         <div id="page-content">
-            <div class="hero-section has-background" style="height:100%">
+            <div class="hero-section has-background">
                 <div class="wrapper">
                     <div class="inner">
                         <div class="container">
                             <div class="page-title center">
                                 <h1>Welcome to <b>CultureConnect</b></h1>
-                                <h2>Share and exchange your culture experiences with other people</h2>
+                                <h2>Connecting you to multicutural happenings and exciting events in Brisbane!</h2>
                             </div>
                             <!--end page-title-->
                             <div class="row">
                                 <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
                                     <div id="signInForm">
-                                        <form name="validAccount" onsubmit="return validateForm()" action="personas.html" method="get" style="-webkit-box-shadow:0px 0px 0px rgba(0, 0, 0, 0.2);box-shadow:0px 0px 0px rgba(0, 0, 0, 0.2)">
-                                            <div style="padding: 10px; background-color: #4611a7">
-                                                <input style="background-color: white;color:black;" class="inptMain" type="text" placeholder="Username" name="username" required>
-                                            </div>
 
-                                            <br/>
-                                            <br/>
-                                            <div style="padding: 10px; background-color: #4611a7">
-                                                <input style="background-color: white;color:black;" class="inptMain" type="password" placeholder="Password" name="password" required>
-                                            </div>
+                                        <h3 style="color:white">Username:</h3>
+                                        <div style="padding: 10px; background-color: #4611a7">
+                                            <select name="username" style="background-color: white;color:black" onchange="javascript:location.href = this.value;" required>
+                                                    <option></option>
+                                                    <option value="arialHome.html">Arial Underwood</option>
+                                                    <option value="johnHome.html">John Smith</option>
+                                                    <option value="PeterHome.html">Peter Sung</option>
+                                                </select>
+                                        </div>
 
-                                            <br/>
-                                            <br/>
-                                            <button class="btn btn-framed btn-rounded btn-default" type="submit" name="Sign In" style="float:right;">Sign In</button>
-                                            <br/><br/>
-                                            <div id="formFooter">
-                                                <a href="forgotPassword.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif" ;>Forgot Password</a>
-                                                <hr style="margin: 5% 0px;">
-                                                <a href="signUp.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif">Sign Up</a>
+                                        <br/>
+                                        <br/>
+                                        <h3 style="color:white">Password:</h3>
+                                        <div style="padding: 10px; background-color: #4611a7;">
+                                            <input style="background-color: white; color: black;" class="inptMain" type="password" placeholder="Password e.g., 0000" name="password" value="00000" readonly>
+                                        </div>
 
-                                            </div>
+                                        <br/>
+                                        <br/>
+                                        <button class="btn btn-framed btn-rounded btn-default " name="Sign In" style="float:right;">Sign In</button>
+                                        <br/><br/>
+                                        <div id="formFooter">
+                                            <a href="forgotPassword.html" style="text-align:center;display:block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif" ;>Forgot Password</a>
+                                            <hr style="margin: 5% 0px;">
 
-                                        </form>
+                                        </div>
+
                                     </div>
                                     <!--end sign-in form-->
                                 </div>
@@ -99,7 +103,7 @@
                 </div>
                 <!--end wrapper-->
                 <div class="background-wrapper">
-                    <div class="bg-transfer opacity-50"><img src="assets/img/background-03.jpg" alt=""></div>
+                    <div class="bg-transfer opacity-50"><img src="assets/img/background-01.jpg" alt=""></div>
                     <div class="background-color background-color-black"></div>
                 </div>
                 <!--end background-wrapper-->
