@@ -1,20 +1,15 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "velta.azizah@gmail.com";
-    $from = $_POST['email'];
+    $to = $_POST['email'];
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $subject = "Contact form result from " . $name . " (" . $email . ")";
-    $subject2 = "Your contact form has been sent!";
+    $subject = "E-invitation from CultureConnect to " . $name . " (" . $email . ")";
     $message = $name . " " . "(" . $email . ")" . " wrote the following:<br>" 
-		. "\n\n" . "Full Name: " . "<b>" . $name . "</b><br>"
+		. "\n\n" . "Name: " . "<b>" . $name . "</b><br>"
 		. "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>";
-    $message2 = "Thanks for getting in touch " . $name . "! We will contact you shortly.";
 
-	$headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From:" . $name . '<' . $from . '>';
-    $headers2 = "From: DebtPal <ssss@debtpal.com.au>";
+	$headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From: CultureConnect <cultureconnect@uqcloud.net>";
     mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2);
     }
 ?>
 
@@ -363,11 +358,6 @@ if(isset($_POST['submit'])){
 						<input name="email" type="email" class="form-control" placeholder="Email" required><br>
 						<input type="submit" name="submit" class="form-control submit" value="Submit">
 
-  </form>
-      </div>
-      <div class="modal-footer">
-      	<input type="submit" name="submit" class="form-control submit" value="Submit">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
 
