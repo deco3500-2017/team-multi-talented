@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Diwali: Festival of Lights</title>
+
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
+
+	<!-- Theme Styles CSS -->
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/blocks.css">
+
+	<!-- Main Font -->
+	<script src="js/webfontloader.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto:300,400,500,700:latin']
+			}
+		});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<!-- Styles for plugins -->
+	<link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+	
+	<!-- Styles from index page -->
+	<link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
+    
+	<!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css"> -->
+
+    <!-- <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/navstyle.css" type="text/css">
+
+
+</head>
+<body>
+
+		<header id="page-header">
+            <nav>
+                <div class="left">
+                    <a href="index.html" class="brand">CultureConnect</a>
+                </div>
+                <!--end left-->
+                <div class="right">
+                    <div class="primary-nav has-mega-menu">
+                        <ul class="navigation">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="signIn.html">Sign In</a></li>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="about.html">About</a></li>
+
+                        </ul>
+                        <!--end navigation-->
+                    </div>
+                    <!--end primary-nav-->
+
+                    <!--end secondary-nav-->
+                    <a href="addchannel.html" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Add Your Own</span></a>
+                    <div class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <!--end nav-btn-->
+                </div>
+                <!--end right-->
+            </nav>
+            <!--end nav-->
+        </header>
+        <!--end page-header-->
+
+<!-- Profile Settings Responsive -->
+
+<!-- OPEN LEFT SIDEBAR --> 
+<div class="profile-settings-responsive">
+
+	<a href="#" class="js-profile-settings-open profile-settings-open">
+		<i class="fa fa-angle-right" aria-hidden="true"></i>
+		<i class="fa fa-angle-left" aria-hidden="true"></i>
+	</a>
+	<div class="mCustomScrollbar" data-mcs-theme="dark">
+		<div class="ui-block">
+			<div class="your-profile">
+				<div class="ui-block-title ui-block-title-small">
+					<h2 class="title">CULTURAL CELEBRATIONS</h2>
+				</div>
+
+				<div id="accordion1" role="tablist" aria-multiselectable="true">
+					<div class="card">
+						<div class="card-header" role="tab" id="headingOne-1">
+								<h6 class="mb-0">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<br><center>
+										<img src="assets/img/items/54.jpg" width="160" height="100"><br><br>
+										Diwali: Festival of Lights</center>
+										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
+									</a>
+								</h6>
+
+							</div>
+
+							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+								<ul class="your-profile-menu">
+									<li>
+										<B>Hosted by:</b> UQU
+										<br><br>
+									</li>
+									<li>
+										<b>Date:</b> 28.10.2017<br><br>
+										<b>Time:</b> 5.30 PM - 8.30 PM<br><br>
+										
+									</li>							
+									<li>
+										<b>Location:</b><br><br>
+										<center>
+										<img src="img/photo-message4.png" alt="location">
+										</center><br>
+									</li>
+									<li>
+										<b>Attendees:</b><br>
+										<center>
+										<img src="img/members.png" width="100" height="35" alt="location">
+										</center>
+									</li>
+								
+								<br>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Profile Settings Responsive -->
+
+<div class="header-spacer header-spacer-small"></div>
+
+<!-- Your Account Personal Information -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
+			<div class="ui-block">
+				<div class="ui-block-title">
+					<h6 class="title">Diwali: Festival of Lights</h6>
+					<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-r-0">
+						<ul class="notification-list chat-message">
+							<li class="chat-group">
+								<div class="notification-event">
+									<a href="" class="h6 notification-friend"><b>About:</b><br><br></a>
+									Traditionally celebrated throughout South Asia and the Indian sub-continent, traditional Diwali celebrations are as diverse as the regions they come from. 
+									<br><br>
+									Held on the darkest night of Spring, the festival represents the spiritual significance of light defeating darkness, good triumphing over evil and knowledge over ignorance. Typically one of the happiest holidays in the countries where it is celebrated, rituals include lighting diyas, candles and lanterns, fireworks displays, dancing, singing, feasting, colourful Rangoli art and more! 
+									<br><br>
+									Join us on the 28th of October from 5:30pm in The Holt Room to celebrate this festive occasion including live performances, interactive stalls, henna tattoos, Rangoli art and a free delicious Indian feast! 
+									
+									</div>
+							</li>
+							<!-- <li class="chat-group">
+								<div class="notification-event">
+									<a href="#" class="h6 notification-friend"><b>Random</b><br></a>
+									<span class="last-message-author">Matt:</span>
+									<span class="chat-message-item">That's interesting!</span>
+									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
+								</div>
+								<span class="notification-icon">
+									<svg class="olymp-chat---messages-icon"><use xlink:href="icons/icons.svg#olymp-chat---messages-icon"></use></svg>
+								</span>
+								<div class="more">
+									<svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg>
+								</div>
+							</li>
+							-->
+							
+
+								<span class="notification-icon">
+									<svg class="olymp-chat---messages-icon"><use xlink:href="icons/icons.svg#olymp-chat---messages-icon"></use></svg>
+								</span>
+								<div class="more">
+									<svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg>
+								</div>
+							
+							
+							<!-- DIRECT MESSAGES -->
+							<!-- <li>
+								<div class="author-thumb">
+									<img src="img/avatar8-sm.jpg" alt="author">
+								</div>
+								<div class="notification-event">
+									<a href="#" class="h6 notification-friend">General</a>
+									<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
+									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+								</div>
+									<span class="notification-icon">
+										<svg class="olymp-chat---messages-icon"><use xlink:href="icons/icons.svg#olymp-chat---messages-icon"></use></svg>
+									</span>
+
+								<div class="more">
+									<svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg>
+								</div>
+							</li>
+							-->
+						</ul>
+					</div>
+
+					<div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-l-0">
+						<div class="chat-field">
+							<div class="ui-block-title">
+								<h6 class="title">What people are saying</h6>
+								<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg></a>
+							</div>
+							<div class="mCustomScrollbar" data-mcs-theme="dark">
+								<ul class="notification-list chat-message chat-message-field">
+									<li>
+										<div class="author-thumb">
+											<img src="img/avatar24-sm.jpg" alt="author">
+										</div>
+										<div class="notification-event">
+											<a href="#" class="h6 notification-friend">Ed Henderson</a>
+											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:10am</time></span>
+											<span class="chat-message-item">UQ has this event every year and I gotta say that it is truly amazing!
+									</span>
+										</div>
+									</li>
+
+									<li>
+										<div class="author-thumb">
+											<img src="img/avatar29-sm.jpg" alt="author">
+										</div>
+										<div class="notification-event">
+											<a href="#" class="h6 notification-friend">Jaskirth Jones</a>
+											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:30am</time></span>
+										<span class="chat-message-item">This is my second year studying in UQ and I'm amazed that they've got amazing cultural celebrations! It makes me feel
+										super connected to my home. 
+										</span>
+										</div>
+									</li>
+
+									<li>
+										<div class="author-thumb">
+											<img src="img/avatar26-sm.jpg" alt="author">
+										</div>
+										<div class="notification-event">
+											<a href="#" class="h6 notification-friend">Melinda Anne</a>
+											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8.35am</time></span>
+											<span class="chat-message-item">Best event celebration in UQ ever. The live music is amazing and gets better each year!</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							<form>
+
+								<div class="form-group label-floating is-empty">
+									<label class="control-label">What would you like to say?</label>
+									<textarea class="form-control" placeholder=""  ></textarea>
+								</div>
+
+								<div class="add-options-message">
+									<a href="#" class="options-message">
+										<svg class="olymp-computer-icon"><use xlink:href="icons/icons.svg#olymp-computer-icon"></use></svg>
+									</a>
+									<a href="#" class="options-message">
+										<svg class="olymp-computer-icon"><use xlink:href="icons/icons.svg#olymp-computer-icon"></use></svg>
+									</a>
+									
+									<button class="btn btn-primary btn-sm">Post</button>
+								</div>
+
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<br><br>
+		</div>
+
+		<div class="col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-12 order-md-2 col-sm-12 col-xs-12 responsive-display-none">
+			<div class="ui-block">
+				<div class="your-profile">
+					<div class="ui-block-title ui-block-title-small">
+						<h1 class="title">CULTURAL CELEBRATIONS</h1>
+					</div>
+
+					<div id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="card">
+							<div class="card-header" role="tab" id="headingOne">
+								
+								<h6 class="mb-0">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<br><center>
+										<img src="assets/img/items/54.jpg" width="160" height="100"><br><br>
+										Diwali: Festival of Lights</center>
+										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
+									</a>
+								</h6>
+
+							</div>
+
+							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+								<ul class="your-profile-menu">
+									<!-- <li>
+										Traditionally celebrated throughout South Asia and the Indian sub-continent, 
+										traditional Diwali celebrations are as diverse as the regions they come from.
+										<br><br>
+									</li>
+									<li>
+										Held on the darkest night of Spring, the festival represents the spiritual significance of light 
+										defeating darkness, good triumphing over evil and knowledge over ignorance. Typically one of the happiest 
+										holidays in the countries where it is celebrated, rituals include lighting diyas, candles and lanterns, fireworks displays, 
+										dancing, singing, feasting, colourful Rangoli art and more!
+										<br><br>
+										Join us on the 28th of October from 5:30pm in The Holt Room to celebrate this festive occasion including live performances, interactive stalls, henna tattoos, Rangoli art and a free delicious Indian feast!
+										<br><br>
+									</li>-->
+									<li>
+										<B>Hosted by:</b> UQU
+										<br>
+									</li>
+									<li>
+										<b>Date:</b> 28.10.2017<br>
+										<b>Time:</b> 5.30 PM - 8.30 PM<br>
+									
+									<li>
+										<B>Location:</b> The Holt Room <br><br>
+										<center>
+										<img src="img/photo-message4.png" alt="location">
+										</center>
+										<br>
+									</li>
+										
+									</li>	
+									<li>
+										<b>Attendees:</b>
+										<center>
+										<img src="img/members.png" width="100" height="35" alt="location">
+										</center>
+									</li>
+									<br>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+
+					<!-- 
+					<div class="ui-block-title">
+						<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
+						<a href="#" class="items-round-little bg-primary">8</a>
+					</div>
+					<div class="ui-block-title">
+						<a href="34-YourAccount-ChatMessages.html" class="h6 title">Chat / Messages</a>
+					</div>
+					<div class="ui-block-title">
+						<a href="35-YourAccount-FriendsRequests.html" class="h6 title">Friend Requests</a>
+						<a href="#" class="items-round-little bg-blue">4</a>
+					</div>
+					<div class="ui-block-title ui-block-title-small">
+						<h6 class="title">FAVOURITE PAGE</h6>
+					</div>
+					<div class="ui-block-title">
+						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Create Fav Page</a>
+					</div>
+					<div class="ui-block-title">
+						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Your Account Personal Information -->
+
+<!-- jQuery first, then Other JS. -->
+<script src="js/jquery-3.2.0.min.js"></script>
+<!-- Js effects for material design. + Tooltips -->
+<script src="js/material.min.js"></script>
+<!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+<script src="js/theme-plugins.js"></script>
+<!-- Init functions -->
+<script src="js/main.js"></script>
+
+<!-- Select / Sorting script -->
+<script src="js/selectize.min.js"></script>
+
+<!-- Datepicker input field script-->
+<script src="js/moment.min.js"></script>
+<script src="js/daterangepicker.min.js"></script>
+
+<script src="js/mediaelement-and-player.min.js"></script>
+<script src="js/mediaelement-playlist-plugin.min.js"></script>
+
+</body>
+</html>
