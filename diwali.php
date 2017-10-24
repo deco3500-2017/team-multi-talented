@@ -1,3 +1,24 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "velta.azizah@gmail.com";
+    $from = $_POST['email'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = "Contact form result from " . $name . " (" . $email . ")";
+    $subject2 = "Your contact form has been sent!";
+    $message = $name . " " . "(" . $email . ")" . " wrote the following:<br>" 
+		. "\n\n" . "Full Name: " . "<b>" . $name . "</b><br>"
+		. "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>";
+    $message2 = "Thanks for getting in touch " . $name . "! We will contact you shortly.";
+
+	$headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From:" . $name . '<' . $from . '>';
+    $headers2 = "From: DebtPal <ssss@debtpal.com.au>";
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2);
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -114,7 +135,7 @@
 								</h6>
 
 							</div>
-
+							
 							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
 								<ul class="your-profile-menu">
 									<li>
@@ -143,6 +164,7 @@
 							</ul>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>
@@ -163,6 +185,8 @@
 					<h6 class="title">Diwali: Festival of Lights</h6>
 					<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg></a>
 				</div>
+
+
 
 				<div class="row">
 					<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-r-0">
@@ -319,6 +343,36 @@
 								</h6>
 
 							</div>
+							<button data-toggle="modal" data-target="#myModal" style="color: white; background: #3d22a0" class="btn btn-breez btn-sm">Register to this event</button>
+
+							<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title" style="margin-bottom: 20px"><center>Count me in!</center></h2><br><br>
+
+      </div>
+      <div class="modal-body">
+      	<form method="post">
+      	<p>Fill in the details below and we will send you an e-invitation for this event!</p>
+        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+						<input name="email" type="email" class="form-control" placeholder="Email" required><br>
+						<input type="submit" name="submit" class="form-control submit" value="Submit">
+
+  </form>
+      </div>
+      <div class="modal-footer">
+      	<input type="submit" name="submit" class="form-control submit" value="Submit">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
 								<ul class="your-profile-menu">
