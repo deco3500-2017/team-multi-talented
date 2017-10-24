@@ -437,8 +437,7 @@
             <!--end block-->
         </div>
         <!--end page-content-->
-        
-        <!-- Modal loads on page load, if and only if page has not yet been visited by the browser already -->
+        <!-- Trigger the modal with a button -->
         <!-- Modal -->
         <div id="myModal1" class="modal fade" role="dialog">
             <div class="modal-dialog">
@@ -454,8 +453,9 @@
                         <form>
                             <h1>Are you a student?</h1><br>
                             <button type="button" class="btn btn-default" value="YES" onclick="dialogNXT()">Yes</button>
-                            <button type="button" class="btn btn-default" value="NO" style="margin-left: 5%" onclick="dialogNXT2()">No</button>
+                            <button type="button" class="btn btn-default" value="NO" style="margin-left: 5%;">No</button>
                             <br>
+
                         </form>
                     </div>
                 </div>
@@ -477,9 +477,8 @@
                         <hr>
                         <form>
                             <h1>Which University do you attend?</h1><br>
-                            <input type="text" class="btn btn-default" id="uniTXT" placeholder="e.g., The University of Queensland" required><br><br>
-                            <input type="button" class="btn btn-default" value="submit" onclick="dialogNXT1()">
-                            <a id="validateNULL" style="color:red; margin-left: 10px;"></a>
+                            <input type="text" class="btn btn-default" value=""><br><br>
+                            <button type="button" class="btn btn-default" value="SUBMIT" onclick="dialogNXT1()">Submit</button>
                             <br>
 
                         </form>
@@ -502,40 +501,11 @@
                         <p>Please spare the time to provide some personal information. The information you provide will personalise your Culture Connect experience.</p>
                         <hr>
                         <form>
-                            <h1>Which of the following topics interests you the most?</h1><br/>
-                            <button type="button" class="btn btn-default" value="MUSIC" onclick="dialogNXT3()">Music</button>
-                            <button type="button" class="btn btn-default" value="MOVIES" style="margin-left: 5%;" onclick="dialogNXT3()">Food</button>
-                            <button type="button" class="btn btn-default" value="ART" style="margin-left: 5%;" onclick="dialogNXT3()">Art</button>
-                            <button type="button" class="btn btn-default" value="CULTURE" style="margin-left: 5%;" onclick="dialogNXT3()">Culture and Recreation</button>
-                            
+                            <h1>Which University do you attend?</h1><br>
+                            <input type="text" class="btn btn-default" value=""><br>
+                            <button type="button" class="btn btn-default" value="SUBMIT" onclick="dialogNXT1()">Submit</button>
                             <br>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Trigger the modal with a button -->
-        <!-- Modal -->
-        <div id="myModal4" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">×</button>
-                        <h4 class="modal-title">Profile Builder</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Please spare the time to provide some personal information. The information you provide will personalise your Culture Connect experience.</p>
-                        <hr>
-                        <form>
-                            <h1>Which of the following topics interests you the most?</h1><br/>
-                            <button type="button" class="btn btn-default" value="MUSIC" onclick="dialogNXT3()">Music</button>
-                            <button type="button" class="btn btn-default" value="MOVIES" style="margin-left: 5%;" onclick="dialogNXT3()">Food</button>
-                            <button type="button" class="btn btn-default" value="ART" style="margin-left: 5%;" onclick="dialogNXT3()">Art</button>
-                            <button type="button" class="btn btn-default" value="CULTURE" style="margin-left: 5%;" onclick="dialogNXT3()">Culture and Recreation</button>
-                            
-                            <br>
+
                         </form>
                     </div>
                 </div>
@@ -566,7 +536,7 @@
                 <div class="footer-navigation">
                     <div class="container">
                         <div class="vertical-aligned-elements">
-                            <div class="element width-50">(C) 2017 Culture Connect, All rights reserved</div>
+                            <div class="element width-50">(C) 2016 Your Company, All right reserved</div>
 
                         </div>
                     </div>
@@ -605,53 +575,24 @@
 
     </script>
 
-    <script type="text/javascript">        
-        
+    <script type="text/javascript">
         $(window).on('load', function() {
-            var cookieVal = document.cookie;
-            if (cookieVal == ""){
-                    $('#myModal1').modal('show');
-                    var test = 1;
-                    document.cookie = test;
-                    console.log("Cookie Set: "+ test);
-            };
+            $('#myModal1').modal('show');
         });
-                
-                
-           
+
     </script>
-    
     <script type="text/javascript">
         function dialogNXT() {
             $('#myModal1').modal('hide');
             $('#myModal2').modal('show');
+
         };
 
         function dialogNXT1() {
-            var apples = document.getElementById('uniTXT').value;
-            console.log('validation connected:'+ apples);
-            if (apples == "") {
-                console.log("apples is equal to null");
-                texttemp = "An answer is needed to continue!";
-                $('#validateNULL').html('<b>An answer is required to continue!</b>');
-            }
-            
-            else {
-                $('#myModal2').modal('hide');
-                $('#myModal3').modal('show');
-            }
+            $('#myModal2').modal('hide');
+            $('#myModal3').modal('show');
+
         };
-        
-        function dialogNXT2() {
-            $('#myModal1').modal('hide');
-            $('#myModal4').modal('show');
-        };
-        
-        function dialogNXT3() {
-            $('#myModal3').modal('hide');
-            $('#myModal4').modal('hide');
-        };
-        
 
     </script>
 
