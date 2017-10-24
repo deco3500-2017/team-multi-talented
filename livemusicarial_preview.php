@@ -408,15 +408,16 @@ if(isset($_POST['submit'])){
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 class="modal-title" style="margin-bottom: 20px"><center>Count me in!</center></h2><br><br>
+        <h2 class="modal-title" style="margin-bottom: 20px"><center>Register to the event</center></h2><br><br>
 
       </div>
       <div class="modal-body">
         <form method="post">
-        <p>Fill in the details below and we will send you an e-invitation for this event!</p>
+        Fill in the details below and we will send you an e-invitation for this event. <br><br>Please note that you will receive the updates from event host and the channel you are joined to.</p>
         <input name="name" type="text" class="form-control" placeholder="Name" required><br>
                         <input name="email" type="email" class="form-control" placeholder="Email" required><br>
-                        <input type="submit" name="submit" class="form-control submit" value="Submit">
+                        <input style="background: #3d22a0; color: white" type="submit" name="submit" class="form-control submit" value="Count Me In">
+                        <input type="button" name="submit" class="form-control submit" value="Maybe Later">
 
       </div>
     </div>
