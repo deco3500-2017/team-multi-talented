@@ -396,10 +396,34 @@ if(isset($_POST['submit'])){
 										Indonesian Acoustic Music Night</center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 										<center><br>
-                                        <a style="color: white; background: #3d22a0" href="livemusicarial_joined.html" class="btn btn-breez btn-sm">Register for this event</a>
                                     </center>
 									</a>
                                     </h6>
+                                    <center><button data-toggle="modal" data-target="#myModal" style="color: white; background: #3d22a0" class="btn btn-breez btn-sm">Register to this event</button></center>
+
+                                    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title" style="margin-bottom: 20px"><center>Register to the event</center></h2><br><br>
+
+      </div>
+      <div class="modal-body">
+        <form method="post">
+        Fill in the details below and we will send you an e-invitation for this event. <br><br>Please note that you will receive the updates from event host and the channel you are joined to.</p>
+        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+                        <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+                        <input style="background: #3d22a0; color: white" type="submit" name="submit" class="form-control submit" value="Count Me In">
+                        <input type="button" name="submit" class="form-control submit" value="Maybe Later">
+
+      </div>
+    </div>
+
+  </div>
+</div>
 
                                 </div>
 
@@ -437,9 +461,6 @@ if(isset($_POST['submit'])){
                                             </center>
                                         </li>
                                         <br>
-                                        <center>
-                                            <a href="livemusicarial_joined.html" class="btn btn-breez btn-sm">Join Channel</a>
-                                        </center>
                                     </ul>
 
                                 </div>

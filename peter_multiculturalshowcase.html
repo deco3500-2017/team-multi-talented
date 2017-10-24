@@ -1,24 +1,8 @@
-<?php 
-if(isset($_POST['submit'])){
-    $to = $_POST['email'];
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = "E-invitation from CultureConnect to " . $name . " (" . $email . ")";
-    $message = $name . " " . "(" . $email . ")" . " wrote the following:<br>" 
-		. "\n\n" . "Name: " . "<b>" . $name . "</b><br>"
-		. "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>";
-
-	$headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From: CultureConnect <cultureconnect@uqcloud.net>";
-    mail($to,$subject,$message,$headers);
-    }
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
-	<title>Diwali: Festival of Lights</title>
+	<title>Multicultural Showcase</title>
 
 	<!-- Required meta tags always come first -->
 	<meta charset="utf-8">
@@ -69,25 +53,53 @@ if(isset($_POST['submit'])){
 		<header id="page-header">
             <nav>
                 <div class="left">
-                    <a href="index.html" class="brand">CultureConnect</a>
+                    <a href="peterHome.html" class="brand">CultureConnect</a>
                 </div>
                 <!--end left-->
                 <div class="right">
                     <div class="primary-nav has-mega-menu">
                         <ul class="navigation">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="events.html">Events</a></li>
-						<li><a href="signIn.html">Sign In</a></li>
-						<li><a href="register.html">Register</a></li>
-						<li><a href="about.html">About</a></li>
+                            <li><a class="promoted">Home</a></li>
+                            <li><a href="peter_events.html">Events</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="has-child"><a>My Profile</a>
+                                <div class="wrapper">
+                                    <div id="nav-homepages" class="nav-wrapper">
+                                        <ul>
+                                            <li><a href="peterProfile.html">Personal Info</a></li>
+                                            <li><a href="peterAccountsettings.html">Account setting</a></li>
+                                            <li><a href="peterChangepassword.html">Change Password</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
 
+                            <li class="has-child"><a>My Events</a>
+                                <div class="wrapper">
+                                    <div id="nav-homepages" class="nav-wrapper">
+                                        <ul>
+                                        <li>
+                                            <li>
+                                                <a href="livemusic.html">Indonesian Acoustic Music Night</a>
+                                            </li>
+                                            <li>
+                                                <a href="japaneseexperience.html">Japanese Experience</a>
+                                            </li>
+                                            <li>
+                                                <a href="stpatrick.html">St Patrick's Day Celebration</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="index.html">Log out</a></li>
                         </ul>
                         <!--end navigation-->
                     </div>
                     <!--end primary-nav-->
 
                     <!--end secondary-nav-->
-                    <a href="addchannel.html" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Add Your Own</span></a>
+                    <a href="submitevent.html" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Add an Event</span></a>
                     <div class="nav-btn">
                         <i></i>
                         <i></i>
@@ -114,7 +126,7 @@ if(isset($_POST['submit'])){
 		<div class="ui-block">
 			<div class="your-profile">
 				<div class="ui-block-title ui-block-title-small">
-					<h2 class="title">CULTURAL CELEBRATIONS</h2>
+					<h2 class="title">Multicultural Showcase</h2>
 				</div>
 
 				<div id="accordion1" role="tablist" aria-multiselectable="true">
@@ -123,27 +135,26 @@ if(isset($_POST['submit'])){
 								<h6 class="mb-0">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										<br><center>
-										<img src="assets/img/items/54.jpg" width="160" height="100"><br><br>
-										Diwali: Festival of Lights</center>
+										<img src="assets/img/items/60.jpg" width="160" height="100"><br><br>
+										Multicultural Showcase</center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 									</a>
 								</h6>
 
 							</div>
-							
+
 							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
 								<ul class="your-profile-menu">
 									<li>
-										<B>Hosted by:</b> UQU
-										<br><br>
+										<B>Host:</b> My Valley<br><br>
 									</li>
 									<li>
 										<b>Date:</b> 28.10.2017<br><br>
-										<b>Time:</b> 5.30 PM - 8.30 PM<br><br>
+										<b>Time:</b> 11.00 am  - 3.00 pm<br><br>
 										
 									</li>							
 									<li>
-										<b>Location:</b><br><br>
+										<b>Location:</b> Chinatown Mall, Fortitude Valley, Brisbane<br><br>
 										<center>
 										<img src="img/photo-message4.png" alt="location">
 										</center><br>
@@ -159,7 +170,6 @@ if(isset($_POST['submit'])){
 							</ul>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -177,11 +187,9 @@ if(isset($_POST['submit'])){
 		<div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
 			<div class="ui-block">
 				<div class="ui-block-title">
-					<h6 class="title">Diwali: Festival of Lights</h6>
+					<h6 class="title">Multicultural Showcase</h6>
 					<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg></a>
 				</div>
-
-
 
 				<div class="row">
 					<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-r-0">
@@ -189,14 +197,15 @@ if(isset($_POST['submit'])){
 							<li class="chat-group">
 								<div class="notification-event">
 									<a href="" class="h6 notification-friend"><b>About:</b><br><br></a>
-									Traditionally celebrated throughout South Asia and the Indian sub-continent, traditional Diwali celebrations are as diverse as the regions they come from. 
+									This year Chinatown Mall is giving us more than just a bite of Asian culture, it's giving us a mouthful of cultures from around the world.
 									<br><br>
-									Held on the darkest night of Spring, the festival represents the spiritual significance of light defeating darkness, good triumphing over evil and knowledge over ignorance. Typically one of the happiest holidays in the countries where it is celebrated, rituals include lighting diyas, candles and lanterns, fireworks displays, dancing, singing, feasting, colourful Rangoli art and more! 
+									Cultural diversity has always played a significant role in shaping Fortitude Valley's character and Valley Fiesta wants to celebrate that. Our multicultural community will be hosting a variety of shows and experiences from various cultures and traditions.
 									<br><br>
-									Join us on the 28th of October from 5:30pm in The Holt Room to celebrate this festive occasion including live performances, interactive stalls, henna tattoos, Rangoli art and a free delicious Indian feast! 
+									Are vibrant colours, energetic dances and unique music your idea of a good Friday night? Witness the elegant and beautiful Bolivian dancers strut their stuff with a number of classical dances alongside Celestino, a fusion of Bolivian and western styles.
+									<br><br> 
+									Traditional dancing is a great way to get in touch with our heritage, but what about modern culture? Hip hop music, baggy clothes and sweet moves should do the trick. With a breakdancing competition held by our very own Dr Rhythm, this is the perfect opportunity to see some local b-boys and fly girls break it down old school style. Whose flow is the most ill? Only the doctor can provide that diagnosis.								
 									
-									</div>
-							</li>
+									</li>
 							<!-- <li class="chat-group">
 								<div class="notification-event">
 									<a href="#" class="h6 notification-friend"><b>Random</b><br></a>
@@ -254,37 +263,38 @@ if(isset($_POST['submit'])){
 								<ul class="notification-list chat-message chat-message-field">
 									<li>
 										<div class="author-thumb">
-											<img src="img/avatar24-sm.jpg" alt="author">
+											<img src="img/avatar16-sm.jpg" alt="author">
 										</div>
 										<div class="notification-event">
-											<a href="#" class="h6 notification-friend">Ed Henderson</a>
+											<a href="#" class="h6 notification-friend">Peter Ramsey</a>
 											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:10am</time></span>
-											<span class="chat-message-item">UQ has this event every year and I gotta say that it is truly amazing!
+											<span class="chat-message-item">Went for this event last year! Coming again this year for the amazing multicultural showcases!  
 									</span>
 										</div>
 									</li>
 
 									<li>
 										<div class="author-thumb">
-											<img src="img/avatar29-sm.jpg" alt="author">
+											<img src="img/avatar3-sm.jpg" alt="author">
 										</div>
 										<div class="notification-event">
-											<a href="#" class="h6 notification-friend">Jaskirth Jones</a>
+											<a href="#" class="h6 notification-friend">Clarice Langa</a>
 											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:30am</time></span>
-										<span class="chat-message-item">This is my second year studying in UQ and I'm amazed that they've got amazing cultural celebrations! It makes me feel
-										super connected to my home. 
+										<span class="chat-message-item">Best event out there if you're looking to indulge in multicultural happenings all in one day and one place! 
+										 
 										</span>
 										</div>
 									</li>
 
 									<li>
 										<div class="author-thumb">
-											<img src="img/avatar26-sm.jpg" alt="author">
+											<img src="img/avatar15-sm.jpg" alt="author">
 										</div>
 										<div class="notification-event">
-											<a href="#" class="h6 notification-friend">Melinda Anne</a>
+											<a href="#" class="h6 notification-friend">Sophie Carter</a>
 											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8.35am</time></span>
-											<span class="chat-message-item">Best event celebration in UQ ever. The live music is amazing and gets better each year!</span>
+											<span class="chat-message-item">If you're looking for new and exciting things to do in Brisbane; this is it!
+											</span>
 										</div>
 									</li>
 								</ul>
@@ -321,84 +331,41 @@ if(isset($_POST['submit'])){
 			<div class="ui-block">
 				<div class="your-profile">
 					<div class="ui-block-title ui-block-title-small">
-						<h1 class="title">CULTURAL CELEBRATIONS</h1>
-					</div>
+					<h2 class="title">Multicultural Showcase</h2>
+				</div>
 
-					<div id="accordion" role="tablist" aria-multiselectable="true">
-						<div class="card">
-							<div class="card-header" role="tab" id="headingOne">
-								
+				<div id="accordion1" role="tablist" aria-multiselectable="true">
+					<div class="card">
+						<div class="card-header" role="tab" id="headingOne-1">
 								<h6 class="mb-0">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										<br><center>
-										<img src="assets/img/items/54.jpg" width="160" height="100"><br><br>
-										Diwali: Festival of Lights</center>
+										<img src="assets/img/items/60.jpg" width="160" height="70"><br><br>
+										Multicultural Showcase</center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 									</a>
 								</h6>
 
 							</div>
-							<button data-toggle="modal" data-target="#myModal" style="color: white; background: #3d22a0" class="btn btn-breez btn-sm">Register to this event</button>
-
-							<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 class="modal-title" style="margin-bottom: 20px"><center>Count me in!</center></h2><br><br>
-
-      </div>
-      <div class="modal-body">
-      	<form method="post">
-      	<p>Fill in the details below and we will send you an e-invitation for this event!</p>
-        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
-						<input name="email" type="email" class="form-control" placeholder="Email" required><br>
-						<input type="submit" name="submit" class="form-control submit" value="Submit">
-
-      </div>
-    </div>
-
-  </div>
-</div>
 
 							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
 								<ul class="your-profile-menu">
-									<!-- <li>
-										Traditionally celebrated throughout South Asia and the Indian sub-continent, 
-										traditional Diwali celebrations are as diverse as the regions they come from.
-										<br><br>
+									<li>
+										<B>Host:</b> My Valley<br><br>
 									</li>
 									<li>
-										Held on the darkest night of Spring, the festival represents the spiritual significance of light 
-										defeating darkness, good triumphing over evil and knowledge over ignorance. Typically one of the happiest 
-										holidays in the countries where it is celebrated, rituals include lighting diyas, candles and lanterns, fireworks displays, 
-										dancing, singing, feasting, colourful Rangoli art and more!
-										<br><br>
-										Join us on the 28th of October from 5:30pm in The Holt Room to celebrate this festive occasion including live performances, interactive stalls, henna tattoos, Rangoli art and a free delicious Indian feast!
-										<br><br>
-									</li>-->
+										<b>Date:</b> 28.10.2017<br><br>
+										<b>Time:</b> 11.00 am  - 3.00 pm<br><br>
+										
+									</li>							
 									<li>
-										<B>Hosted by:</b> UQU
-										<br>
-									</li>
-									<li>
-										<b>Date:</b> 28.10.2017<br>
-										<b>Time:</b> 5.30 PM - 8.30 PM<br>
-									
-									<li>
-										<B>Location:</b> The Holt Room <br><br>
+										<b>Location:</b> Chinatown Mall, Fortitude Valley, Brisbane<br><br>
 										<center>
 										<img src="img/photo-message4.png" alt="location">
-										</center>
-										<br>
+										</center><br>
 									</li>
-										
-									</li>	
 									<li>
-										<b>Attendees:</b>
+										<b>Attendees:</b><br>
 										<center>
 										<img src="img/members.png" width="100" height="35" alt="location">
 										</center>
