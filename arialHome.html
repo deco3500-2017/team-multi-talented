@@ -595,7 +595,7 @@
     <script type="text/javascript" src="assets/js/icheck.min.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.trackpad-scroll-emulator.min.js"></script>
-
+    
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script type="text/javascript" src="assets/js/maps.js"></script>
 
@@ -628,6 +628,9 @@
             else {
                 $('#myModal2').modal('hide');
                 $('#myModal3').modal('show');
+                
+                localStorage.setItem("UniInput", apples);
+                
             }
         };
         
@@ -643,5 +646,7 @@
         
 
     </script>
+    
+    <script type="text/javascript" src="assets/js/dynoUpdate.js"></script>
 
 </body>
