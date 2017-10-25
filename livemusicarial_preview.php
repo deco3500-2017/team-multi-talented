@@ -4,9 +4,17 @@ if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $subject = "E-invitation from CultureConnect to " . $name . " (" . $email . ")";
-    $message = $name . " " . "(" . $email . ")" . " wrote the following:<br>" 
+    $message = $name . " " . "(" . $email . ")" . " ticket detail:<br><br>" 
 		. "\n\n" . "Name: " . "<b>" . $name . "</b><br>"
-		. "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>";
+		. "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>"
+        . "\n\n" . "<b><h3>EVENT DETAILS: " . "</b></h3>". "</b><br>"
+        . "\n\n" . "Event Name: " . "<b>" . "Indonesian Acoustic Music Night" . "</b><br>"
+        . "\n\n" . "Event Host: " . "<b>" .  "Indonesian Student Association Australia QLD</b><br>"
+        . "\n\n" . "Event Details: " . "<b>" .  "Live Indonesian acoustic music at the heart of Brisbane, featuring a famous Indonesian band, Radja - coming to you all the way from Jakarta!</b><br>"
+        . "\n\n" . "Event Location: " . "<b>" .  "11 High Street</b><br>"
+        . "\n\n" . "Event Date: " . "<b>" .  "Monday, December 11th 2017 | 8.00 pm - 11.00 pm</b><br>"
+        . "\n\n" . "<br><button href='https://calendar.google.com/calendar/ical/hvcokm8509151vtrccjkmeg6vs%40group.calendar.google.com/private-a8503583730b10baf24093b7d75d3c54/basic.ics'>" . "Add this event to my calendar" . "</button><br><br>"
+        . "\n\n" . "Do not forget to show this e-invitation to the host at the time of the event. Please note that your detail will be sent to host for event-related information and notice.";
 
 	$headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From: CultureConnect <cultureconnect@uqcloud.net>";
     mail($to,$subject,$message,$headers);
@@ -150,7 +158,7 @@ if(isset($_POST['submit'])){
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										<br><center>
 										<img src="assets/img/items/47.jpg" width="160" height="100"><br><br>
-										Indonesian Acoustic Music Night</center>
+										Indonesian Acoustic Music sssNight</center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 									</a>
                                 </h6>
@@ -393,7 +401,7 @@ if(isset($_POST['submit'])){
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										<br><center>
 										<img src="assets/img/items/47.jpg" width="160" height="100"><br><br>
-										Indonesian Acoustic Music Night</center>
+										Indonesian Acoustic Music Night<br><br></center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 										<center><br>
                                     </center>
@@ -414,7 +422,7 @@ if(isset($_POST['submit'])){
       <div class="modal-body">
         <form method="post">
         Fill in the details below and we will send you an e-invitation for this event. <br><br>Please note that you will receive the updates from event host and the channel you are joined to.</p>
-        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+                        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
                         <input name="email" type="email" class="form-control" placeholder="Email" required><br>
                         <input style="background: #3d22a0; color: white" type="submit" name="submit" class="form-control submit" value="Count Me In">
                         <input type="button" name="submit" class="form-control submit" value="Maybe Later">
@@ -429,6 +437,10 @@ if(isset($_POST['submit'])){
 
                                 <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                                     <ul class="your-profile-menu">
+                                        <li>
+                                            <B>Hosted by:</b> Indonesian Student Association Australia QLD
+                                            <br><br>
+                                        </li>
                                         <li>
                                             <B>About:</b> Live Indonesian acoustic music at the heart of Brisbane, featuring a famous Indonesian band, Radja - coming to you all the way from Jakarta!
                                             <br><br>
