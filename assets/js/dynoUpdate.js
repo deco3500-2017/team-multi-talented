@@ -3,7 +3,7 @@ localStorage.clear();
 
 if (getInput == null){
     //remove it here
-    var uni = document.getElementById('institution');
+    var uni = document.getElementById('events');
     uni.parentNode.removeChild(uni);
     
 }

@@ -674,12 +674,19 @@
             else {
                 $('#myModal2').modal('hide');
                 $('#myModal3').modal('show');
+                
+                localStorage.setItem("UniInput", apples);
+                
             }
         };
         
         function dialogNXT2() {
             $('#myModal1').modal('hide');
             $('#myModal4').modal('show');
+            
+            //Connect to dynoUpdate(), need to remove institution content!
+            RemoveContent();
+            
         };
         
         function dialogNXT3() {
@@ -689,5 +696,7 @@
         
 
     </script>
+    
+    <script type="text/javascript" src="assets/js/dynoUpdate.js"></script>
             
 </html>
