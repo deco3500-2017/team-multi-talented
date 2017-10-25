@@ -1,5 +1,5 @@
 var getInput = localStorage.getItem("UniInput");
-localStorage.clear();
+localStorage.removeItem("UniInput");
 
 if (getInput == null){
     //remove it here

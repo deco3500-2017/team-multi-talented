@@ -636,13 +636,15 @@
             
     <script type="text/javascript">        
         
-        $(window).on('load', function() {
-            var cookieVal = document.cookie;
-            if (cookieVal == ""){
+        $(document).ready(function() {
+            
+            
+            var store = localStorage.getItem("ValidatorPeter");
+            
+            if (store != 1){
                     $('#myModal1').modal('show');
-                    var test = 1;
-                    document.cookie = test;
-                    console.log("Cookie Set: "+ test);
+                    var oranges = 1;
+                    localStorage.setItem("ValidatorPeter", oranges);
             };
         });
 
