@@ -1,9 +1,11 @@
-var userInput = "Institution";
-
 var getInput = localStorage.getItem("UniInput");
+localStorage.clear();
 
 if (getInput == null){
-    getInput = "Institution";
+    //remove it here
+    var uni = document.getElementById('institution');
+    uni.parentNode.removeChild(uni);
+    
 }
 
 else {
@@ -15,4 +17,4 @@ var item = document.getElementById('uniTitle');
 
 if (item != null) {
     $('#uniTitle').html(getInput);
-}
+};
