@@ -151,7 +151,7 @@ if(isset($_POST['submit'])){
 									<li>
 										<b>Attendees:</b><br>
 										<center>
-										<img src="img/members.png" width="100" height="35" alt="location">
+										<img src="img/members.jpg" width="100" height="35" alt="members">
 										</center>
 									</li>
 								
@@ -400,7 +400,7 @@ if(isset($_POST['submit'])){
 									<li>
 										<b>Attendees:</b>
 										<center>
-										<img src="img/members.png" width="100" height="35" alt="location">
+										<img src="img/members.jpg" width="100" height="35" alt="members">
 										</center>
 									</li>
 									<br>
