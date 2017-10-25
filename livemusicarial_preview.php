@@ -189,7 +189,7 @@ if(isset($_POST['submit'])){
                                     <li>
                                         <b>Members:</b><br>
                                         <center>
-                                            <img src="img/members.png" width="100" height="35" alt="location">
+                                            <img src="img/members.jpg" width="100" height="35" alt="location">
                                         </center>
                                     </li>
                                     <li>
@@ -463,7 +463,7 @@ if(isset($_POST['submit'])){
                                         <li>
                                             <b>Members:</b><br>
                                             <center>
-                                                <img src="img/members.png" width="100" height="35" alt="location">
+                                                <img src="img/members.jpg" width="100" height="35" alt="location">
                                             </center>
                                         </li>
 
