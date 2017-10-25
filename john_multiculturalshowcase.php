@@ -1,0 +1,478 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = $_POST['email'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = "E-invitation from CultureConnect to " . $name . " (" . $email . ")";
+    $message = $name . " " . "(" . $email . ")" . " ticket detail:<br><br>" 
+		. "\n\n" . "Name: " . "<b>" . $name . "</b><br>"
+		. "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>"
+        . "\n\n" . "<b><h3>EVENT DETAILS: " . "</b></h3>". "</b><br>"
+        . "\n\n" . "Event Name: " . "<b>" . "Multicultural Showcase" . "</b><br>"
+        . "\n\n" . "Event Host: " . "<b>" .  "My Valley</b><br>"
+        . "\n\n" . "Event Details: " . "<b>" .  "This year Chinatown Mall is giving us more than just a bite of Asian culture, it's giving us a mouthful of cultures from around the world. </b><br>"
+        . "\n\n" . "Event Location: " . "<b>" .  "Chinatown Mall, Fortitude Valley</b><br>"
+        . "\n\n" . "Event Date: " . "<b>" .  "Saturday, October 28th 2017 | 5.30 PM - 8.30 PM</b><br>"
+        . "\n\n" . "<br><button href='https://calendar.google.com/calendar/ical/hvcokm8509151vtrccjkmeg6vs%40group.calendar.google.com/private-a8503583730b10baf24093b7d75d3c54/basic.ics'>" . "Add this event to my calendar" . "</button><br><br>"
+        . "\n\n" . "Do not forget to show this e-invitation to the host at the time of the event. Please note that your detail will be sent to host for event-related information and notice.";
+
+	$headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From: CultureConnect <cultureconnect@uqcloud.net>";
+    mail($to,$subject,$message,$headers);
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Multicultural Showcase</title>
+
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css">
+
+	<!-- Theme Styles CSS -->
+	<link rel="stylesheet" type="text/css" href="css/theme-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/blocks.css">
+
+	<!-- Main Font -->
+	<script src="js/webfontloader.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto:300,400,500,700:latin']
+			}
+		});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<!-- Styles for plugins -->
+	<link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+	
+	<!-- Styles from index page -->
+	<link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
+    
+	<!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css"> -->
+
+    <!-- <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/navstyle.css" type="text/css">
+
+
+</head>
+<body>
+
+		<header id="page-header">
+            <nav>
+                <div class="left">
+                    <a href="index.html" class="brand">CultureConnect</a>
+                </div>
+                <!--end left-->
+                <div class="right">
+                    <div class="primary-nav has-mega-menu">
+                        <ul class="navigation">
+                            <li><a class="promoted">Home</a></li>
+                            <li><a href="john_events.html">Events</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="has-child"><a>My Profile</a>
+                                <div class="wrapper">
+                                    <div id="nav-homepages" class="nav-wrapper">
+                                        <ul>
+                                            <li><a href="johnProfile.html">Personal Info</a></li>
+                                            <li><a href="johnAccountsettings.html">Account setting</a></li>
+                                            <li><a href="johnChangepassword.html">Change Password</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="has-child"><a>My Events</a>
+                                <div class="wrapper">
+                                    <div id="nav-homepages" class="nav-wrapper">
+                                        <ul>
+                                        <li>
+                                            <li>
+                                                <a href="spanishtalk.html">Spanish Career Talk</a>
+                                            </li>
+                                            <li>
+                                                <a href="latinfilm.html">Latin American Film Festival</a>
+                                            </li>
+                                            <li>
+                                                <a href="livemusic.html">Indonesian Acoustic Music Night</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="index.html">Log out</a></li>
+                        </ul>
+                        <!--end navigation-->
+                    </div>
+                    <!--end primary-nav-->
+
+                    <!--end secondary-nav-->
+                    <a href="submitevent.html" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Add an Event</span></a>
+                    <div class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <!--end nav-btn-->
+                </div>
+                <!--end right-->
+            </nav>
+            <!--end nav-->
+        </header>
+        <!--end page-header-->
+
+<!-- Profile Settings Responsive -->
+
+<!-- OPEN LEFT SIDEBAR --> 
+<div class="profile-settings-responsive">
+
+	<a href="#" class="js-profile-settings-open profile-settings-open">
+		<i class="fa fa-angle-right" aria-hidden="true"></i>
+		<i class="fa fa-angle-left" aria-hidden="true"></i>
+	</a>
+	<div class="mCustomScrollbar" data-mcs-theme="dark">
+		<div class="ui-block">
+			<div class="your-profile">
+				<div class="ui-block-title ui-block-title-small">
+					<h2 class="title">Multicultural Showcase</h2>
+				</div>
+
+				<div id="accordion1" role="tablist" aria-multiselectable="true">
+					<div class="card">
+						<div class="card-header" role="tab" id="headingOne-1">
+								<h6 class="mb-0">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<br><center>
+										<img src="assets/img/items/60.jpg" width="160" height="100"><br><br>
+										Multicultural Showcase</center>
+										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
+									</a>
+								</h6>
+
+							</div>
+
+							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+								<ul class="your-profile-menu">
+									<li>
+										<B>Host:</b> My Valley<br><br>
+									</li>
+									<li>
+										<b>Date:</b> 28.10.2017<br><br>
+										<b>Time:</b> 11.00 am  - 3.00 pm<br><br>
+										
+									</li>							
+									<li>
+										<b>Location:</b> Chinatown Mall, Fortitude Valley, Brisbane<br><br>
+										<center>
+										<img src="img/photo-message4.png" alt="location">
+										</center><br>
+									</li>
+									<li>
+										<b>Attendees:</b><br>
+										<center>
+										<img src="img/members.jpg" width="100" height="35" alt="location">
+										</center>
+									</li>
+								
+								<br>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Profile Settings Responsive -->
+
+<div class="header-spacer header-spacer-small"></div>
+
+<!-- Your Account Personal Information -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
+			<div class="ui-block">
+				<div class="ui-block-title">
+					<h6 class="title">Multicultural Showcase</h6>
+					<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg></a>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-r-0">
+						<ul class="notification-list chat-message">
+							<li class="chat-group">
+								<div class="notification-event">
+									<a href="" class="h6 notification-friend"><b>About:</b><br><br></a>
+									This year Chinatown Mall is giving us more than just a bite of Asian culture, it's giving us a mouthful of cultures from around the world.
+									<br><br>
+									Cultural diversity has always played a significant role in shaping Fortitude Valley's character and Valley Fiesta wants to celebrate that. Our multicultural community will be hosting a variety of shows and experiences from various cultures and traditions.
+									<br><br>
+									Are vibrant colours, energetic dances and unique music your idea of a good Friday night? Witness the elegant and beautiful Bolivian dancers strut their stuff with a number of classical dances alongside Celestino, a fusion of Bolivian and western styles.
+									<br><br> 
+									Traditional dancing is a great way to get in touch with our heritage, but what about modern culture? Hip hop music, baggy clothes and sweet moves should do the trick. With a breakdancing competition held by our very own Dr Rhythm, this is the perfect opportunity to see some local b-boys and fly girls break it down old school style. Whose flow is the most ill? Only the doctor can provide that diagnosis.								
+									
+									</li>
+							<!-- <li class="chat-group">
+								<div class="notification-event">
+									<a href="#" class="h6 notification-friend"><b>Random</b><br></a>
+									<span class="last-message-author">Matt:</span>
+									<span class="chat-message-item">That's interesting!</span>
+									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
+								</div>
+								<span class="notification-icon">
+									<svg class="olymp-chat---messages-icon"><use xlink:href="icons/icons.svg#olymp-chat---messages-icon"></use></svg>
+								</span>
+								<div class="more">
+									<svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg>
+								</div>
+							</li>
+							-->
+							
+
+								<span class="notification-icon">
+									<svg class="olymp-chat---messages-icon"><use xlink:href="icons/icons.svg#olymp-chat---messages-icon"></use></svg>
+								</span>
+								<div class="more">
+									<svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg>
+								</div>
+							
+							
+							<!-- DIRECT MESSAGES -->
+							<!-- <li>
+								<div class="author-thumb">
+									<img src="img/avatar8-sm.jpg" alt="author">
+								</div>
+								<div class="notification-event">
+									<a href="#" class="h6 notification-friend">General</a>
+									<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
+									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
+								</div>
+									<span class="notification-icon">
+										<svg class="olymp-chat---messages-icon"><use xlink:href="icons/icons.svg#olymp-chat---messages-icon"></use></svg>
+									</span>
+
+								<div class="more">
+									<svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg>
+								</div>
+							</li>
+							-->
+						</ul>
+					</div>
+
+					<div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-xs-12 padding-l-0">
+						<div class="chat-field">
+							<div class="ui-block-title">
+								<h6 class="title">What people are saying</h6>
+								<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="icons/icons.svg#olymp-three-dots-icon"></use></svg></a>
+							</div>
+							<div class="mCustomScrollbar" data-mcs-theme="dark">
+								<ul class="notification-list chat-message chat-message-field">
+									<li>
+										<div class="author-thumb">
+											<img src="img/avatar16-sm.jpg" alt="author">
+										</div>
+										<div class="notification-event">
+											<a href="#" class="h6 notification-friend">Peter Ramsey</a>
+											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:10am</time></span>
+											<span class="chat-message-item">Went for this event last year! Coming again this year for the amazing multicultural showcases!  
+									</span>
+										</div>
+									</li>
+
+									<li>
+										<div class="author-thumb">
+											<img src="img/avatar3-sm.jpg" alt="author">
+										</div>
+										<div class="notification-event">
+											<a href="#" class="h6 notification-friend">Clarice Langa</a>
+											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:30am</time></span>
+										<span class="chat-message-item">Best event out there if you're looking to indulge in multicultural happenings all in one day and one place! 
+										 
+										</span>
+										</div>
+									</li>
+
+									<li>
+										<div class="author-thumb">
+											<img src="img/avatar15-sm.jpg" alt="author">
+										</div>
+										<div class="notification-event">
+											<a href="#" class="h6 notification-friend">Sophie Carter</a>
+											<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8.35am</time></span>
+											<span class="chat-message-item">If you're looking for new and exciting things to do in Brisbane; this is it!
+											</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							<form>
+
+								<div class="form-group label-floating is-empty">
+									<label class="control-label">What would you like to say?</label>
+									<textarea class="form-control" placeholder=""  ></textarea>
+								</div>
+
+								<div class="add-options-message">
+									<a href="#" class="options-message">
+										<svg class="olymp-computer-icon"><use xlink:href="icons/icons.svg#olymp-computer-icon"></use></svg>
+									</a>
+									<a href="#" class="options-message">
+										<svg class="olymp-computer-icon"><use xlink:href="icons/icons.svg#olymp-computer-icon"></use></svg>
+									</a>
+									
+									<button class="btn btn-primary btn-sm">Post</button>
+								</div>
+
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<br><br>
+		</div>
+
+		<div class="col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-12 order-md-2 col-sm-12 col-xs-12 responsive-display-none">
+			<div class="ui-block">
+				<div class="your-profile">
+					<div class="ui-block-title ui-block-title-small">
+					<h2 class="title">Multicultural Showcase</h2>
+				</div>
+
+				<div id="accordion1" role="tablist" aria-multiselectable="true">
+					<div class="card">
+						<div class="card-header" role="tab" id="headingOne-1">
+								<h6 class="mb-0">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<br><center>
+										<img src="assets/img/items/60.jpg" width="160" height="70"><br><br>
+										Multicultural Showcase<br><br></center>
+										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
+									</a>
+								</h6>
+
+							<center><button data-toggle="modal" data-target="#myModal" style="color: white; background: #3d22a0" class="btn btn-breez btn-sm">Register to this event</button></center>
+
+                                    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title" style="margin-bottom: 20px"><center>Register to the event</center></h2><br><br>
+
+      </div>
+      <div class="modal-body">
+        <form method="post">
+        Fill in the details below and we will send you an e-invitation for this event. <br><br>Please note that you will receive the updates from event host and the channel you are joined to.</p>
+                        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+                        <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+                        <input style="background: #3d22a0; color: white" type="submit" name="submit" class="form-control submit" value="Count Me In">
+                        <input type="button" name="submit" class="form-control submit" value="Maybe Later">
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+							</div>
+
+							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+								<ul class="your-profile-menu">
+									<li>
+										<B>Host:</b> My Valley<br><br>
+									</li>
+									<li>
+										<b>Date:</b> 28.10.2017<br><br>
+										<b>Time:</b> 11.00 am  - 3.00 pm<br><br>
+										
+									</li>							
+									<li>
+										<b>Location:</b> Chinatown Mall, Fortitude Valley, Brisbane<br><br>
+										<center>
+										<img src="img/photo-message4.png" alt="location">
+										</center><br>
+									</li>
+									<li>
+										<b>Attendees:</b><br>
+										<center>
+										<img src="img/members.jpg" width="100" height="35" alt="location">
+										</center>
+									</li>
+									<br>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+
+					<!-- 
+					<div class="ui-block-title">
+						<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
+						<a href="#" class="items-round-little bg-primary">8</a>
+					</div>
+					<div class="ui-block-title">
+						<a href="34-YourAccount-ChatMessages.html" class="h6 title">Chat / Messages</a>
+					</div>
+					<div class="ui-block-title">
+						<a href="35-YourAccount-FriendsRequests.html" class="h6 title">Friend Requests</a>
+						<a href="#" class="items-round-little bg-blue">4</a>
+					</div>
+					<div class="ui-block-title ui-block-title-small">
+						<h6 class="title">FAVOURITE PAGE</h6>
+					</div>
+					<div class="ui-block-title">
+						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Create Fav Page</a>
+					</div>
+					<div class="ui-block-title">
+						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Your Account Personal Information -->
+
+<!-- jQuery first, then Other JS. -->
+<script src="js/jquery-3.2.0.min.js"></script>
+<!-- Js effects for material design. + Tooltips -->
+<script src="js/material.min.js"></script>
+<!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+<script src="js/theme-plugins.js"></script>
+<!-- Init functions -->
+<script src="js/main.js"></script>
+
+<!-- Select / Sorting script -->
+<script src="js/selectize.min.js"></script>
+
+<!-- Datepicker input field script-->
+<script src="js/moment.min.js"></script>
+<script src="js/daterangepicker.min.js"></script>
+
+<script src="js/mediaelement-and-player.min.js"></script>
+<script src="js/mediaelement-playlist-plugin.min.js"></script>
+
+</body>
+</html>
