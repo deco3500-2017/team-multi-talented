@@ -5,8 +5,8 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $subject = "E-invitation from CultureConnect to " . $name . " (" . $email . ")";
     $message = $name . " " . "(" . $email . ")" . " ticket detail:<br><br>" 
-		. "\n\n" . "Name: " . "<b>" . $name . "</b><br>"
-		. "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>"
+        . "\n\n" . "Name: " . "<b>" . $name . "</b><br>"
+        . "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>"
         . "\n\n" . "<b><h3>EVENT DETAILS: " . "</b></h3>". "</b><br>"
         . "\n\n" . "Event Name: " . "<b>" . "Indonesian Acoustic Music Night" . "</b><br>"
         . "\n\n" . "Event Host: " . "<b>" .  "Indonesian Student Association Australia QLD</b><br>"
@@ -16,11 +16,10 @@ if(isset($_POST['submit'])){
         . "\n\n" . "<br><button href='https://calendar.google.com/calendar/ical/hvcokm8509151vtrccjkmeg6vs%40group.calendar.google.com/private-a8503583730b10baf24093b7d75d3c54/basic.ics'>" . "Add this event to my calendar" . "</button><br><br>"
         . "\n\n" . "Do not forget to show this e-invitation to the host at the time of the event. Please note that your detail will be sent to host for event-related information and notice.";
 
-	$headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From: CultureConnect <cultureconnect@uqcloud.net>";
+    $headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From: CultureConnect <cultureconnect@uqcloud.net>";
     mail($to,$subject,$message,$headers);
     }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -86,33 +85,36 @@ if(isset($_POST['submit'])){
             <div class="right">
                 <div class="primary-nav has-mega-menu">
                     <ul class="navigation">
-                        <li><a href="arialHome.html">Home</a></li>
-                        <li><a href="arial_events">Events</a></li>
+                        <li><a href="arialHomeIA.html">Home</a></li>
+                        <li><a href="arial_events.html">Events</a></li>
                         <li><a href="about.html">About</a></li>
                         <li class="has-child"><a>My Profile</a>
                             <div class="wrapper">
                                 <div id="nav-homepages" class="nav-wrapper">
                                     <ul>
-                                        <li><a href="arialProfile.html">Personal Info</a></li>
-                                        <li><a href="arialAccountsettings.html">Account setting</a></li>
-                                        <li><a href="arialChangepassword.html">Change Password</a></li>
+                                        <li><a href="arialProfileIA.html">Personal Info</a></li>
+                                        <li><a href="arialAccountsettingsIA.html">Account setting</a></li>
+                                        <li><a href="arialChangepasswordIA.html">Change Password</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
 
-                        <li class="has-child"><a href="arialCommunities.html">My Events</a>
+                        <li class="has-child"><a class="promoted">My Events</a>
                             <div class="wrapper">
                                 <div id="nav-homepages" class="nav-wrapper">
                                     <ul>
                                         <li>
-                                            <a href="photographyarial_joined.html">Photography</a>
+                                            <a href="photographyarialIA_joined.html">Photography</a>
                                         </li>
                                         <li>
-                                            <a href="csse3002arial_joined.html">CSSE3002</a>
+                                            <a href="csse3002arialIA_joined.html">CSSE3002</a>
                                         </li>
                                         <li>
-                                            <a href="kabukiarial_joined.html">Kabuki</a>
+                                            <a href="kabukiarialIA_joined.html">Kabuki</a>
+                                        </li>
+                                        <li>
+                                            <a class="promoted">Indonesian Music Night</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -148,7 +150,7 @@ if(isset($_POST['submit'])){
             <div class="ui-block">
                 <div class="your-profile">
                     <div class="ui-block-title ui-block-title-small">
-                        <h2 class="title">Events</h2>
+                        <h2 class="title">Events - Live Music</h2>
                     </div>
 
                     <div id="accordion1" role="tablist" aria-multiselectable="true">
@@ -158,15 +160,45 @@ if(isset($_POST['submit'])){
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										<br><center>
 										<img src="assets/img/items/47.jpg" width="160" height="100"><br><br>
-										Indonesian Acoustic Music sssNight</center>
+										Indonesian Acoustic Music Night</center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 									</a>
                                 </h6>
+
+
+                                    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title" style="margin-bottom: 20px"><center>Register to the event</center></h2><br><br>
+
+      </div>
+      <div class="modal-body">
+        <form method="post">
+        Fill in the details below and we will send you an e-invitation for this event. <br><br>Please note that you will receive the updates from event host and the channel you are joined to.</p>
+                        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+                        <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+                        <input style="background: #3d22a0; color: white" type="submit" name="submit" class="form-control submit" value="Count Me In">
+                        <input type="button" name="submit" class="form-control submit" value="Maybe Later">
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
                             </div>
 
                             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                                 <ul class="your-profile-menu">
+                                    <li>
+                                            <B>Hosted by:</b> Indonesian Student Association Australia QLD
+                                            <br><br>
+                                        </li>
                                     <li>
                                         <B>About:</b> Live Indonesian acoustic music at the heart of Brisbane, featuring a famous Indonesian band, Radja - coming to you all the way from Jakarta!
                                         <br><br>
@@ -189,19 +221,11 @@ if(isset($_POST['submit'])){
                                     <li>
                                         <b>Members:</b><br>
                                         <center>
-                                            <img src="img/members.jpg" width="100" height="35" alt="location">
-                                        </center>
-                                    </li>
-                                    <li>
-                                        <center><br>
-                                            <p>This is a preview of the channel. Join and get connected with your mates now!</p>
+                                            <img src="img/members.png" width="100" height="35" alt="location">
                                         </center>
                                     </li>
 
                                     <br>
-                                    <center>
-                                        <a href="livemusicarial_joined.php" class="btn btn-breez btn-sm">Join Channel</a>
-                                    </center>
                                 </ul>
                             </div>
                         </div>
@@ -280,7 +304,7 @@ if(isset($_POST['submit'])){
                                     <div class="notification-event">
                                         <a href="#" class="h6 notification-friend"><b>Meet-ups</b><br></a>
                                         <span class="last-message-author">Ed:</span>
-                                        <span class="chat-message-item">Got it, thanks man! I'm so excited to see you guys! Cheers. </span>
+                                        <span class="chat-message-item">Got it, thanks man! I'm so excited to see you guys! Cheers.</span>
                                         <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
                                     </div>
                                     <span class="notification-icon">
@@ -328,7 +352,7 @@ if(isset($_POST['submit'])){
                                             <div class="notification-event">
                                                 <a href="#" class="h6 notification-friend">Ed Henderson</a>
                                                 <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:10am</time></span>
-                                                <span class="chat-message-item">Hey guys, was wondering when and where we'll meet up? Thanks!</span>
+                                                <span class="chat-message-item">Hey guys, was wondering when and we're we'll meet up? Thanks!</span>
                                             </div>
                                         </li>
 
@@ -358,24 +382,26 @@ if(isset($_POST['submit'])){
                                                 <span class="chat-message-item">Got it, thanks man! I'm so excited to see you guys! Cheers.</span>
                                             </div>
                                         </li>
-                                        <li>
-                                            <center>
-                                                <p>This is a preview of the channel. Join and get connected with your mates now!</p>
-                                            </center>
-
-                                        </li>
                                     </ul>
                                 </div>
 
                                 <form>
 
                                     <div class="form-group label-floating is-empty">
-                                        <center>
-                                            <a href="livemusicarial_joined.php" class="btn btn-breez btn-sm">Join Channel</a><br>
-                                        </center>
-
+                                        <label class="control-label">Start by saying 'Hi'!</label>
+                                        <textarea class="form-control" placeholder=""></textarea>
                                     </div>
 
+                                    <div class="add-options-message">
+                                        <a href="#" class="options-message">
+										<svg class="olymp-computer-icon"><use xlink:href="icons/icons.svg#olymp-computer-icon"></use></svg>
+									</a>
+                                        <a href="#" class="options-message">
+										<svg class="olymp-computer-icon"><use xlink:href="icons/icons.svg#olymp-computer-icon"></use></svg>
+									</a>
+
+                                        <button class="btn btn-primary btn-sm">Post Reply</button>
+                                    </div>
 
                                 </form>
 
@@ -383,14 +409,14 @@ if(isset($_POST['submit'])){
                         </div>
                     </div>
                 </div>
-                <br><br><br><br><br><br><br><br><br><br><br>
+                <br><br>
             </div>
 
             <div class="col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-12 order-md-2 col-sm-12 col-xs-12 responsive-display-none">
                 <div class="ui-block">
                     <div class="your-profile">
                         <div class="ui-block-title ui-block-title-small">
-                            <h1 class="title">Live Music</h1>
+                            <h1 class="title">Event - Live Music</h1>
                         </div>
 
                         <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -401,15 +427,14 @@ if(isset($_POST['submit'])){
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										<br><center>
 										<img src="assets/img/items/47.jpg" width="160" height="100"><br><br>
-										Indonesian Acoustic Music Night<br><br></center>
+										Indonesian Acoustic Music Night</center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
-										<center><br>
-                                    </center>
 									</a>
-                                    </h6>
-                                    <center><button data-toggle="modal" data-target="#myModal" style="color: white; background: #3d22a0" class="btn btn-breez btn-sm">Register to this event</button></center>
+                                    </h6><br>
 
-                                    <div id="myModal" class="modal fade" role="dialog">
+                                <center><button data-toggle="modal" data-target="#myModal1" style="color: white; background: #3d22a0" class="btn btn-breez btn-sm">Register to this event</button></center>
+
+                                <div id="myModal1" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -438,10 +463,6 @@ if(isset($_POST['submit'])){
                                 <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                                     <ul class="your-profile-menu">
                                         <li>
-                                            <B>Hosted by:</b> Indonesian Student Association Australia QLD
-                                            <br><br>
-                                        </li>
-                                        <li>
                                             <B>About:</b> Live Indonesian acoustic music at the heart of Brisbane, featuring a famous Indonesian band, Radja - coming to you all the way from Jakarta!
                                             <br><br>
                                         </li>
@@ -463,13 +484,7 @@ if(isset($_POST['submit'])){
                                         <li>
                                             <b>Members:</b><br>
                                             <center>
-                                                <img src="img/members.jpg" width="100" height="35" alt="location">
-                                            </center>
-                                        </li>
-
-                                        <li>
-                                            <center><br>
-                                                <p>This is a preview of the channel. Join and get connected with your mates now!</p>
+                                                <img src="img/members.png" width="100" height="35" alt="location">
                                             </center>
                                         </li>
                                         <br>
@@ -500,33 +515,32 @@ if(isset($_POST['submit'])){
 					<div class="ui-block-title">
 						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
 					</div>
-                        -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-    <!-- ... end Your Account Personal Information -->
+<!-- ... end Your Account Personal Information -->
 
-    <!-- jQuery first, then Other JS. -->
-    <script src="js/jquery-3.2.0.min.js"></script>
-    <!-- Js effects for material design. + Tooltips -->
-    <script src="js/material.min.js"></script>
-    <!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
-    <script src="js/theme-plugins.js"></script>
-    <!-- Init functions -->
-    <script src="js/main.js"></script>
+                        <!-- jQuery first, then Other JS. -->
+                        <script src="js/jquery-3.2.0.min.js"></script>
+                        <!-- Js effects for material design. + Tooltips -->
+                        <script src="js/material.min.js"></script>
+                        <!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+                        <script src="js/theme-plugins.js"></script>
+                        <!-- Init functions -->
+                        <script src="js/main.js"></script>
 
-    <!-- Select / Sorting script -->
-    <script src="js/selectize.min.js"></script>
+                        <!-- Select / Sorting script -->
+                        <script src="js/selectize.min.js"></script>
 
-    <!-- Datepicker input field script-->
-    <script src="js/moment.min.js"></script>
-    <script src="js/daterangepicker.min.js"></script>
+                        <!-- Datepicker input field script-->
+                        <script src="js/moment.min.js"></script>
+                        <script src="js/daterangepicker.min.js"></script>
 
-    <script src="js/mediaelement-and-player.min.js"></script>
-    <script src="js/mediaelement-playlist-plugin.min.js"></script>
+                        <script src="js/mediaelement-and-player.min.js"></script>
+                        <script src="js/mediaelement-playlist-plugin.min.js"></script>
 
 </body>
 

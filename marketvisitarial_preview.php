@@ -5,29 +5,28 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $subject = "E-invitation from CultureConnect to " . $name . " (" . $email . ")";
     $message = $name . " " . "(" . $email . ")" . " ticket detail:<br><br>" 
-		. "\n\n" . "Name: " . "<b>" . $name . "</b><br>"
-		. "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>"
+        . "\n\n" . "Name: " . "<b>" . $name . "</b><br>"
+        . "\n\n" . "E-mail: " . "<b>" . $email . "</b><br>"
         . "\n\n" . "<b><h3>EVENT DETAILS: " . "</b></h3>". "</b><br>"
-        . "\n\n" . "Event Name: " . "<b>" . "Indonesian Acoustic Music Night" . "</b><br>"
+        . "\n\n" . "Event Name: " . "<b>" . "Inner Market Visit with Local Restaurants" . "</b><br>"
         . "\n\n" . "Event Host: " . "<b>" .  "Indonesian Student Association Australia QLD</b><br>"
-        . "\n\n" . "Event Details: " . "<b>" .  "Live Indonesian acoustic music at the heart of Brisbane, featuring a famous Indonesian band, Radja - coming to you all the way from Jakarta!</b><br>"
-        . "\n\n" . "Event Location: " . "<b>" .  "11 High Street</b><br>"
-        . "\n\n" . "Event Date: " . "<b>" .  "Monday, December 11th 2017 | 8.00 pm - 11.00 pm</b><br>"
+        . "\n\n" . "Event Details: " . "<b>" .  "An insider tour of the inner market with local restaurants! </b><br>"
+        . "\n\n" . "Event Location: " . "<b>" .  "63 Birch Street</b><br>"
+        . "\n\n" . "Event Date: " . "<b>" .  "Friday, October 13th 2017 | 89.00 am - 11.00 am</b><br>"
         . "\n\n" . "<br><button href='https://calendar.google.com/calendar/ical/hvcokm8509151vtrccjkmeg6vs%40group.calendar.google.com/private-a8503583730b10baf24093b7d75d3c54/basic.ics'>" . "Add this event to my calendar" . "</button><br><br>"
         . "\n\n" . "Do not forget to show this e-invitation to the host at the time of the event. Please note that your detail will be sent to host for event-related information and notice.";
 
-	$headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From: CultureConnect <cultureconnect@uqcloud.net>";
+    $headers = "Content-Type: text/html; charset=ISO-8859-1\r\n" . "From: CultureConnect <cultureconnect@uqcloud.net>";
     mail($to,$subject,$message,$headers);
     }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <title>Live Music</title>
+    <title>Market Visit</title>
 
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
@@ -51,7 +50,6 @@ if(isset($_POST['submit'])){
                 families: ['Roboto:300,400,500,700:latin']
             }
         });
-
     </script>
 
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -87,7 +85,7 @@ if(isset($_POST['submit'])){
                 <div class="primary-nav has-mega-menu">
                     <ul class="navigation">
                         <li><a href="arialHome.html">Home</a></li>
-                        <li><a href="arial_events">Events</a></li>
+                        <li><a class="promoted" href="arial_events">Events</a></li>
                         <li><a href="about.html">About</a></li>
                         <li class="has-child"><a>My Profile</a>
                             <div class="wrapper">
@@ -101,7 +99,7 @@ if(isset($_POST['submit'])){
                             </div>
                         </li>
 
-                        <li class="has-child"><a href="arialCommunities.html">My Events</a>
+                        <li class="has-child"><a>My Events</a>
                             <div class="wrapper">
                                 <div id="nav-homepages" class="nav-wrapper">
                                     <ul>
@@ -157,27 +155,30 @@ if(isset($_POST['submit'])){
                                 <h6 class="mb-0">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										<br><center>
-										<img src="assets/img/items/47.jpg" width="160" height="100"><br><br>
-										Indonesian Acoustic Music sssNight</center>
+										<img src="assets/img/items/48.jpg" width="160" height="100"><br><br>
+										<!-- <img src="img/stepdance.png" alt="photo"><br><br>-->
+										Inner Market Visit with Local Restaurants</center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
 									</a>
                                 </h6>
+
+
 
                             </div>
 
                             <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                                 <ul class="your-profile-menu">
                                     <li>
-                                        <B>About:</b> Live Indonesian acoustic music at the heart of Brisbane, featuring a famous Indonesian band, Radja - coming to you all the way from Jakarta!
+                                        <B>About:</b> An insider tour of the inner market with local restaurants!
                                         <br><br>
                                     </li>
                                     <li>
-                                        <B>Location:</b> 11 High Street
+                                        <B>Location:</b> 63 Birch Street
                                         <br><br>
                                     </li>
                                     <li>
-                                        <b>Date:</b> 11.12.2017<br><br>
-                                        <b>Time:</b> 8.00 pm - 11.00 pm<br><br>
+                                        <b>Date:</b> 13.10.2017<br><br>
+                                        <b>Time:</b> 9.00 am - 11.00 am<br><br>
 
                                     </li>
                                     <li>
@@ -189,7 +190,7 @@ if(isset($_POST['submit'])){
                                     <li>
                                         <b>Members:</b><br>
                                         <center>
-                                            <img src="img/members.jpg" width="100" height="35" alt="location">
+                                            <img src="img/members.png" width="100" height="35" alt="location">
                                         </center>
                                     </li>
                                     <li>
@@ -199,9 +200,6 @@ if(isset($_POST['submit'])){
                                     </li>
 
                                     <br>
-                                    <center>
-                                        <a href="livemusicarial_joined.php" class="btn btn-breez btn-sm">Join Channel</a>
-                                    </center>
                                 </ul>
                             </div>
                         </div>
@@ -339,7 +337,7 @@ if(isset($_POST['submit'])){
                                             <div class="notification-event">
                                                 <a href="#" class="h6 notification-friend">Logan Jones</a>
                                                 <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:30am</time></span>
-                                                <span class="chat-message-item">Hi Ed! We're meeting at 7.45 am at 11 Ebor St, Toowong. Hope to see you there!:
+                                                <span class="chat-message-item">Hi Ed! We're meeting at 8.45 am at 11 Ebor St, Toowong. Hope to see you there!:
 										</span>
                                                 <div class="added-photos">
                                                     <img src="img/photo-message4.png" alt="location">
@@ -371,7 +369,7 @@ if(isset($_POST['submit'])){
 
                                     <div class="form-group label-floating is-empty">
                                         <center>
-                                            <a href="livemusicarial_joined.php" class="btn btn-breez btn-sm">Join Channel</a><br>
+                                            <a href="marketvisitarial_joined.php" class="btn btn-breez btn-sm">Join Channel</a><br>
                                         </center>
 
                                     </div>
@@ -390,7 +388,7 @@ if(isset($_POST['submit'])){
                 <div class="ui-block">
                     <div class="your-profile">
                         <div class="ui-block-title ui-block-title-small">
-                            <h1 class="title">Live Music</h1>
+                            <h1 class="title">Market Visit</h1>
                         </div>
 
                         <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -400,13 +398,13 @@ if(isset($_POST['submit'])){
                                     <h6 class="mb-0">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										<br><center>
-										<img src="assets/img/items/47.jpg" width="160" height="100"><br><br>
-										Indonesian Acoustic Music Night<br><br></center>
+										<img src="assets/img/items/48.jpg" width="160" height="100"><br><br>
+										<!-- <img src="img/stepdance.png" alt="photo"><br><br>-->
+										Inner Market Visit with Local Restaurants</center>
 										<svg class="olymp-dropdown-arrow-icon"><use xlink:href="icons/icons.svg#olymp-dropdown-arrow-icon"></use></svg>
-										<center><br>
-                                    </center>
 									</a>
-                                    </h6>
+                                    </h6><br>
+
                                     <center><button data-toggle="modal" data-target="#myModal" style="color: white; background: #3d22a0" class="btn btn-breez btn-sm">Register to this event</button></center>
 
                                     <div id="myModal" class="modal fade" role="dialog">
@@ -433,25 +431,19 @@ if(isset($_POST['submit'])){
   </div>
 </div>
 
-                                </div>
-
                                 <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                                     <ul class="your-profile-menu">
                                         <li>
-                                            <B>Hosted by:</b> Indonesian Student Association Australia QLD
+                                            <B>About:</b> An insider tour of the inner market with local restaurants!
                                             <br><br>
                                         </li>
                                         <li>
-                                            <B>About:</b> Live Indonesian acoustic music at the heart of Brisbane, featuring a famous Indonesian band, Radja - coming to you all the way from Jakarta!
+                                            <B>Location:</b> 63 Birch Street
                                             <br><br>
                                         </li>
                                         <li>
-                                            <B>Location:</b> 11 High Street
-                                            <br><br>
-                                        </li>
-                                        <li>
-                                            <b>Date:</b> 11.12.2017<br><br>
-                                            <b>Time:</b> 8.00 pm - 11.00 pm<br><br>
+                                            <b>Date:</b> 13.10.2017<br><br>
+                                            <b>Time:</b> 9.00 am - 11.00 am<br><br>
 
                                         </li>
                                         <li>
@@ -463,7 +455,7 @@ if(isset($_POST['submit'])){
                                         <li>
                                             <b>Members:</b><br>
                                             <center>
-                                                <img src="img/members.jpg" width="100" height="35" alt="location">
+                                                <img src="img/members.png" width="100" height="35" alt="location">
                                             </center>
                                         </li>
 
@@ -500,33 +492,32 @@ if(isset($_POST['submit'])){
 					<div class="ui-block-title">
 						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
 					</div>
-                        -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-    <!-- ... end Your Account Personal Information -->
+<!-- ... end Your Account Personal Information -->
 
-    <!-- jQuery first, then Other JS. -->
-    <script src="js/jquery-3.2.0.min.js"></script>
-    <!-- Js effects for material design. + Tooltips -->
-    <script src="js/material.min.js"></script>
-    <!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
-    <script src="js/theme-plugins.js"></script>
-    <!-- Init functions -->
-    <script src="js/main.js"></script>
+                        <!-- jQuery first, then Other JS. -->
+                        <script src="js/jquery-3.2.0.min.js"></script>
+                        <!-- Js effects for material design. + Tooltips -->
+                        <script src="js/material.min.js"></script>
+                        <!-- Helper scripts (Tabs, Equal height, Scrollbar, etc) -->
+                        <script src="js/theme-plugins.js"></script>
+                        <!-- Init functions -->
+                        <script src="js/main.js"></script>
 
-    <!-- Select / Sorting script -->
-    <script src="js/selectize.min.js"></script>
+                        <!-- Select / Sorting script -->
+                        <script src="js/selectize.min.js"></script>
 
-    <!-- Datepicker input field script-->
-    <script src="js/moment.min.js"></script>
-    <script src="js/daterangepicker.min.js"></script>
+                        <!-- Datepicker input field script-->
+                        <script src="js/moment.min.js"></script>
+                        <script src="js/daterangepicker.min.js"></script>
 
-    <script src="js/mediaelement-and-player.min.js"></script>
-    <script src="js/mediaelement-playlist-plugin.min.js"></script>
+                        <script src="js/mediaelement-and-player.min.js"></script>
+                        <script src="js/mediaelement-playlist-plugin.min.js"></script>
 
 </body>
 
