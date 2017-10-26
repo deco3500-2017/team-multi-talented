@@ -75,7 +75,7 @@ process and how your ideas evolved. Mention any limitations and relevant theory.
 * Revised low-fidelity mock-ups (since the user requirements had been revised) based on feedback from tutors.
 * Edited the high-fidelity prototype's homepage.
 * Created content for 'communities' pages. 
-* Designed and developed content for every channel in every community.
+* Designed and developed content for every channel in every community (which is now every event in every section of the homepage).
 * Created the zone with the help from Lorna and tutors.
 * Performed user testing for Sprint 4. The raw data and results can be found ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Testing)
 * Made iterations based on feedback from user testing. 
