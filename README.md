@@ -6,7 +6,7 @@ Team Multi-talented #W03
 ![Conference Poster](https://i.imgur.com/wex6UQ2.jpg)
 
 ### Website 
- Website page to house our prototype and promotional material link: https://cultureconnect.uqcloud.net/about.html
+Website page to house our prototype and promotional material link: https://cultureconnect.uqcloud.net/about.html
 
 ### Video 
 Link to our kickstarter video: https://www.youtube.com/watch?v=HjsKHO4m4hY&feature=youtu.b
@@ -50,15 +50,11 @@ https://cultureconnect.uqcloud.net/
 When international students move to study in a new country, it's common for them to feel homesick. Not only that, finding new friends and socializing could be tricky. 
 
 ### Solution
-With CultureConnect, we aim to make socializing and learning about different cultures easier for international students. This because of 
-
-CultureConnect is a platform that will connect local and international people in Brisbane to find multicultural events and happenings around them. The listings will be generated based on user’s institution (Based on the latest user testing and to
-test the demographic, we choose University of Queensland as a fixed institution for the prorotype), Brisbane-wide location and the most popular events based on the quantity of participants.
-
+With CultureConnect, we aim to make socializing and learning about different cultures easier for international students. CultureConnect is a platform that will connect local and international people in Brisbane to find multicultural events and happenings around them. The listings will be generated based on user’s institution (Based on the latest user testing and to test the demographic, we choose University of Queensland as a fixed institution for the prorotype), Brisbane-wide location and the most popular events based on the quantity of participants.
 
 ## Process
 ### Research
-From conducting research and surveys that can be found ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-information-seeking) and ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-interaction-behavior-with-social-media) and surveys such as ![User Demographic Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Demographic-Survey) and ![International Student Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/International-Student-Survey), apart from housing, retail stores, restaurants and basic needs we found that international students often look for source of entertainments such as events and/or festivals. They also 
+We have conducted research that can be found ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-information-seeking) and ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-interaction-behavior-with-social-media) and surveys such as ![User Demographic Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Demographic-Survey) and ![International Student Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/International-Student-Survey).
 
 ### Requirements
 Based on research and survey results, we found that international students often connect to their own culture by socializing with among the same ethnic. Not only that, the the top 5 problems the international student are facing is shown as the following:
@@ -69,7 +65,7 @@ Based on research and survey results, we found that international students often
 * Feeling like an outsider
 * Making friends
 
-To better understand that problem, we designed this prototype and our aim is to enable international students to connect to their own culture and other cultures by joining cultural events and same-interest communities.
+To better understand that problem, we designed this prototype and our aim is to enable international students to connect to their own culture and other cultures by joining cultural events and same-interest communities in hopes that language barrier, homesickness, the feeling of being an outsider can be reduced and the process of making friends for them would be easier.
 
 ### Design
 Don Norman's design principles were used to ensure usability of our app along with the interactive design process for ensuring our prototype meets our usability and UX goals as well as fulfilling our user requirements. Initially, the prototype was an mobile app. However, through feedbacks from users, we have changed it to a web application instead. 
@@ -84,13 +80,13 @@ The prototype is as shown below:
 CultureConnect was built in phases (sprints) using HTML, CSS, JavaScript and PHP. Through each iteration, ensuring a user-centered, concrete, and cross-cultural design approach was crucial for this app's success. We've performed user testing with international students who have been providing valuable feedback and testing information. The collected data helped in understanding the user's conceptual models and mental models. Hence, enabling us to make changes in our project's requirements in order to improve not only usability, but UX of our project.
 
 #### Relevant Theories 
-* **Emotional Design**
+* **Emotional Design**<br>
 Since our app is targetting international students, it is essential that they feel connected to their own culture and are able to experience other cultures through our website. We want our users to experience positivity (such as pleasure, trust, security) when they use our website. This was curated by developing a UI/UX that feels enjoyable, safe and emotionally beneficial for them. Ultimately, a deep attachment or bond between users and CultureConnect could exist.
 
-*  **Awareness**
+*  **Awareness**<br>
 Users are able to view upcoming cultural events in their area and that are tailored to their interests. They also have the option to register for an event and communicate to other users who are interested in the same event in the event chat space. 
 
-* **Collaboration**
+* **Collaboration**<br>
 Ideally, the rich content in our website is mostly user-generated - they are able to host their own cultural event and join others. Through our website, they are also able to socialize, meet new people and meet up during event happenings. 
 
 ## Contributions from Each Team Member 
