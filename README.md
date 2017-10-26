@@ -21,7 +21,7 @@ https://cultureconnect.uqcloud.net/
 3. A profile builder pop-up will be displayed (if this does not work, clear your cookies first).
 4. Your homepage will be personalized based on the answers you selected from the profile builder.
 5. Scroll down and you will see a section that says 'Because you like..'. 
-6. Choose any 
+6. Choose and click any of them. It will direct you to the event details.
 7. The section as aforementioned is tailored to your liking.
 8. This is done to house an enhanced personalized experience for users. 
 
