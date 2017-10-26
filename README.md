@@ -47,10 +47,10 @@ https://cultureconnect.uqcloud.net/
 
 ## Summary 
 ### Problem Space
-When international students move to study in a new country, it's common for them to feel homesick. Not only that, finding new friends and socializing could be tricky. 
+When international students move to study abroad, it's only common for them to feel homesick. Not only that, finding new friends and socializing could be tricky. The culture gap could affect them in feeling lonely and out of place. It could also be difficult for them to adapt to the new culture. 
 
 ### Solution
-With CultureConnect, we aim to make socializing and learning about different cultures easier for international students. CultureConnect is a platform that will connect local and international people in Brisbane to find multicultural events and happenings around them. The listings will be generated based on user’s institution (Based on the latest user testing and to test the demographic, we choose University of Queensland as a fixed institution for the prorotype), Brisbane-wide location and the most popular events based on the quantity of participants.
+With CultureConnect, we aim to make socializing and learning about different cultures easier for international students. CultureConnect is a platform that will connect international students in Brisbane to find multicultural events and happenings around them. In these events, there will also be an event chat space for them to meet new people online and socialize before meeting in real life at the day of the event itself. The event listings will be generated based on user’s institution (Based on the latest user testing and to test the demographic, we choose University of Queensland as a fixed institution for the prorotype), Brisbane-wide location and the most popular events based on the quantity of participants.
 
 ## Process
 ### Research
