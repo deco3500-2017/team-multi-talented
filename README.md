@@ -55,6 +55,7 @@ https://cultureconnect.uqcloud.net/
 ## Summary 
 ### Problem Space
 
+
 ### Solution
 
 ## Process 
@@ -64,6 +65,24 @@ process and how your ideas evolved. Mention any limitations and relevant theory.
 
 ## Contributions from Each Team Member 
 ### Nik Aisha Dalila 
+* Created the intiial group project proposal (Proposal.md).
+* Created group's Google Drive folder.
+* Created the ![project plan](https://docs.google.com/document/d/1aOq1dahMikmKXKq4MkglajXtoEI-mrgAua0helXnHfU/edit?usp=sharing)
+* Developed a low-fidelity prototype with Balsamiq with Velta. 
+* Worked with Liam in creating the team's ![Trello Board](https://trello.com/b/CeRxugZ5/deco3500-culture-connect)
+* Collated user requirements based on research (online sources and survey), discussed the findings with the team and finalized user requirements. 
+* Revised low-fidelity mock-ups (since the user requirements had been revised) based on feedback from tutors.
+* Edited the high-fidelity prototype's homepage.
+* Created content for 'communities' pages. 
+* Designed and developed content for every channel in every community.
+* Created the zone with the help from Lorna and tutors.
+* Performed user testing for Sprint 4. The raw data and results can be found ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Testing)
+* Made iterations based on feedback from user testing. 
+* Created ['About' page](https://cultureconnect.uqcloud.net/about.html) for additional promotional material for our exhibition. 
+* Changed the homepage's content based on feedback from tutors in the Week 12 stand-up.
+* Created content for 'John Smith' persona. 
+* Inserted the 'e-invitation' button on the user personas' event/community contents. 
+* Created this final documentation. 
 
 ### Velta Azizah Destiana 
 
@@ -72,3 +91,7 @@ process and how your ideas evolved. Mention any limitations and relevant theory.
 ### Chung Yu Pan 
 
 ### Haoxuan Yang 
+
+
+### Wiki pages 
+Link to wiki pages https://github.com/deco3500-2017/team-multi-talented/wiki
