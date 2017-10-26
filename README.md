@@ -21,8 +21,36 @@ Velta Azizah Destiana | 44484051 | DECO3500
 Link to our kickstarter video: https://www.youtube.com/watch?v=HjsKHO4m4hY&feature=youtu.b
 
 ## Link to Prototype 
+https://cultureconnect.uqcloud.net/
 
 ### How To Use It 
+# Profile Builder 
+1. https://cultureconnect.uqcloud.net/
+2. Choose a user from the sign in section (page header). 
+3. A profile builder pop-up will be displayed (if this does not work, clear your cookies first).
+4. Your homepage will be personalized based on the answers you selected from the profile builder.
+5. Scroll down and you will see a section that says 'Because you like..'. 
+6. Choose any 
+7. The section as aforementioned is tailored to your liking.
+8. This is done to house an enhanced personalized experience for users. 
+
+# Event e-invitation 
+1. Head to https://cultureconnect.uqcloud.net/
+1. Choose a user from the sign in section (page header). 
+2. Exit the profile builder by clicking the 'X' button on the top-right side of the pop-up.
+3. Under 'Most Popular' and 'Recommended Events', you will see a group of events.
+4. Select one, and press the 'Register to this Event' button. 
+5. A pop-up that asks you to submit your name and email will be shown (if it doesn't, scroll the page down).
+6. Submit your name and email.
+7. An automatic e-invitation email will be sent to your submitted email address to confirm the event details (this might take up to five minutes). 
+
+# General Functionalities
+1. Head to https://cultureconnect.uqcloud.net/
+2. You will see a group of events under 'Institution Events', 'Brisbane Events', 'Most Popular' and 'Upcoming Events'. 
+3. Choose any event that you like by clicking it. 
+4. The content will be shown to you in their respective page. 
+5. Users can also host your own event. This can be done by clicking the 'Add an Event' button on the navigation bar, or on the homepage's 'Institution Events' 'Brisbane Events'.
+6. Input the events and submit it by clicking the 'Submit the event' button.
 
 ## Summary 
 ### Problem Space
