@@ -65,7 +65,7 @@ process and how your ideas evolved. Mention any limitations and relevant theory.
 
 ## Contributions from Each Team Member 
 ### Nik Aisha Dalila 
-* Created the intiial group project proposal (Proposal.md).
+* Created the initial group project proposal (Proposal.md).
 * Created a slack channel: #teammultitalented
 * Created group's Google Drive folder.
 * Created the ![project plan](https://docs.google.com/document/d/1aOq1dahMikmKXKq4MkglajXtoEI-mrgAua0helXnHfU/edit?usp=sharing)
