@@ -45,9 +45,11 @@ https://cultureconnect.uqcloud.net/
 
 ## Summary 
 ### Problem Space
-
+When international students move to study in a new country, it's common for them to feel homesick. Not only that, finding new friends and socializing could be tricky. 
 
 ### Solution
+With CultureConnect, we aim to make socializing and learning about different cultures easier for international students. This because of 
+
 
 ## Process 
 " how did you tackle this problem? Use images and extended captions to explain the design
@@ -56,14 +58,17 @@ process and how your ideas evolved. Mention any limitations and relevant theory.
 ### Research
 
 ### Requirements
+We made a ![low-fidelity prototype](https://github.com/deco3500-2017/team-multi-talented/wiki/Low-Fidelity-Prototype) to test if users could understand the purpose and concept of the project. Based on the user testing, we have collated, reviewed and analyzed the results. Then, we came with a set of requirements for our prototype and created a product backlog on ![Trello](https://trello.com/b/CeRxugZ5/deco3500-culture-connect). The prototype is shown below: 
+
+![](https://i.imgur.com/llGsb1I.jpg)
 
 ### Design
 
-### Feedback 
+### Construction 
 
 
 ## Contributions from Each Team Member 
-### Nik Aisha Dalila 
+### Nik Aisha Dalila Binti Shamsul Anuar
 * Created the initial group project proposal (Proposal.md).
 * Created a slack channel: #teammultitalented
 * Created group's Google Drive folder.
@@ -84,8 +89,7 @@ process and how your ideas evolved. Mention any limitations and relevant theory.
 * Inserted the 'e-invitation' button on the user personas' event/community contents. 
 * Created this final documentation. 
 
-### Velta Azizah Destiana 
-
+### Velta Azizah Destiana
 ### Liam Simpson
 
 ### Chung Yu Pan 
