@@ -24,7 +24,7 @@ Link to our kickstarter video: https://www.youtube.com/watch?v=HjsKHO4m4hY&featu
 https://cultureconnect.uqcloud.net/
 
 ### How To Use It 
-# Profile Builder 
+#### Profile Builder 
 1. https://cultureconnect.uqcloud.net/
 2. Choose a user from the sign in section (page header). 
 3. A profile builder pop-up will be displayed (if this does not work, clear your cookies first).
@@ -34,7 +34,7 @@ https://cultureconnect.uqcloud.net/
 7. The section as aforementioned is tailored to your liking.
 8. This is done to house an enhanced personalized experience for users. 
 
-# Event e-invitation 
+#### Event e-invitation 
 1. Head to https://cultureconnect.uqcloud.net/
 1. Choose a user from the sign in section (page header). 
 2. Exit the profile builder by clicking the 'X' button on the top-right side of the pop-up.
@@ -44,7 +44,7 @@ https://cultureconnect.uqcloud.net/
 6. Submit your name and email.
 7. An automatic e-invitation email will be sent to your submitted email address to confirm the event details (this might take up to five minutes). 
 
-# General Functionalities
+#### General Functionalities
 1. Head to https://cultureconnect.uqcloud.net/
 2. You will see a group of events under 'Institution Events', 'Brisbane Events', 'Most Popular' and 'Upcoming Events'. 
 3. Choose any event that you like by clicking it. 
