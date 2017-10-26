@@ -12,10 +12,13 @@ Velta Azizah Destiana | 44484051 | DECO3500
   
 ## Promotional Materials 
 ### Conference Poster 
+![Conference Poster](https://i.imgur.com/wex6UQ2.jpg)
 
 ### Website 
+ Website page to house our prototype and promotional material link: https://cultureconnect.uqcloud.net/
 
 ### Video 
+Our kickstarter video can be found ![here](https://www.youtube.com/watch?v=HjsKHO4m4hY&feature=youtu.be) 
 
 ## Link to Prototype 
 
