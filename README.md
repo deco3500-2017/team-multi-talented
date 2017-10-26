@@ -52,25 +52,46 @@ When international students move to study in a new country, it's common for them
 ### Solution
 With CultureConnect, we aim to make socializing and learning about different cultures easier for international students. This because of 
 
+CultureConnect is a platform that will connect local and international people in Brisbane to find multicultural events and happenings around them. The listings will be generated based on user’s institution (Based on the latest user testing and to
+test the demographic, we choose University of Queensland as a fixed institution for the prorotype), Brisbane-wide location and the most popular events based on the quantity of participants.
 
-## Process 
-" how did you tackle this problem? Use images and extended captions to explain the design
-process and how your ideas evolved. Mention any limitations and relevant theory."
 
+## Process
 ### Research
+From conducting research and surveys that can be found ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-information-seeking) and ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-interaction-behavior-with-social-media) and surveys such as ![User Demographic Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Demographic-Survey) and ![International Student Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/International-Student-Survey), apart from housing, retail stores, restaurants and basic needs we found that international students often look for source of entertainments such as events and/or festivals. They also 
 
 ### Requirements
-We made a ![low-fidelity prototype](https://github.com/deco3500-2017/team-multi-talented/wiki/Low-Fidelity-Prototype) to test if users could understand the purpose and concept of the project. Based on the ![user testing](https://github.com/deco3500-2017/team-multi-talented/wiki/Usability-Testing-&-Findings), we have collated, reviewed and analyzed the results. Then, together with the results from our research that can be found ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-information-seeking) and ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-interaction-behavior-with-social-media) and surveys such as ![User Demographic Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Demographic-Survey) and ![International Student Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/International-Student-Survey), we then came with a set of requirements for our prototype and created a product backlog on ![Trello](https://trello.com/b/CeRxugZ5/deco3500-culture-connect). The prototype is shown below: 
+Based on research and survey results, we found that international students often connect to their own culture by socializing with among the same ethnic. Not only that, the the top 5 problems the international student are facing is shown as the following:
+
+* Language barrier
+* Being far from their support network
+* Homesickness
+* Feeling like an outsider
+* Making friends
+
+To better understand that problem, we designed this prototype and our aim is to enable international students to connect to their own culture and other cultures by joining cultural events and same-interest communities.
+
+### Design
+Don Norman's design principles were used to ensure usability of our app along with the interactive design process for ensuring our prototype meets our usability and UX goals as well as fulfilling our user requirements. Initially, the prototype was an mobile app. However, through feedbacks from users, we have changed it to a web application instead. 
+
+We made a ![low-fidelity prototype](https://github.com/deco3500-2017/team-multi-talented/wiki/Low-Fidelity-Prototype) to test if users could understand the purpose and concept of the project. Based on the ![user testing](https://github.com/deco3500-2017/team-multi-talented/wiki/Usability-Testing-&-Findings), we have collated, reviewed and analyzed the results. Then, together with the results from our research and survey as aforementioned, we then came with a set of requirements for our prototype and created a product backlog on ![Trello](https://trello.com/b/CeRxugZ5/deco3500-culture-connect).
+
+The prototype is as shown below: 
 
 ![](https://i.imgur.com/llGsb1I.jpg)
 
-### Design
-
-
 ### Construction 
+CultureConnect was built in phases (sprints) using HTML, CSS, JavaScript and PHP. Through each iteration, ensuring a user-centered, concrete, and cross-cultural design approach was crucial for this app's success. We've performed user testing with international students who have been providing valuable feedback and testing information. The collected data helped in understanding the user's conceptual models and mental models. Hence, enabling us to make changes in our project's requirements in order to improve not only usability, but UX of our project.
 
 #### Relevant Theories 
+* **Emotional Design**
+Since our app is targetting international students, it is essential that they feel connected to their own culture and are able to experience other cultures through our website. We want our users to experience positivity (such as pleasure, trust, security) when they use our website. This was curated by developing a UI/UX that feels enjoyable, safe and emotionally beneficial for them. Ultimately, a deep attachment or bond between users and CultureConnect could exist.
 
+*  **Awareness**
+Users are able to view upcoming cultural events in their area and that are tailored to their interests. They also have the option to register for an event and communicate to other users who are interested in the same event in the event chat space. 
+
+* **Collaboration**
+Ideally, the rich content in our website is mostly user-generated - they are able to host their own cultural event and join others. Through our website, they are also able to socialize, meet new people and meet up during event happenings. 
 
 ## Contributions from Each Team Member 
 ### Nik Aisha Dalila Binti Shamsul Anuar
