@@ -25,6 +25,8 @@ https://cultureconnect.uqcloud.net/
 7. The section as aforementioned is tailored to your liking.
 8. This is done to house an enhanced personalized experience for users. 
 
+**Note:** If you've viewed the persona page before on your computer, you have to clear your cookies first.
+
 #### Event e-invitation 
 1. Head to https://cultureconnect.uqcloud.net/
 1. Choose a user from the sign in section (page header). 
@@ -58,13 +60,16 @@ process and how your ideas evolved. Mention any limitations and relevant theory.
 ### Research
 
 ### Requirements
-We made a ![low-fidelity prototype](https://github.com/deco3500-2017/team-multi-talented/wiki/Low-Fidelity-Prototype) to test if users could understand the purpose and concept of the project. Based on the user testing, we have collated, reviewed and analyzed the results. Then, we came with a set of requirements for our prototype and created a product backlog on ![Trello](https://trello.com/b/CeRxugZ5/deco3500-culture-connect). The prototype is shown below: 
+We made a ![low-fidelity prototype](https://github.com/deco3500-2017/team-multi-talented/wiki/Low-Fidelity-Prototype) to test if users could understand the purpose and concept of the project. Based on the ![user testing](https://github.com/deco3500-2017/team-multi-talented/wiki/Usability-Testing-&-Findings), we have collated, reviewed and analyzed the results. Then, together with the results from our research that can be found ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-information-seeking) and ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-interaction-behavior-with-social-media) and surveys such as ![User Demographic Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Demographic-Survey) and ![International Student Survey](https://github.com/deco3500-2017/team-multi-talented/wiki/International-Student-Survey), we then came with a set of requirements for our prototype and created a product backlog on ![Trello](https://trello.com/b/CeRxugZ5/deco3500-culture-connect). The prototype is shown below: 
 
 ![](https://i.imgur.com/llGsb1I.jpg)
 
 ### Design
 
+
 ### Construction 
+
+#### Relevant Theories 
 
 
 ## Contributions from Each Team Member 
