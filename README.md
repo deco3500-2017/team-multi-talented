@@ -117,7 +117,18 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 ### Chung Yu Pan 
 
 ### Haoxuan Yang 
-
+* Created the github repository 'team-multi-talented'.
+* Initiated the README.md(now named Proposal.md) file with content requirements in each section.
+* Co-operate with other team members to complete the proposal.
+* Improved the test plan section with further development.
+* Created the team's Treoll board[Deco3500 Culture Connect](https://trello.com/b/CeRxugZ5/deco3500-culture-connect).
+* Discussed with team members to sperate the work. Focusing on the research aspect.
+* Done the [research](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-information-seeking) about what kind of information do international students seek for and how their seeking behaviour change by the time.
+* Based on the research, suggest to present job, housing and entertainment related content in the website.
+* Little fixing with html file to make some feature works.
+* Done the [research](https://github.com/deco3500-2017/team-multi-talented/wiki/International-students-interaction-behavior-with-social-media) about the difference of interaction behaviour with social media between international students from different countries.
+* Created the page for users to submit their new events.
+* Created bunch of functional pages for 'Peter Brown' persona.
 
 ### Wiki pages 
 Link to wiki pages https://github.com/deco3500-2017/team-multi-talented/wiki
