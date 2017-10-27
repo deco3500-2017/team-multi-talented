@@ -91,9 +91,12 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 
 ## Contributions from Each Team Member 
 ### Nik Aisha Dalila Binti Shamsul Anuar
+* Held the role as the Team Leader and Manager
 * Created the initial group project proposal (Proposal.md).
-* Created a slack channel: #teammultitalented
+* Created the team's slack channel: #teammultitalented
 * Created group's Google Drive folder.
+* Created the group wiki's sidebar.
+* Inserted content in the wiki. 
 * Created the ![project plan](https://docs.google.com/document/d/1aOq1dahMikmKXKq4MkglajXtoEI-mrgAua0helXnHfU/edit?usp=sharing)
 * Developed a low-fidelity prototype with Balsamiq with Velta. 
 * Worked with Liam in creating the team's ![Trello Board](https://trello.com/b/CeRxugZ5/deco3500-culture-connect)
@@ -108,6 +111,7 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 * Created ['About' page](https://cultureconnect.uqcloud.net/about.html) for additional promotional material for our exhibition. 
 * Changed the homepage's content based on feedback from tutors in the Week 12 stand-up.
 * Created content for 'John Smith' persona. 
+* Fixed all navigation bars across web pages.
 * Inserted the 'e-invitation' button on the user personas' event/community contents. 
 * Created this final documentation. 
 
