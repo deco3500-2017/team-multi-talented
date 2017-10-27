@@ -97,9 +97,9 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 * Created group's Google Drive folder.
 * Created the group wiki's sidebar.
 * Inserted content in the wiki. 
-* Created the ![project plan](https://docs.google.com/document/d/1aOq1dahMikmKXKq4MkglajXtoEI-mrgAua0helXnHfU/edit?usp=sharing)
+* Created the project plan: https://docs.google.com/document/d/1aOq1dahMikmKXKq4MkglajXtoEI-mrgAua0helXnHfU/edit?usp=sharing
 * Developed a low-fidelity prototype with Balsamiq with Velta. 
-* Worked with Liam in creating the team's ![Trello Board](https://trello.com/b/CeRxugZ5/deco3500-culture-connect)
+* Worked with Liam in creating the team's Trello Board: https://trello.com/b/CeRxugZ5/deco3500-culture-connect
 * Collated user requirements based on research (online sources and survey), discussed the findings with the team and finalized user requirements. 
 * Revised low-fidelity mock-ups (since the user requirements had been revised) based on feedback from tutors.
 * Edited the high-fidelity prototype's homepage.
