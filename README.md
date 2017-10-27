@@ -117,6 +117,23 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 
 ### Velta Azizah Destiana
 ### Liam Simpson
+* Designed and produced CultureConnect logo and project name.
+* Leading influence on user stories/user requirements. As seen on Trello.
+* Worked with Velta to populate Trello.
+* Designed a User Demographic Survey and testing session. Dedicated WIKI page available ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Demographic-Survey)
+* Determined technical components required for project. Dedicated WIKI page available ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/Technical-Aspects-and-Requirements)
+* Determined and designed Structural Guide Documentation. See the page ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/Application-Structure)
+* Designed potential interactivity enhancers for functional prototype.
+* Interaction Analysis on ideas.
+* Designed Profile Builder: Dynamic Content Form.
+* Conducted user testing on the profile builder.
+* Worked with Chung Yu Pan to design and develop a functional and appropriate login system for the showcase, utilising 3 user persona's.
+* Managed solutions for Git Version Control merge conflicts throughout the semester.
+* Significant role in team discussion and group communication throughout the semester.
+* Self-nominated speaker for stand-up meetings with tutors.
+* Anaylsed requirements, developed structural concept design for application showcase.
+* Influencer on project scope and goals.
+* Contributed to final documentation and WIKI's. 
 
 ### Chung Yu Pan 
 
