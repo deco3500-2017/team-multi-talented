@@ -70,7 +70,7 @@ To better understand that problem, we designed this prototype and our aim is to 
 ### Design
 Don Norman's design principles were used to ensure usability of our app along with the interactive design process for ensuring our prototype meets our usability and UX goals as well as fulfilling our user requirements. Initially, the prototype was an mobile app. However, through feedbacks from users, we have changed it to a web application instead. 
 
-We made a ![low-fidelity prototype](https://github.com/deco3500-2017/team-multi-talented/wiki/Low-Fidelity-Prototype) to test if users could understand the purpose and concept of the project. Based on the ![user testing](https://github.com/deco3500-2017/team-multi-talented/wiki/Usability-Testing-&-Findings), we have collated, reviewed and analyzed the results. Then, together with the results from our research and survey as aforementioned, we then came with a set of requirements for our prototype and created a product backlog on ![Trello](https://trello.com/b/CeRxugZ5/deco3500-culture-connect).
+We made a ![low-fidelity prototype](https://github.com/deco3500-2017/team-multi-talented/wiki/Low-Fidelity-Prototype) to test if users could understand the purpose and concept of the project. Based on the ![user testing](https://github.com/deco3500-2017/team-multi-talented/wiki/Usability-Testing-&-Findings), we have collated, reviewed and analyzed the results. Then, together with the results from our research and survey as aforementioned, we created a set of requirements for our prototype and created a product backlog on ![Trello](https://trello.com/b/CeRxugZ5/deco3500-culture-connect).
 
 The prototype is as shown below: 
 
