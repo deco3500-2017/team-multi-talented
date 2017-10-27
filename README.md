@@ -107,7 +107,7 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 * Designed and developed content for every channel in every community (which is now every event in every section of the homepage).
 * Created the zone with the help from Lorna and tutors.
 * Performed user testing for Sprint 4. The raw data and results can be found ![here](https://github.com/deco3500-2017/team-multi-talented/wiki/User-Testing)
-* Made iterations based on feedback from user testing. 
+* Made modifications and iterations based on feedback from user testing. 
 * Created ['About' page](https://cultureconnect.uqcloud.net/about.html) for additional promotional material for our exhibition. 
 * Changed the homepage's content based on feedback from tutors in the Week 12 stand-up.
 * Created content for 'John Smith' persona. 
