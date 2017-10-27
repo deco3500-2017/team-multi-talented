@@ -135,4 +135,4 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 * Created bunch of functional pages for 'Peter Brown' persona.
 
 ### Wiki pages 
-Link to wiki pages https://github.com/deco3500-2017/team-multi-talented/wiki
+For more details on our progress and contributions, click this link to be directed to our wiki page: https://github.com/deco3500-2017/team-multi-talented/wiki
