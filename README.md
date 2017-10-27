@@ -17,15 +17,18 @@ https://cultureconnect.uqcloud.net/
 ### How To Use It 
 #### Profile Builder 
 1. https://cultureconnect.uqcloud.net/
-2. Choose a user from the sign in section (page header). 
-3. A profile builder pop-up will be displayed (if this does not work, clear your cookies first).
+2. Choose a user persona from the sign in section (page header). 
+3. A profile builder pop-up modal will display. 
 4. Your homepage will be personalized based on the answers you selected from the profile builder.
 5. Scroll down and you will see a section that says 'Because you like..'. 
 6. Choose and click any of them. It will direct you to the event details.
 7. The section as aforementioned is tailored to your liking.
 8. This is done to house an enhanced personalized experience for users. 
+9. This feature has been presented as a viable prototype to future release.
+10. Profile Builder in final release should save to either an XML data file or direct to a database. 
+11. Profile Builder shoud consist of more constraints, collecting a wider array of personal information which is relevant to the user. An example would be to consider mobile-first development with supporting native functions related to location services. User's should be asked to provide permissions to location services or asked to provide a suburb of residence to display event recommendations.
 
-**Note:** If you've viewed the persona page before on your computer, you have to clear your cookies first.
+**Note:** If the profile builder has launced already for that user, you must close the browser for it to launch again!
 
 #### Event e-invitation 
 1. Head to https://cultureconnect.uqcloud.net/
@@ -116,6 +119,7 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 * Created this final documentation. 
 
 ### Velta Azizah Destiana
+
 ### Liam Simpson
 * Designed and produced CultureConnect logo and project name.
 * Leading influence on user stories/user requirements. As seen on Trello.
