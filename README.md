@@ -119,6 +119,17 @@ Ideally, the rich content in our website is mostly user-generated - they are abl
 * Created this final documentation. 
 
 ### Velta Azizah Destiana
+* Responsible for user testing for secondary research
+* Create promotional materials (video and poster above) needed for the exhibition
+* Develop user booking system that was sent through e-mail
+* Develop sharing system for the users
+* Retrieve first high fidelity prototype
+* Interview with potential users for the product's lifecycle
+* Created low fidelity with Aisha for the first concept prototype
+* Worked with Liam to gather requirements needed for technical process
+* Contribute on CultureConnect 2.0 idea
+* Designed initial homepage and other landing pages
+* Interaction Analysis based on interview conducted
 
 ### Liam Simpson
 * Designed and produced CultureConnect logo and project name.
